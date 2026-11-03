@@ -1,0 +1,194 @@
+{
+ "Politeknik Akamigas Palembang": [
+  {
+   "lat": -3.0000295,
+   "lon": 104.8203729,
+   "name": "Politeknik Akamigas Palembang",
+   "osm": "building/yes",
+   "street": "Jalan Kb. Jahe"
+  },
+  {
+   "lat": -3.0061007,
+   "lon": 104.8234038,
+   "name": "Politeknik Akamigas Palembang",
+   "osm": "building/yes",
+   "street": "Jalan Pengantingan"
+  },
+  {
+   "lat": -3.0056759,
+   "lon": 104.8235419,
+   "name": "Politeknik Akamigas Palembang",
+   "osm": "building/yes",
+   "street": "Jalan Pengantingan"
+  }
+ ],
+ "Universitas PGRI Palembang": [
+  {
+   "lat": -2.9977781,
+   "lon": 104.7807535,
+   "name": "Fakultas Kedokteran Universitas Muhammadiyah Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Kyai Haji Balqi"
+  },
+  {
+   "lat": -2.9844231,
+   "lon": 104.7335433,
+   "name": "Teknik Kimia Universitas Sriwijaya Kampus Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Al Ghazali"
+  },
+  {
+   "lat": -2.9714468,
+   "lon": 104.7460183,
+   "name": "Universitas Tridinanti Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Kapten Marzuki"
+  },
+  {
+   "lat": -2.9927264,
+   "lon": 104.7258145,
+   "name": "Universitas Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Dharmapala"
+  },
+  {
+   "lat": -2.9626503,
+   "lon": 104.7399804,
+   "name": "Universitas Multi Data Palembang Kampus B",
+   "osm": "building/university",
+   "street": "Jalan Jenderal Sudirman"
+  },
+  {
+   "lat": -2.9995597,
+   "lon": 104.7705751,
+   "name": "Universitas Bina Darma",
+   "osm": "amenity/university",
+   "street": "Jalan Ahmad Yani"
+  }
+ ],
+ "UIN Raden Fatah Palembang": [
+  {
+   "lat": -2.9645025,
+   "lon": 104.7487634,
+   "name": "UIN Raden Fatah Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Madang"
+  },
+  {
+   "lat": -2.9645385,
+   "lon": 104.7488189,
+   "name": "Kantor Pusat Administrasi UIN Raden Fatah Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Madang"
+  },
+  {
+   "lat": -2.9645754,
+   "lon": 104.7479851,
+   "name": "Fakultas Syariah UIN Raden Fatah Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Rawa Jaya"
+  },
+  {
+   "lat": -2.9641094,
+   "lon": 104.747352,
+   "name": "Fakultas Adab dan Humaniora UIN Raden Fatah Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Rawa Jaya"
+  },
+  {
+   "lat": -2.9634462,
+   "lon": 104.7472021,
+   "name": "Masjid UIN raden Fatah",
+   "osm": "amenity/place_of_worship",
+   "street": "Jalan Rawa Jaya"
+  },
+  {
+   "lat": -2.9621678,
+   "lon": 104.7497856,
+   "name": "Fakultas Dakwah dan Komunikasi UIN Raden Fatah",
+   "osm": "amenity/university",
+   "street": "Jalan Rawa Jaya"
+  }
+ ],
+ "Universitas Bina Darma": [
+  {
+   "lat": -2.9995597,
+   "lon": 104.7705751,
+   "name": "Universitas Bina Darma",
+   "osm": "amenity/university",
+   "street": "Jalan Ahmad Yani"
+  },
+  {
+   "lat": -2.997677,
+   "lon": 104.7741107,
+   "name": "Universitas Bina Darma",
+   "osm": "building/yes",
+   "street": "Jalan Ahmad Yani"
+  }
+ ],
+ "Universitas Muhammadiyah Palembang": [
+  {
+   "lat": -2.9958786,
+   "lon": 104.7780584,
+   "name": "Universitas Muhammadiyah",
+   "osm": "building/yes",
+   "street": "Jalan Kyai Haji Balqi"
+  },
+  {
+   "lat": -2.9964781,
+   "lon": 104.7782111,
+   "name": "Universitas Muhammadiyah",
+   "osm": "amenity/university",
+   "street": "Jalan Kyai Haji Balqi"
+  },
+  {
+   "lat": -2.9977781,
+   "lon": 104.7807535,
+   "name": "Fakultas Kedokteran Universitas Muhammadiyah Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Kyai Haji Balqi"
+  }
+ ],
+ "Fakultas Hukum Universitas Sriwijaya": [
+  {
+   "lat": -3.2151116,
+   "lon": 104.6506335,
+   "name": "Masjid Fakultas Hukum",
+   "osm": "amenity/place_of_worship",
+   "street": "Universitas Sriwijaya"
+  }
+ ],
+ "Fakultas Ilmu Sosial dan Ilmu Politik Unsri": [],
+ "Fakultas Ekonomi Unsri Palembang": [
+  {
+   "lat": -3.2176693,
+   "lon": 104.6503086,
+   "name": "Fakultas Ekonomi Unsri",
+   "osm": "amenity/university",
+   "street": "Universitas Sriwijaya"
+  },
+  {
+   "lat": -2.9900503,
+   "lon": 104.7315582,
+   "name": "Fakultas Pertanian UNSRI Kampus Palembang",
+   "osm": "amenity/university",
+   "street": "Jalan Padang Selasa"
+  },
+  {
+   "lat": -2.9837846,
+   "lon": 104.733273,
+   "name": "Fakultas Hukum UNSRI",
+   "osm": "amenity/university",
+   "street": "Jalan Al Ghazali"
+  }
+ ],
+ "Politeknik Kesehatan Madewi Palembang": [
+  {
+   "lat": -2.9682857,
+   "lon": 104.7595503,
+   "name": "Politeknik Kesehatan Palembang Jurusan Farmasi",
+   "osm": "amenity/university",
+   "street": "Jalan Ismail Marzuki"
+  }
+ ]
+}

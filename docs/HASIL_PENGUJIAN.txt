@@ -1,0 +1,47 @@
+# HASIL UJI CEPAT MAPLY (sandbox, SQLite) — Mon Nov  2 18:29:07 UTC 2026
+/login -> 200 | 
+/kos -> 200 | 
+/kos?kampus=unsri-2&radius=3 -> 200 | 
+/kos?kampus=polsri-3 -> 200 | 
+/kos?harga_min=900000&harga_max=500000 -> 200 | 
+/kos?harga_max=1000000&fasilitas%5B%5D=AC -> 200 | 
+/kos?wilayah=ogan_ilir&urut=termurah -> 200 | 
+/kos?q=zzztidakada -> 200 | 
+grep: /tmp/s.html: No such file or directory
+grep: /tmp/s.html: No such file or directory
+API rute:
+
+Koordinat Google Maps di peta: 
+ID=
+GET /kos/ -> 200
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10091F">
+    <title>404 — Maply</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="
+kos-id=KOSONG
+GET /kos/KOSONG -> 404
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10091F">
+    <title>404 — Maply</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="
+detail /kos/94 -> 0 panel-rute, google-maps-link: 
+API rute: <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url='http://127.0.0.1:8000/login'" />
+
+        <title>Redirecting to http://127.0.0.1:8000/login</title>
+    </head>
+    <body>
+        R

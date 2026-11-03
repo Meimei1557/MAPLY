@@ -1,0 +1,79 @@
+{
+ "Universitas Sriwijaya Bukit Besar Palembang": [],
+ "Kampus Bukit Besar Palembang": [],
+ "Poltekkes Kemenkes Palembang": [],
+ "Politeknik Kesehatan Palembang": [
+  {
+   "display": "Politeknik Kesehatan Palembang Jurusan Farmasi, Jalan Ismail Marzuki, Kemuning, Palembang, Sumatera Selatan, 30127, Indonesia",
+   "lat": "-2.9682857",
+   "lon": "104.7595503",
+   "osm_type": "node",
+   "osm_id": 9834781759,
+   "type": "university",
+   "class": null,
+   "address": {
+    "amenity": "Politeknik Kesehatan Palembang Jurusan Farmasi",
+    "road": "Jalan Ismail Marzuki",
+    "city_district": "Kemuning",
+    "city": "Palembang",
+    "state": "Sumatera Selatan",
+    "ISO3166-2-lvl4": "ID-SS",
+    "postcode": "30127",
+    "country": "Indonesia",
+    "country_code": "id"
+   }
+  }
+ ],
+ "Universitas Indralaya Ogan Ilir": [],
+ "STIE Tridinanti Palembang": [],
+ "STMIK Global Informatika Murni Palembang": [],
+ "STIE Serasan Sekate Palembang": [],
+ "Politeknik Ahlus Sunnah Indralaya": [],
+ "Universitas YPIB Majalengka Palembang": [],
+ "Politeknik Sriwijaya Palembang": [
+  {
+   "display": "Politeknik Negeri Sriwijaya, Jalan Karya I, Kertapati, Palembang, Sumatera Selatan, 30132, Indonesia",
+   "lat": "-3.0435843",
+   "lon": "104.7267526",
+   "osm_type": "way",
+   "osm_id": 1326103657,
+   "type": "college",
+   "class": null,
+   "address": {
+    "amenity": "Politeknik Negeri Sriwijaya",
+    "road": "Jalan Karya I",
+    "city_district": "Kertapati",
+    "city": "Palembang",
+    "state": "Sumatera Selatan",
+    "ISO3166-2-lvl4": "ID-SS",
+    "postcode": "30132",
+    "country": "Indonesia",
+    "country_code": "id"
+   }
+  },
+  {
+   "display": "Politeknik Negeri Sriwijaya, Jalan Lunjuk Jaya, Ilir Barat I, Palembang, Sumatera Selatan, 30144, Indonesia",
+   "lat": "-2.9828017",
+   "lon": "104.7328970",
+   "osm_type": "way",
+   "osm_id": 122227029,
+   "type": "college",
+   "class": null,
+   "address": {
+    "amenity": "Politeknik Negeri Sriwijaya",
+    "road": "Jalan Lunjuk Jaya",
+    "city_district": "Ilir Barat I",
+    "city": "Palembang",
+    "state": "Sumatera Selatan",
+    "ISO3166-2-lvl4": "ID-SS",
+    "postcode": "30144",
+    "country": "Indonesia",
+    "country_code": "id"
+   }
+  }
+ ],
+ "Akademi Komunitas Negeri Ogan Ilir": [],
+ "Universitas Terbuka Palembang": [],
+ "STIA Nusantara Palembang": [],
+ "STISIP Bina Putera Palembang": []
+}

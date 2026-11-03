@@ -1,0 +1,212 @@
+{
+ "STMIK MDP": [
+  {
+   "lat": -2.9737321,
+   "lon": 104.7640212,
+   "osm_type": "W",
+   "osm_id": 590371863,
+   "name": "STMIK-STIE Multi Data Palembang"
+  }
+ ],
+ "Pesantren Al-Ittifaqiah": [
+  {
+   "lat": -3.2492832,
+   "lon": 104.6716596,
+   "osm_type": "N",
+   "osm_id": 13447704414,
+   "name": "Pondok Pesantren Al-Ittifaqiah Indralaya"
+  }
+ ],
+ "Poltekbang": [
+  {
+   "lat": -2.9086087,
+   "lon": 104.6990114,
+   "osm_type": "W",
+   "osm_id": 1446751332,
+   "name": "Politeknik Penerbangan Palembang"
+  }
+ ],
+ "STIK Siti Khadijah": [
+  {
+   "lat": -2.9737079,
+   "lon": 104.7324623,
+   "osm_type": "N",
+   "osm_id": 9834938414,
+   "name": "STIK Siti Khadijah"
+  }
+ ],
+ "IKesT Muhammadiyah": [
+  {
+   "lat": -2.9977646,
+   "lon": 104.777503,
+   "osm_type": "N",
+   "osm_id": 9819640658,
+   "name": "STIKes Muhammadiyah Palembang"
+  }
+ ],
+ "Akamigas": [
+  {
+   "lat": -3.0000295,
+   "lon": 104.8203729,
+   "osm_type": "W",
+   "osm_id": 611444727,
+   "name": "Politeknik Akamigas Palembang"
+  },
+  {
+   "lat": -3.0061007,
+   "lon": 104.8234038,
+   "osm_type": "W",
+   "osm_id": 585277120,
+   "name": "Politeknik Akamigas Palembang"
+  },
+  {
+   "lat": -3.0056759,
+   "lon": 104.8235419,
+   "osm_type": "W",
+   "osm_id": 585277118,
+   "name": "Politeknik Akamigas Palembang"
+  }
+ ],
+ "Fak Pertanian UNSRI": [
+  {
+   "lat": -3.2198742,
+   "lon": 104.6481919,
+   "osm_type": "W",
+   "osm_id": 611016044,
+   "name": "Fakultas Pertanian Unsri"
+  },
+  {
+   "lat": -2.9900503,
+   "lon": 104.7315582,
+   "osm_type": "W",
+   "osm_id": 611411132,
+   "name": "Fakultas Pertanian UNSRI Kampus Palembang"
+  }
+ ],
+ "Polsri OSM": [
+  {
+   "lat": -2.9828017,
+   "lon": 104.732897,
+   "osm_type": "W",
+   "osm_id": 122227029,
+   "name": "Politeknik Negeri Sriwijaya"
+  }
+ ],
+ "Universitas Tridinanti": [
+  {
+   "lat": -2.9714468,
+   "lon": 104.7460183,
+   "osm_type": "W",
+   "osm_id": 924328931,
+   "name": "Universitas Tridinanti Palembang"
+  }
+ ],
+ "Universitas Bina Darma": [
+  {
+   "lat": -2.9995597,
+   "lon": 104.7705751,
+   "osm_type": "W",
+   "osm_id": 932847259,
+   "name": "Universitas Bina Darma"
+  },
+  {
+   "lat": -2.997677,
+   "lon": 104.7741107,
+   "osm_type": "W",
+   "osm_id": 604830748,
+   "name": "Universitas Bina Darma"
+  }
+ ],
+ "UIN Raden Fatah": [
+  {
+   "lat": -2.9645025,
+   "lon": 104.7487634,
+   "osm_type": "N",
+   "osm_id": 9821621673,
+   "name": "UIN Raden Fatah Palembang"
+  },
+  {
+   "lat": -2.9645385,
+   "lon": 104.7488189,
+   "osm_type": "N",
+   "osm_id": 9821670352,
+   "name": "Kantor Pusat Administrasi UIN Raden Fatah Palembang"
+  },
+  {
+   "lat": -2.9645754,
+   "lon": 104.7479851,
+   "osm_type": "N",
+   "osm_id": 9821728420,
+   "name": "Fakultas Syariah UIN Raden Fatah Palembang"
+  },
+  {
+   "lat": -2.9641094,
+   "lon": 104.747352,
+   "osm_type": "N",
+   "osm_id": 9821938241,
+   "name": "Fakultas Adab dan Humaniora UIN Raden Fatah Palembang"
+  }
+ ],
+ "Universitas Muhammadiyah": [
+  {
+   "lat": -2.9958786,
+   "lon": 104.7780584,
+   "osm_type": "W",
+   "osm_id": 605144536,
+   "name": "Universitas Muhammadiyah"
+  },
+  {
+   "lat": -2.9964781,
+   "lon": 104.7782111,
+   "osm_type": "W",
+   "osm_id": 605144535,
+   "name": "Universitas Muhammadiyah"
+  },
+  {
+   "lat": -2.9977781,
+   "lon": 104.7807535,
+   "osm_type": "N",
+   "osm_id": 9819800035,
+   "name": "Fakultas Kedokteran Universitas Muhammadiyah Palembang"
+  }
+ ],
+ "Unsri Indralaya": [
+  {
+   "lat": -3.2255315,
+   "lon": 104.6459991,
+   "osm_type": "R",
+   "osm_id": 15779890,
+   "name": "Universitas Sriwijaya"
+  },
+  {
+   "lat": -3.2139042,
+   "lon": 104.6487591,
+   "osm_type": "W",
+   "osm_id": 536540516,
+   "name": "Universitas Sriwijaya"
+  }
+ ],
+ "UM Palembang": [
+  {
+   "lat": -2.9958786,
+   "lon": 104.7780584,
+   "osm_type": "W",
+   "osm_id": 605144536,
+   "name": "Universitas Muhammadiyah"
+  },
+  {
+   "lat": -2.9964781,
+   "lon": 104.7782111,
+   "osm_type": "W",
+   "osm_id": 605144535,
+   "name": "Universitas Muhammadiyah"
+  },
+  {
+   "lat": -2.9977781,
+   "lon": 104.7807535,
+   "osm_type": "N",
+   "osm_id": 9819800035,
+   "name": "Fakultas Kedokteran Universitas Muhammadiyah Palembang"
+  }
+ ]
+}

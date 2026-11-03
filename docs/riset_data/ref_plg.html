@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <title>Data Pendidikan Kemendikdasmen</title>
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Data Referensi - Pusdatin Kemdikbudristek">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name=author content="Themefisher">
+  <meta name=generator content="Themefisher Constra HTML Template v1.0">
+  <meta name="Description" content="Pusdatin Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi">
+  <meta name="Keywords" content="Pusdatin, Data Referensi Pendidikan">
+
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="https://referensi.data.kemendikdasmen.go.id/template/images/logotut.png">
+
+  <!-- CSS
+================================================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/plugins/bootstrap/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/plugins/fontawesome/css/all.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/css/responsive.dataTables.min.css">
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/css/fixedColumns.dataTables.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/plugins/animate-css/animate.css">
+  <!-- slick Carousel -->
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/plugins/slick/slick.css">
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/plugins/slick/slick-theme.css">
+  <!-- Colorbox -->
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/plugins/colorbox/colorbox.css">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/css/style.css?v4.3">
+  <!-- Custom styles-->
+  <link rel="stylesheet" href="https://referensi.data.kemendikdasmen.go.id/template/css/custom.css?v4.2">
+</head>
+
+<body>
+  <div class="body-inner">
+
+    <!-- Header start -->
+    <header id="header" class="header-one">
+      <div class="bg-white">
+        <div class="containerlogo">
+          <div class="logo-area">
+            <div class="row align-items-center">
+              <div>
+                <a href="https://referensi.data.kemendikdasmen.go.id/">
+                  <img style="max-width:320px" src="https://referensi.data.kemendikdasmen.go.id/template/images/logodatarefnewok.png?v2.0" alt="logo">
+                </a>
+              </div><!-- logo end -->
+
+
+            </div><!-- logo area end -->
+
+          </div><!-- Row end -->
+        </div><!-- Container end -->
+      </div>
+
+      <div class="site-navigation">
+        <div class="containerlogo">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav mr-auto">
+
+                    <li class="nav-item"><a class="nav-link" href="https://referensi.data.kemendikdasmen.go.id/">Beranda</a></li>
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data Pendidikan <i class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-submenu">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Satuan Pendidikan</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/paud">Pendidikan Anak Usia Dini (PAUD)</a></li>
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikdas">Pendidikan Dasar (Dikdas)</a></li>
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikmen">Pendidikan Menengah (Dikmen)</a></li>
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti">Pendidikan Tinggi (Dikti)</a></li>
+                            <li2><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikmas">Pendidikan Masyarakat (Dikmas)</a></li2>
+                            <li><a class="redlink" href="https://referensi.data.kemendikdasmen.go.id/pendidikan/tidakupdate">Residu Update Data</a></li>
+                            <li><a class="redlink" href="https://referensi.data.kemendikdasmen.go.id/pendidikan/tidakaktif">Residu Tidak Aktif</a></li>
+                            <!-- <lib><span style="font-weight:bold;font-family: Montserrat;font-size: 12px;">RESIDU SATUAN PENDIDIKAN</span></lib> -->
+                            <!-- <li><a href="">Residu Satuan Pendidikan</a></li> -->
+
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/yayasan">Yayasan Pendidikan</a>
+                        </li>
+                        <li class="dropdown-submenu">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program / Layanan</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/program/paud">Paud</a></li>
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/program/kesetaraan">Kesetaraan</a></li>
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/program/terampil">Keterampilan Kerja</a></li>
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/program/slb">Sekolah Luar Biasa</a></li>
+                            <!-- <li><span style="font-weight:bold;font-family: Montserrat;font-size: 12px;">KETRAMPILAN KERJA</span></li> -->
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data Kebudayaan dan Kebahasaan <i class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                                                <li class="dropdown-submenu">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data Kebahasaan</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/kebahasaan/bahasadaerah">Bahasa Daerah</a></li>
+                            <li><a href="https://referensi.data.kemendikdasmen.go.id/kebahasaan/komunitasbahasa">Komunitas Bahasa/Sastra</a></li>
+                          </ul>
+                        </li>
+                        <!-- <li><span style="font-weight:bold;font-family: Montserrat;font-size: 12px;">WARISAN BUDAYA TAK BENDA</span></li> -->
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://referensi.data.kemendikdasmen.go.id/pustaka">Pustaka</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <!--/ Col end -->
+          </div>
+          <!--/ Row end -->
+
+                      <div class="nav-search">
+              <span>Cari Sekolah/NPSN &nbsp;&nbsp;&nbsp;<i class="fa fa-search"></i></span>
+            </div>
+            <div class="search-block" style="display: none;">
+              <label for="search-field" class="w-100 mb-0">
+                <input type="text" class="form-control" id="search-field" placeholder="Ketik Nama Sekolah / NPSN">
+                <button onclick="yukcari()" class="search-ok">Cari</button>
+              </label>
+              <span class="search-close">&times;</span>
+            </div>
+                    <!-- Site search end -->
+        </div>
+        <!--/ Container end -->
+
+      </div>
+      <!--/ Navigation end -->
+    </header>
+    <!--/ Header end -->
+
+    <div id="page-container">
+      <div id="content-wrap">
+            <div class="breadcrumps"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti">Indonesia</a>
+        >> <a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/110000/1/all/all/all">Prov. Sumatera Selatan</a>        >> Kota Palembang    </div>
+<div class="judulatas">JUMLAH DATA SATUAN PENDIDIKAN (DIKTI) PER KOTA PALEMBANG</div>
+<div class="card-body p-0">
+    <center>
+        <div class="">
+            <select class="combobox1" id="jalur_pendidikan" name="jalur_pendidikan">
+                <option  value="jf">Jalur Formal</option>
+            </select>
+            <div id="dbentukpendidikan" style="display:inline-block;">
+                <select class="combobox1" id="bentuk_pendidikan" name="bentuk_pendidikan">
+                                            <option selected value="all">-Semua Bentuk-</option>
+                                                                <option  value="19">Akademik</option>
+                                            <option  value="20">Politeknik</option>
+                                            <option  value="21">Sekolah Tinggi</option>
+                                            <option  value="22">Institut</option>
+                                            <option  value="23">Universitas</option>
+                                    </select>
+            </div>
+            <div id="cbok2" style="display:inline-block;">
+                <select class="combobox1" id="status_sekolah" name="status_sekolah">
+                    <option selected value="all">-Semua Status-</option>
+                    <option  value="s1">Negeri</option>
+                    <option  value="s2">Swasta</option>
+                </select>
+            </div>
+            <button onclick="filterdata()" class="tb_utama" type="button">
+                Terapkan
+            </button>
+        </div>
+    </center>
+    <div class="mytable">
+        <div style="align:center;margin:auto;max-width:100%;">
+            <table class="table table-striped" id='table1'>
+                <thead>
+                    <tr>
+                        <th width="10px">No</th>
+                        <th>Nama Kecamatan</th>
+                                                                                    <th>Akademi</th>
+                                <th>Politeknik</th>
+                                <th>Sekolah Tinggi</th>
+                                <th>Institut</th>
+                                <th>Universitas</th>
+                                <th>Total</th>
+                                                                        </tr>
+                </thead>
+                <tbody align="right">
+                                                                    <tr>
+                            <td>1</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"> Ilir Barat II</a></td>
+                                                                                                <td>22</td>
+                                    <td>6</td>
+                                    <td>30</td>
+                                    <td>2</td>
+                                    <td>9</td>
+                                                                                        <td>69</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>2</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116002/3"> Seberang Ulu I</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                                                                        <td>1</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>3</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116003/3"> Seberang Ulu II</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                                                                        <td>2</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>4</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116004/3"> Ilir Barat I</a></td>
+                                                                                                <td>2</td>
+                                    <td>0</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                                                                        <td>5</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>5</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116005/3"> Ilir Timur I</a></td>
+                                                                                                <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                                                                        <td>3</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>6</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116006/3"> Ilir Timur II</a></td>
+                                                                                                <td>1</td>
+                                    <td>0</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                                                                        <td>5</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>7</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116007/3"> Sako</a></td>
+                                                                                                <td>2</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>2</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>8</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116008/3"> Sukarami</a></td>
+                                                                                                <td>3</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>6</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>9</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116009/3"> Kemuning</a></td>
+                                                                                                <td>0</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>4</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>10</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116010/3"> Plaju</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                                                                        <td>1</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>11</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116011/3"> Kertapati</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>0</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>12</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116012/3"> Gandus</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>0</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>13</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116013/3"> Bukit Kecil</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>0</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>14</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116014/3"> Kalidoni</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>1</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>15</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116015/3"> Alang-Alang Lebar</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>0</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>16</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116016/3"> Sematang Borang</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>0</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>17</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116017/3"> Ilir Timur III</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>0</td>
+                        </tr>
+
+                                                                    <tr>
+                            <td>18</td>
+                            <td align="left" class="link1"><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116018/3"> Jakabaring</a></td>
+                                                                                                <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                                                                        <td>0</td>
+                        </tr>
+
+                                    </tbody>
+
+                <tfoot align="right">
+                                                                        <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                                        </tfoot>
+
+            </table>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <footer id="footer" class="footer bg-overlay">
+        <div class="copyright">
+          <span>Pusdatin &copy; Kemendikdasmen <script>
+              document.write(new Date().getFullYear())
+            </script></span>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Javascript Files
+  ================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/plugins/jQuery/jquery.min.js"></script>
+    <!-- <script src="https://referensi.data.kemendikdasmen.go.id/template/js/jquery-3.5.1.js"></script> -->
+    <!-- Bootstrap jQuery -->
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/plugins/bootstrap/bootstrap.min.js" defer></script>
+    <!-- DataTables -->
+
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/js/jquery.dataTables.min.js"></script>
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/js/dataTables.responsive.min.js"></script>
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/js/dataTables.fixedColumns.min.js"></script>
+
+    <!-- Slick Carousel -->
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/plugins/slick/slick.min.js"></script>
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/plugins/slick/slick-animation.min.js"></script>
+    <!-- Color box -->
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/plugins/colorbox/jquery.colorbox.js"></script>
+    <!-- shuffle -->
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/plugins/shuffle/shuffle.min.js" defer></script>
+
+
+
+    <!-- Template custom -->
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/js/script.js"></script>
+    <script src="https://referensi.data.kemendikdasmen.go.id/template/js/custom.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('#table1').DataTable({
+            responsive: true,
+            columnDefs: [{
+                    responsivePriority: 1,
+                    targets: -1
+                },
+                {
+                    targets: 2,
+                    render: $.fn.dataTable.render.number('.', ',', 0, '')
+                },
+                {
+                    className: 'text-right',
+                    targets: [2]
+                },
+                 {
+                        targets: 3,
+                        render: $.fn.dataTable.render.number('.', ',', 0, '')
+                    },
+                    {
+                        targets: 4,
+                        render: $.fn.dataTable.render.number('.', ',', 0, '')
+                    },
+                    {
+                        targets: 5,
+                        render: $.fn.dataTable.render.number('.', ',', 0, '')
+                    },
+                    {
+                        targets: 6,
+                        render: $.fn.dataTable.render.number('.', ',', 0, '')
+                    },
+                    {
+                        targets: 7,
+                        render: $.fn.dataTable.render.number('.', ',', 0, '')
+                    },
+                    {
+                        className: 'text-right',
+                        targets: [3, 4, 5, 6, 7]
+                    },
+                
+            ],
+            "footerCallback": function(row, data, start, end, display) {
+                var api = this.api(),
+                    data;
+
+                // converting to interger to find total
+                var intVal = function(i) {
+                    return typeof i === 'string' ?
+                        i.replace(/[\$,]/g, '') * 1 :
+                        typeof i === 'number' ?
+                        i : 0;
+                };
+
+                // var monTotal = api
+                //     .column( 1 )
+                //     .data()
+                //     .reduce( function (a, b) {
+                //         return intVal(a) + intVal(b);
+                //     }, 0 );
+
+                var total1 = api
+                    .column(2)
+                    .data()
+                    .reduce(function(a, b) {
+                        return intVal(a) + intVal(b);
+                    }, 0);
+
+                                    var total2 = api
+                        .column(3)
+                        .data()
+                        .reduce(function(a, b) {
+                            return intVal(a) + intVal(b);
+                        }, 0);
+
+                    var total3 = api
+                        .column(4)
+                        .data()
+                        .reduce(function(a, b) {
+                            return intVal(a) + intVal(b);
+                        }, 0);
+
+                    var total4 = api
+                        .column(5)
+                        .data()
+                        .reduce(function(a, b) {
+                            return intVal(a) + intVal(b);
+                        }, 0);
+
+                    var total5 = api
+                        .column(6)
+                        .data()
+                        .reduce(function(a, b) {
+                            return intVal(a) + intVal(b);
+                        }, 0);
+
+                    var total6 = api
+                        .column(7)
+                        .data()
+                        .reduce(function(a, b) {
+                            return intVal(a) + intVal(b);
+                        }, 0);
+
+
+                                // Update footer by showing the total with the reference of the column index 
+                var numFormat = $.fn.dataTable.render.number('.', ',', 0, '').display;
+
+                $(api.column(0).footer()).html('');
+                $(api.column(1).footer()).html('TOTAL SEMUA');
+                $(api.column(2).footer()).html(numFormat(total1));
+                $(api.column(2).footer()).css({
+                    'text-align': 'right',
+                    'padding-right': '15px'
+                });
+                                    $(api.column(3).footer()).html(numFormat(total2));
+                    $(api.column(3).footer()).css({
+                        'text-align': 'right',
+                        'padding-right': '15px'
+                    });
+                    $(api.column(4).footer()).html(numFormat(total3));
+                    $(api.column(4).footer()).css({
+                        'text-align': 'right',
+                        'padding-right': '15px'
+                    });
+                    $(api.column(5).footer()).html(numFormat(total4));
+                    $(api.column(5).footer()).css({
+                        'text-align': 'right',
+                        'padding-right': '15px'
+                    });
+                    $(api.column(6).footer()).html(numFormat(total5));
+                    $(api.column(6).footer()).css({
+                        'text-align': 'right',
+                        'padding-right': '15px'
+                    });
+                    $(api.column(7).footer()).html(numFormat(total6));
+                    $(api.column(7).footer()).css({
+                        'text-align': 'right',
+                        'padding-right': '15px'
+                    });
+                            },
+            "processing": true,
+        });
+
+        $('.totaljendral').html('[Total Keseluruhan : 99]');
+    });
+
+    $(document).on('change', '#jalur_pendidikan', function() {
+        getdaftarbentuk();
+    });
+
+    function getdaftarbentuk() {
+        isihtml1 = '<select class="combobox1" id="bentuk_pendidikan" name="bentuk_pendidikan">' +
+            '<option value="all">.. tunggu ..</option>';
+        isihtml3 = '</select>';
+        $('#dbentukpendidikan').html(isihtml1 + isihtml3);
+        $.ajax({
+            type: 'GET',
+            data: {
+                jalurpendidikan: $('#jalur_pendidikan').val(),
+                tingkat: 'DIKTI'
+            },
+            dataType: 'json',
+            cache: false,
+            url: 'https://referensi.data.kemendikdasmen.go.id/pendidikan/getbentukpendidikan',
+            success: function(result) {
+                // alert ($('#jalur_pendidikan').val());
+                isihtml1 = '<select class="combobox1" id="bentuk_pendidikan" name="bentuk_pendidikan">' +
+                    '<option value="all">-Semua Bentuk-</option>';
+                isihtml2 = "";
+                var total = 0;
+                $.each(result, function(i, result) {
+                    total++;
+                    isihtml2 = isihtml2 + "<option value='" + result.bentuk_pendidikan_id + "'>" + result.nama + "</option>";
+                });
+
+                $('.tb_utama').prop('disabled', false);
+                if (total == 0) {
+                    isihtml1 = '<select class="combobox1" id="bentuk_pendidikan" name="bentuk_pendidikan">' +
+                        '<option value="all">-tidak ada-</option>';
+                    $('.tb_utama').prop('disabled', true);
+                }
+
+                $('#dbentukpendidikan').html(isihtml1 + isihtml2 + isihtml3);
+            }
+        });
+    }
+
+    function filterdata() {
+        window.open("https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116000/2" + "/" + $('#jalur_pendidikan').val() +
+            "/" + $('#bentuk_pendidikan').val() + "/" + $('#status_sekolah').val(), target = "_self");
+    }
+</script>
+
+  </div><!-- Body inner end -->
+</body>
+
+</html>
+
+<script>
+  $("#search-field").bind("keypress", {}, keypressInBox);
+
+  function keypressInBox(e) {
+    var code = (e.keyCode ? e.keyCode : e.which);
+    if (code == 13) { //Enter keycode                        
+      e.preventDefault();
+      window.open("https://referensi.data.kemendikdasmen.go.id/pendidikan/cari/" + $("#search-field").val(), "_self");
+      // $("yourFormId").submit();
+    }
+  };
+
+  function yukcari() {
+    window.open("https://referensi.data.kemendikdasmen.go.id/pendidikan/cari/" + $("#search-field").val(), "_self");
+  }
+</script>

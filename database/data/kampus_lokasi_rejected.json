@@ -1,0 +1,600 @@
+[
+  {
+    "kode": "politeknik-transportasi-sungai-danau-dan-penyeberangan",
+    "nama": "Politeknik Transportasi Sungai Danau dan Penyeberangan",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "iain-raden-fatah-palembang-satuan-lama",
+    "nama": "IAIN Raden Fatah Palembang (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "amik-bina-sriwijaya-satuan-lama",
+    "nama": "AMIK Bina Sriwijaya (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "amik-multi-data-palembang-satuan-lama",
+    "nama": "AMIK Multi Data Palembang (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "amik-sigma",
+    "nama": "AMIK Sigma",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-akuntansi-sjakhyakirti",
+    "nama": "Akademi Akuntansi Sjakhyakirti",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-akuntansi-unggulan-smb-palembang",
+    "nama": "Akademi Akuntansi Unggulan SMB Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-analis-kesehatan-widya-dharma",
+    "nama": "Akademi Analis Kesehatan Widya Dharma",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-bahasa-asing-bina-insan-indonesia",
+    "nama": "Akademi Bahasa Asing Bina Insan Indonesia",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kebidanan-aisyiyah-palembang-satuan-lama",
+    "nama": "Akademi Kebidanan 'Aisyiyah Palembang (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "akademi-kebidanan-al-sua-ibah-palembang",
+    "nama": "Akademi Kebidanan Al-Sua Ibah Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kebidanan-budi-mulia-palembang",
+    "nama": "Akademi Kebidanan Budi Mulia Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kebidanan-heppy-zal",
+    "nama": "Akademi Kebidanan Heppy Zal",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kebidanan-nusantara-palembang",
+    "nama": "Akademi Kebidanan Nusantara Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kebidanan-persada-palembang",
+    "nama": "Akademi Kebidanan Persada Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kebidanan-rizki-patya",
+    "nama": "Akademi Kebidanan Rizki Patya",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kebidanan-sapta-karya",
+    "nama": "Akademi Kebidanan Sapta Karya",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kebidanan-tunas-harapan-bangsa",
+    "nama": "Akademi Kebidanan Tunas Harapan Bangsa",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-keperawatan-aisyiyah-palembang-satuan-lama",
+    "nama": "Akademi Keperawatan 'Aisyiyah Palembang (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "akademi-keperawatan-kesdam-ii-sriwijaya",
+    "nama": "Akademi Keperawatan Kesdam II Sriwijaya",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-keperawatan-pembina",
+    "nama": "Akademi Keperawatan Pembina",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-keperawatan-sapta-karya",
+    "nama": "Akademi Keperawatan Sapta Karya",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-kesehatan-lingkungan-pemprov-sumatera-selatan",
+    "nama": "Akademi Kesehatan Lingkungan Pemprov Sumatera Selatan",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-keuangan-dan-perbankan-mulia-darma-pratama",
+    "nama": "Akademi Keuangan Dan Perbankan Mulia Darma Pratama",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-maritim-bina-bahari",
+    "nama": "Akademi Maritim Bina Bahari",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-pariwisata-widya-dharma",
+    "nama": "Akademi Pariwisata Widya Dharma",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-perikanan-wachyuni-mandira",
+    "nama": "Akademi Perikanan Wachyuni Mandira",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-sains-dan-teknologi-pembangunan",
+    "nama": "Akademi Sains Dan Teknologi Pembangunan",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akademi-sekretari-dan-manajemen-sriwijaya",
+    "nama": "Akademi Sekretari Dan Manajemen Sriwijaya",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "akd-teknik-radiodiag-dan-radioterapi-widya-dharma",
+    "nama": "Akd Teknik Radiodiag. Dan Radioterapi Widya Dharma",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "apikes-widya-dharma",
+    "nama": "Apikes Widya Dharma",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "institut-agama-islam-widya-dharma-palembang",
+    "nama": "Institut Agama Islam Widya Dharma Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "institut-teknologi-dan-bisnis-bina-sriwijaya",
+    "nama": "Institut Teknologi dan Bisnis Bina Sriwijaya",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "institut-teknologi-dan-bisnis-palcomtech",
+    "nama": "Institut Teknologi dan Bisnis PalComTech",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "institut-teknologi-dan-sains-nahdlatul-ulama-sriwijaya",
+    "nama": "Institut Teknologi dan Sains Nahdlatul Ulama Sriwijaya",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "politeknik-anika-palembang",
+    "nama": "Politeknik Anika Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "politeknik-palcomtech",
+    "nama": "Politeknik Palcomtech",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stia-pemerintahan-annisa-dwi-salfaritzi",
+    "nama": "STIA & Pemerintahan Annisa Dwi Salfaritzi",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stie-multi-data-palembang-satuan-lama",
+    "nama": "STIE Multi Data Palembang (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "stie-sultan-mahmud-badaruddin",
+    "nama": "STIE Sultan Mahmud Badaruddin",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stikes-aisyiyah-palembang-satuan-lama",
+    "nama": "STIKES 'Aisyiyah Palembang (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "stikes-muhammadiyah-palembang-satuan-lama",
+    "nama": "STIKES Muhammadiyah Palembang (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "stikesmas-nusantara",
+    "nama": "STIKESMAS Nusantara",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stikesmas-widya-dharma-palembang",
+    "nama": "STIKESMAS Widya Dharma Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stipsi-abdi-nusa",
+    "nama": "STIPSI Abdi Nusa",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stisipol-candradimuka",
+    "nama": "STISIPOL Candradimuka",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stmik-global-informatika-mdp-satuan-lama",
+    "nama": "STMIK Global Informatika MDP (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "stmik-palcomtech-satuan-lama",
+    "nama": "STMIK PalcomTech (satuan lama)",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "stt-injili-di-palembang",
+    "nama": "STT Injili di Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stt-sriwijaya-palembang",
+    "nama": "STT Sriwijaya Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-bahasa-asing-methodist",
+    "nama": "Sekolah Tinggi Bahasa Asing Methodist",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-bahasa-asing-widya-dharma-palembang",
+    "nama": "Sekolah Tinggi Bahasa Asing Widya Dharma Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ekonomi-dan-bisnis-syariah-stebis-indo-global",
+    "nama": "Sekolah Tinggi Ekonomi dan Bisnis Syariah (STEBIS) Indo Global Mandiri",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-administrasi-bala-putra-dewa",
+    "nama": "Sekolah Tinggi Ilmu Administrasi Bala Putra Dewa",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-al-qur-an-al-lathifiyyah-palembang-sumat",
+    "nama": "Sekolah Tinggi Ilmu Al-Qur'an Al-Lathifiyyah Palembang Sumatera Selatan",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-ekonomi-abdi-nusa",
+    "nama": "Sekolah Tinggi Ilmu Ekonomi Abdi Nusa",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-ekonomi-bina-warga",
+    "nama": "Sekolah Tinggi Ilmu Ekonomi Bina Warga",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-ekonomi-mulia-darma-pratama",
+    "nama": "Sekolah Tinggi Ilmu Ekonomi Mulia Darma Pratama",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-ekonomi-musi",
+    "nama": "Sekolah Tinggi Ilmu Ekonomi Musi",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-hukum-sumpah-pemuda",
+    "nama": "Sekolah Tinggi Ilmu Hukum Sumpah Pemuda",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-abdurahman-palembang",
+    "nama": "Sekolah Tinggi Ilmu Kesehatan Abdurahman Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-al-su-aibah",
+    "nama": "Sekolah Tinggi Ilmu Kesehatan Al-Su'aibah",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-dona-palembang",
+    "nama": "Sekolah Tinggi Ilmu Kesehatan Dona Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-hesti-wira-sriwijaya",
+    "nama": "Sekolah Tinggi Ilmu Kesehatan Hesti Wira Sriwijaya",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-masyarakat-abdi-nusa",
+    "nama": "Sekolah Tinggi Ilmu Kesehatan Masyarakat Abdi Nusa",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-mitra-adiguna",
+    "nama": "Sekolah Tinggi Ilmu Kesehatan Mitra Adiguna",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-pembina-palembang",
+    "nama": "Sekolah Tinggi Ilmu Kesehatan Pembina Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-perdhaki-charitas",
+    "nama": "Sekolah Tinggi Ilmu Kesehatan Perdhaki Charitas",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-manajemen-amkop",
+    "nama": "Sekolah Tinggi Ilmu Manajemen Amkop",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-pertanian-sriwigama",
+    "nama": "Sekolah Tinggi Ilmu Pertanian Sriwigama",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-psikologi-widya-dharma",
+    "nama": "Sekolah Tinggi Ilmu Psikologi Widya Dharma",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-kesehatan-pondok-pesantren-assanadiyah-palemb",
+    "nama": "Sekolah Tinggi Kesehatan Pondok Pesantren Assanadiyah Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-teknik-musi",
+    "nama": "Sekolah Tinggi Teknik Musi",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "sekolah-tinggi-teknologi-palembang",
+    "nama": "Sekolah Tinggi Teknologi Palembang",
+    "kab_kota": "Palembang",
+    "aktif": false
+  },
+  {
+    "kode": "sekolah-tinggi-teologi-palembang",
+    "nama": "Sekolah Tinggi Teologi Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "universitas-aisyiyah-palembang",
+    "nama": "Universitas Aisyiyah Palembang",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "universitas-iba",
+    "nama": "Universitas IBA",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "universitas-katolik-musi-charitas",
+    "nama": "Universitas Katolik Musi Charitas",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "universitas-siguntang-mahaputra",
+    "nama": "Universitas Siguntang Mahaputra",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "universitas-sjakhyakirti",
+    "nama": "Universitas Sjakhyakirti",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "universitas-tamansiswa",
+    "nama": "Universitas Tamansiswa",
+    "kab_kota": "Palembang",
+    "aktif": true
+  },
+  {
+    "kode": "stitqi",
+    "nama": "STIT Al-Qur'an Al-Ittifaqiah (STITQI) Ogan Ilir",
+    "kab_kota": "Ogan Ilir",
+    "aktif": true
+  },
+  {
+    "kode": "stit-raudhatul-ulum",
+    "nama": "STIT Raudhatul Ulum Sakatiga Indralaya",
+    "kab_kota": "Ogan Ilir",
+    "aktif": true
+  },
+  {
+    "kode": "politeknik-transportasi-sungai-danau-dan-penyeberangan",
+    "nama": "Politeknik Transportasi Sungai Danau dan Penyeberangan",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "amik-sigma",
+    "nama": "AMIK Sigma",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-akuntansi-sjakhyakirti",
+    "nama": "Akademi Akuntansi Sjakhyakirti",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-akuntansi-unggulan-smb-palembang",
+    "nama": "Akademi Akuntansi Unggulan SMB Palembang",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-analis-kesehatan-widya-dharma",
+    "nama": "Akademi Analis Kesehatan Widya Dharma",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-bahasa-asing-bina-insan-indonesia",
+    "nama": "Akademi Bahasa Asing Bina Insan Indonesia",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kebidanan-al-sua-ibah-palembang",
+    "nama": "Akademi Kebidanan Al-Sua Ibah Palembang",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kebidanan-budi-mulia-palembang",
+    "nama": "Akademi Kebidanan Budi Mulia Palembang",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kebidanan-heppy-zal",
+    "nama": "Akademi Kebidanan Heppy Zal",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kebidanan-nusantara-palembang",
+    "nama": "Akademi Kebidanan Nusantara Palembang",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kebidanan-persada-palembang",
+    "nama": "Akademi Kebidanan Persada Palembang",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kebidanan-rizki-patya",
+    "nama": "Akademi Kebidanan Rizki Patya",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kebidanan-sapta-karya",
+    "nama": "Akademi Kebidanan Sapta Karya",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kebidanan-tunas-harapan-bangsa",
+    "nama": "Akademi Kebidanan Tunas Harapan Bangsa",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-keperawatan-kesdam-ii-sriwijaya",
+    "nama": "Akademi Keperawatan Kesdam II Sriwijaya",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-keperawatan-pembina",
+    "nama": "Akademi Keperawatan Pembina",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-keperawatan-sapta-karya",
+    "nama": "Akademi Keperawatan Sapta Karya",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-kesehatan-lingkungan-pemprov-sumatera-selatan",
+    "nama": "Akademi Kesehatan Lingkungan Pemprov Sumatera Selatan",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-keuangan-dan-perbankan-mulia-darma-pratama",
+    "nama": "Akademi Keuangan Dan Perbankan Mulia Darma Pratama",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  },
+  {
+    "kode": "akademi-maritim-bina-bahari",
+    "nama": "Akademi Maritim Bina Bahari",
+    "alasan": "tidak ada hasil dalam bbox / nama tidak cocok"
+  }
+]

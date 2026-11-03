@@ -1,0 +1,100 @@
+{
+ "unsri-bukitbesar": {
+  "query": "Universitas Sriwijaya Kampus Bukit Besar Palembang",
+  "error": "no result"
+ },
+ "unsri-indralaya": {
+  "query": "Universitas Sriwijaya Indralaya",
+  "error": "no result"
+ },
+ "polsri": {
+  "query": "Politeknik Negeri Sriwijaya Palembang",
+  "nominatim_name": "Politeknik Negeri Sriwijaya",
+  "nominatim_lat": -3.0435843,
+  "nominatim_lon": 104.7267526,
+  "nominatim_type": "college"
+ },
+ "uin": {
+  "query": "UIN Raden Fatah Palembang",
+  "nominatim_name": "UIN Raden Fatah Palembang",
+  "nominatim_lat": -2.9645025,
+  "nominatim_lon": 104.7487634,
+  "nominatim_type": "university"
+ },
+ "binadarma": {
+  "query": "Universitas Bina Darma Palembang",
+  "nominatim_name": "Universitas Bina Darma",
+  "nominatim_lat": -2.9995597,
+  "nominatim_lon": 104.7705751,
+  "nominatim_type": "university"
+ },
+ "um-palembang": {
+  "query": "Universitas Muhammadiyah Palembang",
+  "nominatim_name": "Universitas Muhammadiyah",
+  "nominatim_lat": -2.9964781,
+  "nominatim_lon": 104.7782111,
+  "nominatim_type": "university"
+ },
+ "upgri": {
+  "query": "Universitas PGRI Palembang",
+  "error": "no result"
+ },
+ "uigm": {
+  "query": "Universitas Indo Global Mandiri Palembang",
+  "nominatim_name": "Universitas Indo Global Mandiri",
+  "nominatim_lat": -2.9634196,
+  "nominatim_lon": 104.7408102,
+  "nominatim_type": "university"
+ },
+ "tridinanti": {
+  "query": "Universitas Tridinanti Palembang",
+  "nominatim_name": "Universitas Tridinanti Palembang",
+  "nominatim_lat": -2.9714468,
+  "nominatim_lon": 104.7460183,
+  "nominatim_type": "university"
+ },
+ "poltekkes": {
+  "query": "Poltekkes Kemenkes Palembang",
+  "error": "no result"
+ },
+ "mdp": {
+  "query": "STMIK Global Informatika MDP Palembang",
+  "error": "no result"
+ },
+ "iaiqi": {
+  "query": "Institut Agama Islam Al-Ittifaqiah Indralaya",
+  "error": "no result"
+ },
+ "poltekbang": {
+  "query": "Politeknik Penerbangan Palembang",
+  "nominatim_name": "Politeknik Penerbangan Palembang",
+  "nominatim_lat": -2.9086087,
+  "nominatim_lon": 104.6990114,
+  "nominatim_type": "college"
+ },
+ "aprin": {
+  "query": "STIE APRIN Palembang",
+  "nominatim_name": "STIE-APRIN Palembang",
+  "nominatim_lat": -2.9935182,
+  "nominatim_lon": 104.7300685,
+  "nominatim_type": "college"
+ },
+ "stik": {
+  "query": "STIK Siti Khadijah Palembang",
+  "nominatim_name": "STIK Siti Khadijah",
+  "nominatim_lat": -2.9737079,
+  "nominatim_lon": 104.7324623,
+  "nominatim_type": "college"
+ },
+ "ikest": {
+  "query": "Kesehatan Muhammadiyah Palembang 13 Ulu",
+  "error": "no result"
+ },
+ "akamigas": {
+  "query": "Politeknik Akamigas Palembang Plaju",
+  "nominatim_name": "Politeknik Akamigas Palembang",
+  "nominatim_lat": -3.0061007,
+  "nominatim_lon": 104.8234038,
+  "nominatim_type": "yes"
+ }
+}

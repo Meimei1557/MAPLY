@@ -1,0 +1,1994 @@
+[
+ {
+  "nama_resmi": "Politeknik Negeri Sriwijaya",
+  "singkatan": "Polsri",
+  "status": "Negeri",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://www.polsri.ac.id",
+  "alamat": "Jl Srijaya Negara Bukit Besar",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.polsri.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Politeknik negeri di Kec. Ilir Barat II (Bukit Besar), Kota Palembang; akreditasi institusi Terakreditasi (BanPT, masih berlaku per 2 Nov 2026)."
+ },
+ {
+  "nama_resmi": "Politeknik Pariwisata Palembang",
+  "singkatan": null,
+  "status": "Negeri",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": "Seberang Ulu I",
+  "situs_resmi": "https://poltekpar-palembang.ac.id",
+  "alamat": "Jl. Sapta Pesona No. 10 Kelurahan Silaberanti Kecamatan Seberang Ulu 1 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://poltekpar-palembang.ac.id",
+   "https://kemenpar.go.id/poltekpar",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/385004",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Politeknik negeri di bawah Kementerian Pariwisata (kemenpar.go.id/poltekpar); kampus di Jl. Sapta Pesona No. 10, Kel. Silaberanti, Kec. Seberang Ulu I (kolom kecamatan NPSN mengisi Ilir Barat II)."
+ },
+ {
+  "nama_resmi": "Politeknik Penerbangan Palembang",
+  "singkatan": null,
+  "status": "Negeri",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": null,
+  "situs_resmi": "https://poltekbangplg.ac.id",
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://e-spm.poltekbangplg.ac.id/sejarah",
+   "https://referensi.data.kemendikdasmen.go.id/residu/satuanpendidikan/detail/425019",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Politeknik negeri di bawah Kementerian Perhubungan; alamat lengkap belum terverifikasi (NPSN kecamatan: Ilir Barat II, tanpa alamat); subdomain aktif e-spm.poltekbangplg.ac.id."
+ },
+ {
+  "nama_resmi": "Politeknik Transportasi Sungai Danau dan Penyeberangan",
+  "singkatan": "Poltektrans SDP",
+  "status": "Negeri",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": null,
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.facebook.com/PoltektranSDP",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/425012",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Politeknik negeri di bawah Kementerian Perhubungan di Palembang; alamat belum terverifikasi dari sumber resmi (NPSN kecamatan: Ilir Barat II, tanpa alamat); akreditasi institusi Baik Sekali (BanPT 2023)."
+ },
+ {
+  "nama_resmi": "Poltekkes Kemenkes Palembang",
+  "singkatan": null,
+  "status": "Negeri",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://poltekkespalembang.ac.id",
+  "alamat": "Jl.Jenderal Sudirman Km.3,5 Komplek RSMH No.1365 samping masjid Ash-Shofa Palem",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://poltekkespalembang.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Politeknik Kesehatan Kementerian Kesehatan di Palembang; akreditasi institusi Baik Sekali (BanPT 2025)."
+ },
+ {
+  "nama_resmi": "IAIN Raden Fatah Palembang (satuan lama)",
+  "singkatan": null,
+  "status": "Negeri",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Satuan NPSN lama; sejak 2015 berubah bentuk menjadi Universitas Islam Negeri Raden Fatah Palembang (lihat entri terpisah). Masih tersisa di data Dapodik/referensi."
+ },
+ {
+  "nama_resmi": "Universitas Islam Negeri Raden Fatah Palembang",
+  "singkatan": "UIN Raden Fatah",
+  "status": "Negeri",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://radenfatah.ac.id",
+  "alamat": "Jl.Prof.K.H.Zainal Abidin Fikri KM.3,5 Palembang Sumatera Selatan",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://radenfatah.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://id.wikipedia.org/wiki/Universitas_Islam_Negeri_Raden_Fatah"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "PTKIN di Palembang; akreditasi institusi Unggul (BanPT). Didirikan 1964 sebagai IAIN, menjadi UIN pada 2015."
+ },
+ {
+  "nama_resmi": "AMIK Bina Sriwijaya (satuan lama)",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "JL.H.M. Ryacudu No.24 Kel. 8 Ulu Palembang Provinsi Sumatera Selatan",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://itbbinasriwijaya.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Grup Bina Sriwijaya kini beroperasi sebagai Institut Teknologi dan Bisnis Bina Sriwijaya (entri terpisah); satuan AMIK masih tercatat di NPSN."
+ },
+ {
+  "nama_resmi": "AMIK Multi Data Palembang (satuan lama)",
+  "singkatan": "AMIK MDP",
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Timur II",
+  "situs_resmi": null,
+  "alamat": "Jalan Rajawali No 14",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116006/3",
+   "https://mdp.ac.id/sejarah"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Melebur menjadi Universitas Multi Data Palembang (2018); satuan masih tercatat di data referensi NPSN."
+ },
+ {
+  "nama_resmi": "AMIK Sigma",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan diponegoro Baru (Simpang Kedaung)",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Akuntansi Sjakhyakirti",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Sultan Muhammad Mansyur 32",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Akuntansi Unggulan SMB Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Letjen Alamsyah Ratuprawira",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Analis Kesehatan Widya Dharma",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Kol H Burlian N0 7 Km 6,5",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Bahasa Asing Bina Insan Indonesia",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan H.M. RYACUDU NO.24 (KEL 8 ULU)",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Satu komplek dengan grup Bina Sriwijaya (Jl. H.M. Ryacudu No. 24, 8 Ulu); verifikasi web minim, berdasarkan data referensi NPSN."
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan 'Aisyiyah Palembang (satuan lama)",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jln.Kol.H. Barlian Lr. M.Husin No 907 Km 7,5 Kelurahan Karya Baru Kecamatan Suka",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://unisa-palembang.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Indikasi kuat melebur ke Universitas Aisyiyah Palembang (informasi PMB akademi kini tayang di unisa-palembang.ac.id); satuan masih tercatat di NPSN."
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Abdurahman",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Sukarami",
+  "situs_resmi": null,
+  "alamat": "Jl. Sukajaya No.7 Rt.05 RW.01 Kelurahan Sukabangun Kecamatan Sukarami",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116008/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Al-Sua Ibah Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Sukabangun II No 1451 km. 6,5 rt/rw. 25/04 palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Budi Mulia Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl. RA. Abusamah No. 2663 Kelurahan Sukajaya Kecamatan Sukarami",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Heppy Zal",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Tangga Takat No 1",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Nusantara Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat I",
+  "situs_resmi": null,
+  "alamat": "Jl Insp Marzuki No 124 Siring Agung Pakjo",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116004/3",
+   "https://referensi.data.kemendikdasmen.go.id/residu/satuanpendidikan/detail/024095",
+   "https://sinta.kemdiktisaintek.go.id/affiliations/profile/1003"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Satu yayasan (YPNN Palembang) dengan STIKESMAS Nusantara di Jl. Insp. Marzuki No. 124."
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Persada Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Sako",
+  "situs_resmi": null,
+  "alamat": "Jl Pangeran Ayin Simpang Blk Sukamaju Kenten",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116007/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Pondok Pesantren Assanadiyah",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Rizki Patya",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Sako",
+  "situs_resmi": null,
+  "alamat": "Jl Perumnas Sako No 245 Kel Sialang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116007/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Sapta Karya",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Kebidanan Tunas Harapan Bangsa",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Angkatan 66 Lr Suka Damai",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Keperawatan 'Aisyiyah Palembang (satuan lama)",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "JL. KOL H. BURLIAN LR. M. AGUSCIK NO. 268 KM. 7,5 PALEMBANG",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://unisa-palembang.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Indikasi kuat melebur ke Universitas Aisyiyah Palembang; satuan masih tercatat di NPSN."
+ },
+ {
+  "nama_resmi": "Akademi Keperawatan Kesdam II Sriwijaya",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Akademi Keperawatan Pembina",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Keperawatan Sapta Karya",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Kom. Pol. HM Damsyik No. 1563 Palembang Sumatera Selatan",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Akademi Kesehatan Lingkungan Pemprov Sumatera Selatan",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://aklpemprovsumsel.ac.id",
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://aklpemprovsumsel.ac.id",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/344027",
+   "https://sinta.kemdiktisaintek.go.id/affiliations/profile/4356"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Naungan Pemerintah Daerah tetapi kolom status NPSN mengisi 'SWASTA' (anomali data); profil SINTA aktif."
+ },
+ {
+  "nama_resmi": "Akademi Keuangan Dan Perbankan Mulia Darma Pratama",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Ahmad Yani No 19",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Akademi Maritim Bina Bahari",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Kamil No. 1061 Kecamatan Sukarame KM 6 Palembang Telp.0711-7012677",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Akademi Pariwisata Widya Dharma",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl. Raden Imba Kusuma Ratu, Langkapura",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Akademi Perikanan Wachyuni Mandira",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat I",
+  "situs_resmi": null,
+  "alamat": "Jalan Infra Modul Ii Jalur 75",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116004/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Sains Dan Teknologi Pembangunan",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Sukarami",
+  "situs_resmi": null,
+  "alamat": "Jl Jend Sudirman No 639 Km 4,5",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116008/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akademi Sekretari Dan Manajemen Sriwijaya",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Timur I",
+  "situs_resmi": null,
+  "alamat": "Jl Letnan Murod No 35 Km 5 Talang Ratu",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116005/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Akd Teknik Radiodiag. Dan Radioterapi Widya Dharma",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Kol H Burlian No 7 Km 6,5",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Apikes Widya Dharma",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Akademi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Sukarami",
+  "situs_resmi": null,
+  "alamat": "Jalan Kolonel H. Burlian No. 342 Km. 5 Palembang 30153 Provinsi Sumatera Selata",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116008/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Institut Agama Islam Widya Dharma Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Institut",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat I",
+  "situs_resmi": null,
+  "alamat": "Jl. Soekarno Hatta No. 234 Kelurahan Siring Agung, Kecamatan Ilir Barat I, Kota",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116004/3",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/212082"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "PTKIS di Jl. Soekarno Hatta No. 234, Siring Agung, Kec. Ilir Barat I (kawasan perguruan Widya Dharma); NPSN mencatat bentuk 'Institut'."
+ },
+ {
+  "singkatan": "ITB Bina Sriwijaya",
+  "status": "Swasta",
+  "jenis": "Institut",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://itbbinasriwijaya.ac.id",
+  "alamat": "Jl. H.M. Ryacudu No. 24, Kel. 8 Ulu (alamat satuan AMIK Bina Sriwijaya)",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://itbbinasriwijaya.ac.id",
+   "https://binasriwijaya.ac.id"
+  ],
+  "catatan": "Grup Bina Sriwijaya kini beroperasi sebagai institut (akreditasi institusi Baik, BanPT 2025); satuan AMIK Bina Sriwijaya masih tercatat di NPSN (diberi tanda tidak aktif).",
+  "nama_resmi": "Institut Teknologi dan Bisnis Bina Sriwijaya",
+  "tanggal_cek": "2026-11-02"
+ },
+ {
+  "singkatan": "ITB PalComTech",
+  "status": "Swasta",
+  "jenis": "Institut",
+  "kab_kota": "Palembang",
+  "kecamatan": null,
+  "situs_resmi": "https://palcomtech.ac.id",
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://palcomtech.ac.id/category/berita"
+  ],
+  "catatan": "Grup PalComTech; BanPT mencatat institut ini (Baik Sekali, 2023) dan masih mencatat Politeknik PalcomTech terpisah (keduanya dianggap aktif), sementara STMIK PalcomTech tidak lagi ada di daftar institusi BanPT (diberi tanda tidak aktif - indikasi merger). Alamat kampus belum terverifikasi.",
+  "nama_resmi": "Institut Teknologi dan Bisnis PalComTech",
+  "tanggal_cek": "2026-11-02"
+ },
+ {
+  "singkatan": "ITSNU Sriwijaya",
+  "status": "Swasta",
+  "jenis": "Institut",
+  "kab_kota": "Palembang",
+  "kecamatan": null,
+  "situs_resmi": "https://www.itsnusriwijaya.ac.id",
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://www.itsnusriwijaya.ac.id/pengajar",
+   "https://sibersumsel.com/its-nu-sriwijaya-sumsel-bakal-bangun-sdm-berkualitas/11233"
+  ],
+  "catatan": "Institut NU di Palembang; akreditasi institusi Baik (BanPT 2025). Alamat kampus belum terverifikasi.",
+  "nama_resmi": "Institut Teknologi dan Sains Nahdlatul Ulama Sriwijaya",
+  "tanggal_cek": "2026-11-02"
+ },
+ {
+  "nama_resmi": "Politeknik Akamigas Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl. Kebon Jahe Komplek Pertamina (Komperta) Plaju",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://referensi.data.kemendikdasmen.go.id/residu/satuanpendidikan/detail/025011"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Kampus di Komplek Pertamina (Komperta), Plaju; status NPSN 'SWASTA' (yayasan), akreditasi institusi Baik Sekali (BanPT 2024)."
+ },
+ {
+  "nama_resmi": "Politeknik Anika Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": "Sukarami",
+  "situs_resmi": null,
+  "alamat": "Jalan Kol H Burlian No 992 Km 7,5 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116008/3",
+   "https://sinta.kemdiktisaintek.go.id/affiliations/profile/1045",
+   "https://akupintar.id/universitas/-/kampus/detail-kampus/politeknik-anika-palembang/profil"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Terprofil di SINTA, akupintar.id, dan Instagram resmi."
+ },
+ {
+  "nama_resmi": "Politeknik Darussalam",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": "Kemuning",
+  "situs_resmi": null,
+  "alamat": "Jalan Basuki Rahmat No.1608 E-F Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116009/3",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/025004",
+   "https://sinta.kemdiktisaintek.go.id/departments/authors/1046/5B4AF2EE-9FD4-4592-883C-A65C057A3471/455A95CF-819E-4EEF-AE2C-116B46A70950"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Terindeks PDDikti dan SINTA; situs politeknikdarussalam.ac.id menampilkan halaman status (bukan konten kampus) - kehadiran web lemah."
+ },
+ {
+  "nama_resmi": "Politeknik Palcomtech",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Politeknik",
+  "kab_kota": "Palembang",
+  "kecamatan": "Kemuning",
+  "situs_resmi": null,
+  "alamat": "Jl Jenderal Sudirman No 3007",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116009/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "STIA & Pemerintahan Annisa Dwi Salfaritzi",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Puncak Sekuning No. 170 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Terakreditasi (BanPT 2026)."
+ },
+ {
+  "nama_resmi": "STIE Multi Data Palembang (satuan lama)",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Palembang",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://mdp.ac.id/sejarah"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Satuan lama grup MDP; melebur menjadi Universitas Multi Data Palembang (2018)."
+ },
+ {
+  "nama_resmi": "STIE Sultan Mahmud Badaruddin",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Letjen Alamsyah Rp No 9 Polygon",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "STIKES 'Aisyiyah Palembang (satuan lama)",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jln.Kol.H. Barlian Lr. M.Husin No 907 Km 7,5 Kelurahan Karya Baru Kecamatan Alan",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://unisa-palembang.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Indikasi kuat melebur ke Universitas Aisyiyah Palembang; satuan masih tercatat di NPSN."
+ },
+ {
+  "nama_resmi": "STIKES Muhammadiyah Palembang (satuan lama)",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Seberang Ulu II",
+  "situs_resmi": null,
+  "alamat": "Jl. Jend. A. Yani 13 Ulu Palembang 30262 (dibelakang RS Muhammadiyah Palembang)",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116003/3",
+   "https://um-ad.ac.id/sejarah",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/023105"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Pendahulu IKesT Muhammadiyah Palembang (2020) yang kemudian menjadi Universitas Muhammadiyah Ahmad Dahlan Palembang (2024); satuan masih tercatat di NPSN."
+ },
+ {
+  "nama_resmi": "STIKESMAS Nusantara",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Insp Marzuki No 124 Siring Agung Pakjo",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "STIKESMAS Widya Dharma Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Kol H Burlian No 7 Km 65",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "STIPSI Abdi Nusa",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Veteran No 1 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "STISIPOL Candradimuka",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Kemuning",
+  "situs_resmi": null,
+  "alamat": "Jalan Swadaya Sekip Ujung 20 Ilir Ii",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116009/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://id.wikipedia.org/wiki/Daftar_perguruan_tinggi_swasta_di_Sumatera_Selatan"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Terakreditasi (BanPT 2025)."
+ },
+ {
+  "nama_resmi": "STMIK Global Informatika MDP (satuan lama)",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Rajawali No 14",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://mdp.ac.id/sejarah"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Satuan lama grup MDP; melebur menjadi Universitas Multi Data Palembang (2018)."
+ },
+ {
+  "nama_resmi": "STMIK MBC Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Perintis Kemerdekaan No.62 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/023125",
+   "https://x.com/stmikmbc"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Kanal media sosial aktif (X/Instagram/Facebook); tidak ditemukan situs resmi; akreditasi hanya tingkat prodi (tidak ada di daftar institusi BanPT)."
+ },
+ {
+  "nama_resmi": "STMIK PalcomTech (satuan lama)",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Kemuning",
+  "situs_resmi": null,
+  "alamat": "Jl Basuki Rahmat No 05 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116009/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://palcomtech.ac.id/category/berita"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Indikasi melebur ke Institut Teknologi dan Bisnis PalComTech (BanPT hanya mencantumkan ITB PalComTech dan Politeknik PalcomTech); satuan masih tercatat di NPSN - verifikasi PDDikti disarankan."
+ },
+ {
+  "nama_resmi": "STT Injili di Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "STT Sriwijaya Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Bahasa Asing Methodist",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Jenderal Sudirman Km 3,5",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Bahasa Asing Widya Dharma Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Kol H Burlian No 7 Km 6,5",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ekonomi dan Bisnis Syariah (STEBIS) Indo Global Mandiri",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl.Jend. Sudirman No. 629 KM, 4 Palembang.",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Administrasi Bala Putra Dewa",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Administrasi Satya Negara",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Timur II",
+  "situs_resmi": null,
+  "alamat": "Jalan Sukarejo Sukatani",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116006/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Al-Qur'an Al-Lathifiyyah Palembang Sumatera Selatan",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Ekonomi Abdi Nusa",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl. Veteran No. 01 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Ekonomi Aprin",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat I",
+  "situs_resmi": null,
+  "alamat": "Jalan Baladewa Padang Selasa",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116004/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Ekonomi Bina Warga",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Timur II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116006/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Ekonomi Mulia Darma Pratama",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Jenderal Ahmad Yani No 19, Plaju, Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Ekonomi Musi",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Bangau No 60",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Hampir tidak ada jejak web terkini; keberadaan berdasarkan data referensi NPSN (alamat Jl. Bangau No. 60)."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Farmasi Bhakti Pertiwi",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "JL. ARIODILLAH III NO.22 A",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Hukum Sumpah Pemuda",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Sukabangun Ii No 1610",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Abdurahman Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Sukarami",
+  "situs_resmi": null,
+  "alamat": "Jl. Sukajaya No.7 Rt.05 RW.01 Kelurahan Sukabangun",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116008/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Al-Su'aibah",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Kota Palembang Provinsi Sumatera Selatan",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Bina Husada",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat I",
+  "situs_resmi": null,
+  "alamat": "Jalan Syech Abdul Somad No 28",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116004/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Dona Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": null,
+  "situs_resmi": "https://www.hestiwirasriwijaya.ac.id",
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/023148",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://www.hestiwirasriwijaya.ac.id"
+  ],
+  "catatan": "Terdaftar KOTA PALEMBANG di NPSN (kolom kecamatan kosong, sehingga tidak muncul pada perkecamatanan); akreditasi institusi Baik Sekali (BanPT 2024); situs resmi aktif. Alamat kampus belum terverifikasi.",
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Hesti Wira Sriwijaya",
+  "tanggal_cek": "2026-11-02"
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Masyarakat Abdi Nusa",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl.RE.Martadinata No.1 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Mitra Adiguna",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Kalidoni",
+  "situs_resmi": null,
+  "alamat": "Komplek Kenten Permai Blok J No 9-12 Bukit Sangkal",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116014/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Pembina Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Timur II",
+  "situs_resmi": null,
+  "alamat": "Jl Bambang Utoyo N0 179",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116006/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Perdhaki Charitas",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Sukarami",
+  "situs_resmi": null,
+  "alamat": "Jl Kol Burlian Lrg Suka Senang Km 7",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116008/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Kesehatan Siti Khadijah",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Demang Lebar Daun Pakjo Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Manajemen Amkop",
+  "singkatan": "STIM Amkop",
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Timur I",
+  "situs_resmi": null,
+  "alamat": "Jl Letnan Murod No 55 Km 5 Talang Ratu Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116005/3",
+   "https://akupintar.id/universitas/-/kampus/detail-kampus/sekolah-tinggi-ilmu-manajemen-amkop/profil"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Profil juga di akupintar.id; kehadiran web lemah (Facebook/WordPress/Instagram)."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Pertanian Sriwigama",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Demang V Demang Lebar Daun Lorok Pakjo",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Tercantum dalam direktori institusi BanPT."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Ilmu Psikologi Widya Dharma",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl. H.M. Ryacudu No.24 Telp (0711) 5210019",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Kesehatan Pondok Pesantren Assanadiyah Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Seberang Ulu II",
+  "situs_resmi": null,
+  "alamat": "Jl. Banten 6, Kel. 16 Ulu, Kec. Seberang Ulu 2",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Alamat kampus Jl. Banten 6, Kel. 16 Ulu, Kec. Seberang Ulu II (kolom kecamatan NPSN mengisi Ilir Barat II); akreditasi institusi Terakreditasi (BanPT 2026)."
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Teknik Musi",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Bangau No 60 Kecamatan Ilir Timur Ii",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Hampir tidak ada jejak web terkini; keberadaan berdasarkan data referensi NPSN (alamat Jl. Bangau No. 60)."
+ },
+ {
+  "singkatan": "STT-P",
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": null,
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": false,
+  "sumber": [
+   "https://id.wikipedia.org/wiki/Daftar_perguruan_tinggi_swasta_di_Sumatera_Selatan"
+  ],
+  "catatan": "TIDAK TERVERIFIKASI: hanya ditemukan pada daftar Wikipedia (rintisan) tanpa rujukan; tidak ada di data referensi NPSN maupun daftar institusi BanPT, dan jejak web aktif 2024-2026 tidak ditemukan. Kemungkinan besar tidak lagi beroperasi; perlu cek langsung ke PDDikti.",
+  "nama_resmi": "Sekolah Tinggi Teknologi Palembang",
+  "tanggal_cek": "2026-11-02"
+ },
+ {
+  "nama_resmi": "Sekolah Tinggi Teologi Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": ""
+ },
+ {
+  "singkatan": "UNISA Palembang",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": null,
+  "situs_resmi": "https://unisa-palembang.ac.id",
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://perpustakaan.unisa-palembang.ac.id",
+   "https://www.instagram.com/pmb.unisapalembang/"
+  ],
+  "catatan": "Universitas 'Aisyiyah di Palembang (kesehatan); akreditasi institusi Baik (BanPT 2025). Menampung lini masa AKPER/AKbid/STIKES 'Aisyiyah Palembang (entri lama diberi tanda tidak aktif); alamat kampus belum terverifikasi dari sumber resmi.",
+  "nama_resmi": "Universitas Aisyiyah Palembang",
+  "tanggal_cek": "2026-11-02"
+ },
+ {
+  "nama_resmi": "Universitas Bina Darma",
+  "singkatan": "UBD",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Plaju",
+  "situs_resmi": "https://www.binadarma.ac.id",
+  "alamat": "Jalan Jenderal Ahmad Yani No.12 Plaju",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116010/3",
+   "https://www.binadarma.ac.id/about/layanan-akademik",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Unggul (BanPT 2025); kampus di Plaju."
+ },
+ {
+  "nama_resmi": "Universitas IBA",
+  "singkatan": "IBA",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://iba.ac.id",
+  "alamat": "Jalan Mayor Ruslan",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://iba.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Terakreditasi (BanPT 2026)."
+ },
+ {
+  "nama_resmi": "Universitas Indo Global Mandiri",
+  "singkatan": "UIGM",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://www.uigm.ac.id",
+  "alamat": "Jl. Jendral Sudirman No. 629 Km. 3.5 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.uigm.ac.id/home-id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Grup IGM juga menyelenggarakan STEBIS Indo Global Mandiri (entri terpisah)."
+ },
+ {
+  "nama_resmi": "Universitas Kader Bangsa",
+  "singkatan": "UKB",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://ukb.ac.id",
+  "alamat": "Jl Mayjen HM Ryacudu No 88",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://ukb.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Dikembangkan dari satuan Kader Bangsa (STIKES/STIK Kader Bangsa) menjadi universitas; akreditasi institusi Terakreditasi (BanPT)."
+ },
+ {
+  "nama_resmi": "Universitas Katolik Musi Charitas",
+  "singkatan": "UKMC",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Timur II",
+  "situs_resmi": "https://ukmc.ac.id",
+  "alamat": "Jalan Bangau No.60 Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116006/3",
+   "https://ukmc.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Kampus di Jl. Bangau No. 60 (Ilir Timur II)."
+ },
+ {
+  "nama_resmi": "Universitas Muhammadiyah Ahmad Dahlan Palembang",
+  "singkatan": "UMAD",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Seberang Ulu II",
+  "situs_resmi": "https://um-ad.ac.id",
+  "alamat": "Jl. Jenderal A. Yani, 13 Ulu (belakang RS Muhammadiyah Palembang) - alamat satuan pendahulu",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://um-ad.ac.id/sejarah",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "NPSN 022005 (satuan 'Institut Ilmu Kesehatan dan Teknologi Muhammadiyah Palembang') berganti bentuk menjadi Universitas Muhammadiyah Ahmad Dahlan Palembang pada 13 Des 2024 (um-ad.ac.id/sejarah). Linimasa: SPK Muhammadiyah 1984, STIKES Muhammadiyah Palembang 2006, IKesT Muhammadiyah 2020 (SK 723/M/2020), UMAD 2024. Berbeda dari Universitas Muhammadiyah Palembang."
+ },
+ {
+  "nama_resmi": "Universitas Muhammadiyah Palembang",
+  "singkatan": "UMP",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Seberang Ulu II",
+  "situs_resmi": "https://www.um-palembang.ac.id",
+  "alamat": "Jalan Jenderal Ahmad Yani 13 ULU PLAJU PALEMBANG",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116003/3",
+   "https://www.um-palembang.ac.id",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Unggul (BanPT 2025)."
+ },
+ {
+  "nama_resmi": "Universitas Multi Data Palembang",
+  "singkatan": "UMDP",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://mdp.ac.id",
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://mdp.ac.id/sejarah",
+   "https://mdp.ac.id/live-acara-peresmian-stmik-amik-dan-stie-mdp-menjadi-universitas-mdp-universitas-multi-data-palembang",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Hasil merger AMIK MDP, STMIK MDP/STMIK Global Informatika MDP, dan STIE MDP menjadi universitas (peresmian 2018, mdp.ac.id/sejarah); satuan-satuan lama tetap tercatat di NPSN."
+ },
+ {
+  "nama_resmi": "Universitas PGRI Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Seberang Ulu I",
+  "situs_resmi": null,
+  "alamat": "Jl Jenderal Ahmad Yani Lorong Gotong Royong 910",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116002/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Baik Sekali (BanPT 2026)."
+ },
+ {
+  "nama_resmi": "Universitas Palembang",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Dharmapala No 1-A Bukit Besar Palembang",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Terakreditasi (BanPT 2026)."
+ },
+ {
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": null,
+  "situs_resmi": null,
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://data.kemdiktisaintek.go.id/download/datasets/27",
+   "https://www.facebook.com/p/Universitas-siguntang-mahaputra-61556554647224"
+  ],
+  "catatan": "Universitas relatif baru di Kota Palembang; tidak muncul pada data referensi NPSN yang di-crawl. Terkonfirmasi lewat akreditasi institusi BanPT (Baik, SK 2026) dan dataset kemdiktisaintek; alamat kampus belum terverifikasi.",
+  "nama_resmi": "Universitas Siguntang Mahaputra",
+  "tanggal_cek": "2026-11-02"
+ },
+ {
+  "nama_resmi": "Universitas Sjakhyakirti",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jl Sultan Muhammad Mansyur Kb Gede 32 Ilir",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://id.wikipedia.org/wiki/Daftar_perguruan_tinggi_swasta_di_Sumatera_Selatan"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Grup Sjakhyakirti juga memiliki Akademi Akuntansi Sjakhyakirti (entri terpisah)."
+ },
+ {
+  "nama_resmi": "Universitas Sumatera Selatan",
+  "singkatan": "USS",
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": "https://uss.ac.id",
+  "alamat": null,
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://uss.ac.id/sejarah",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Dikembangkan dari sekolah tinggi di bawah Yayasan P4SS Sumatera Selatan (uss.ac.id/sejarah); akreditasi institusi Baik Sekali (BanPT 2025). Alamat kampus belum terverifikasi (NPSN tanpa alamat)."
+ },
+ {
+  "nama_resmi": "Universitas Tamansiswa",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Barat II",
+  "situs_resmi": null,
+  "alamat": "Jalan Tamansiswa No 261",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116001/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://www.unirank.org/id/uni/universitas-tamansiswa-palembang"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Terakreditasi (BanPT 2026); profil juga di unirank.org."
+ },
+ {
+  "nama_resmi": "Universitas Tridinanti",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Universitas",
+  "kab_kota": "Palembang",
+  "kecamatan": "Ilir Timur I",
+  "situs_resmi": null,
+  "alamat": "Jl Kapten Marzuki No 2446 Kamboja",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116005/3",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Akreditasi institusi Baik (BanPT 2023)."
+ },
+ {
+  "nama_resmi": "Universitas Sriwijaya",
+  "singkatan": "UNSRI",
+  "status": "Negeri",
+  "jenis": "Universitas",
+  "kab_kota": "Ogan Ilir",
+  "kecamatan": "Indralaya",
+  "situs_resmi": "https://unsri.ac.id",
+  "alamat": "Jl. Raya Palembang-Prabumulih Km 32, Indralaya (Kampus Utama)",
+  "lokasi_tambahan": [
+   "Kampus Bukit Besar, Kec. Ilir Barat I, Kota Palembang"
+  ],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/111001/3",
+   "https://unsri.ac.id/unsri-inderalaya",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/001009",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://id.wikipedia.org/wiki/Universitas_Sriwijaya"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "PTN terbesar di Sumbagsel; kampus utama di Indralaya (kawasan yang lazim disebut Indralaya), kampus kedua di Bukit Besar, Palembang. NPSN mencatat desa Talang Balai Lama, Kec. Tanjung Raja (administrasi Dapodik). Akreditasi institusi Unggul (BanPT, masih berlaku per 2 Nov 2026)."
+ },
+ {
+  "nama_resmi": "Institut Agama Islam Al-Qur'an Al-Ittifaqiah Indralaya",
+  "singkatan": "IAII/IAIQI",
+  "status": "Swasta",
+  "jenis": "Institut",
+  "kab_kota": "Ogan Ilir",
+  "kecamatan": "Indralaya",
+  "situs_resmi": null,
+  "alamat": "Jl. Lintas Timur Km 36, Desa Muara Penimbung Ilir, Kec. Indralaya (komplek Pondok Pesantren Al-Ittifaqiah)",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/111004/3",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/212105",
+   "https://www.facebook.com/UQIIndralaya/posts/penerimaan-mahasiswa-baru-tahun-akademik-2025-2026alamat-jl-lintas-timur-km-36-i/1468594374235833",
+   "https://www.facebook.com/61558565263606/posts/pemkab-ogan-ilir-terima-audiensi-iaiqi-indralaya-dalam-rangka-wisuda-dan-dies-na/122210147252285508"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "Institut agama Islam (PTKIS) di komplek Pondok Pesantren Al-Ittifaqiah; kanal resmi aktif menerima mahasiswa baru TA 2025/2026; dalam persiapan alih bentuk menjadi universitas (disebut 'Universitas Indralaya' dalam kanal Pemkab Ogan Ilir) - per Nov 2026 NPSN masih mencatat bentuk 'Institut'."
+ },
+ {
+  "nama_resmi": "STIT Al-Qur'an Al-Ittifaqiah (STITQI) Ogan Ilir",
+  "singkatan": "STITQI",
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Ogan Ilir",
+  "kecamatan": "Indralaya",
+  "situs_resmi": null,
+  "alamat": "Jl. Lintas Timur KM 36, Desa Indralaya Mulya (komplek PPTQ Al-Ittifaqiah)",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/111001/3",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/213317"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "PTKIS (Sekolah Tinggi Ilmu Tarbiyah) satu komplek dengan IAII Al-Ittifaqiah; NPSN mencatat kelurahan Talang Balai Lama, Kec. Tanjung Raja."
+ },
+ {
+  "nama_resmi": "STIT Raudhatul Ulum Sakatiga Indralaya",
+  "singkatan": null,
+  "status": "Swasta",
+  "jenis": "Sekolah Tinggi",
+  "kab_kota": "Ogan Ilir",
+  "kecamatan": "Indralaya",
+  "situs_resmi": null,
+  "alamat": "Kampus A Pondok Pesantren Raudhatul Ulum, Sakatiga, Indralaya",
+  "lokasi_tambahan": [],
+  "aktif": true,
+  "sumber": [
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/111001/3",
+   "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/213325",
+   "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
+   "https://id.wikipedia.org/wiki/Daftar_perguruan_tinggi_swasta_di_Sumatera_Selatan"
+  ],
+  "tanggal_cek": "2026-11-02",
+  "catatan": "PTKIS di Pondok Pesantren Raudhatul Ulum Sakatiga (Kec. Indralaya); NPSN mencatat kelurahan Talang Balai Baru I, Kec. Tanjung Raja; akreditasi institusi Baik (BanPT 2023). Di Wikipedia tercantum sebagai 'Sekolah Tinggi Ilmu Tarbiyah Raudhatul Ulum, Ogan Ilir'."
+ }
+]

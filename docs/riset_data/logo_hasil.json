@@ -1,0 +1,102 @@
+{
+ "unsri": {
+  "file": "logos/kampus/unsri.png",
+  "bytes": 46809,
+  "size": [
+   250,
+   250
+  ],
+  "sumber": "Wikimedia Commons (lambang resmi)",
+  "url_sumber": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lambang_Universitas_Sriwijaya.png/250px-Lambang_Universitas_Sriwijaya.png"
+ },
+ "polsri": {
+  "file": "logos/kampus/polsri.png",
+  "bytes": 41725,
+  "size": [
+   250,
+   250
+  ],
+  "sumber": "Wikimedia Commons (logo resmi Polsri)",
+  "url_sumber": "https://commons.wikimedia.org/wiki/File:Politeknik_Negeri_Sriwijaya_logo.svg"
+ },
+ "uin-raden-fatah": {
+  "file": "logos/kampus/uin-raden-fatah.png",
+  "bytes": 67617,
+  "size": [
+   256,
+   254
+  ],
+  "sumber": "pmb.radenfatah.ac.id (situs resmi UIN)",
+  "url_sumber": "https://pmb.radenfatah.ac.id/images/logo-uin.png"
+ },
+ "uigm": {
+  "file": "logos/kampus/uigm.png",
+  "bytes": 50381,
+  "size": [
+   800,
+   225
+  ],
+  "sumber": "uigm.ac.id (situs resmi UIGM)",
+  "url_sumber": "https://uigm.ac.id/wp-content/uploads/2024/10/logoUIGM_gold.png"
+ },
+ "um-palembang": {
+  "file": "logos/kampus/um-palembang.png",
+  "bytes": 96242,
+  "size": [
+   270,
+   270
+  ],
+  "sumber": "um-palembang.ac.id (situs resmi UM Palembang)",
+  "url_sumber": "https://um-palembang.ac.id/wp-content/uploads/2021/03/cropped-Logo-UMPalembang-2020-Mini-270x270.png"
+ },
+ "tridinanti": {
+  "file": "logos/kampus/tridinanti.png",
+  "bytes": 244067,
+  "size": [
+   500,
+   486
+  ],
+  "sumber": "univ-tridinanti.ac.id (situs resmi)",
+  "url_sumber": "https://univ-tridinanti.ac.id/images/svg/logo.png"
+ },
+ "poltekkes": {
+  "file": "logos/kampus/poltekkes.png",
+  "bytes": 4831,
+  "size": [
+   200,
+   79
+  ],
+  "sumber": "poltekkespalembang.ac.id (situs resmi)",
+  "url_sumber": "https://poltekkespalembang.ac.id/wp-content/uploads/2024/09/cropped-logopolkesbang.png"
+ },
+ "akamigas": {
+  "file": "logos/kampus/akamigas.png",
+  "bytes": 12204,
+  "size": [
+   258,
+   61
+  ],
+  "sumber": "akamigaspalembang.ac.id (situs resmi)",
+  "url_sumber": "https://akamigaspalembang.ac.id/images/logo-3.png"
+ },
+ "stie-aprin": {
+  "file": "logos/kampus/stie-aprin.png",
+  "bytes": 69510,
+  "size": [
+   944,
+   179
+  ],
+  "sumber": "stie-aprin.ac.id (situs resmi)",
+  "url_sumber": "https://v3.stie-aprin.ac.id/wp-content/uploads/2025/03/logo-web.png"
+ },
+ "stik-siti-khadijah": {
+  "file": "logos/kampus/stik-siti-khadijah.jpg",
+  "bytes": 32308,
+  "size": [
+   449,
+   449
+  ],
+  "sumber": "stik-sitikhadijah.ac.id (situs resmi)",
+  "url_sumber": "https://stik-sitikhadijah.ac.id/public/uploads/logo.jpg"
+ }
+}

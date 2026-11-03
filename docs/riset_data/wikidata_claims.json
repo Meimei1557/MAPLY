@@ -1,0 +1,290 @@
+{
+ "Universitas Sriwijaya": {
+  "qid": "Q4200297",
+  "label": "Universitas Sriwijaya",
+  "claims": {
+   "P625": [
+    [
+     -3.216936111111111,
+     104.64866666666667,
+     2.777777777777778e-06
+    ]
+   ],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q8131",
+    "Q4198110"
+   ],
+   "P571": [
+    {
+     "time": "+1960-10-29T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ },
+ "Politeknik Negeri Sriwijaya": {
+  "qid": "Q12506034",
+  "label": "Politeknik Negeri Sriwijaya",
+  "claims": {
+   "P625": [
+    [
+     -2.984025,
+     104.732661,
+     1e-06
+    ]
+   ],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q11225379"
+   ],
+   "P571": [
+    {
+     "time": "+1982-09-20T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ },
+ "UIN Raden Fatah": {
+  "qid": "Q12486119",
+  "label": "Universitas Islam Negeri Raden Fatah Palembang",
+  "claims": {
+   "P625": [
+    [
+     -2.96361111,
+     104.74894444,
+     0.00027765132295577
+    ]
+   ],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q11225379"
+   ],
+   "P571": [
+    {
+     "time": "+1964-11-13T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ },
+ "Universitas Bina Darma": {
+  "qid": "Q12523305",
+  "label": "Universitas Bina Darma",
+  "claims": {
+   "P625": [
+    [
+     -2.999509,
+     104.770577,
+     1e-06
+    ]
+   ],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q728750"
+   ],
+   "P571": [
+    {
+     "time": "+1993-12-28T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+     "time": "+1993-03-17T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ },
+ "Universitas Muhammadiyah Palembang": {
+  "qid": "Q12523396",
+  "label": "Universitas Muhammadiyah Palembang",
+  "claims": {
+   "P625": [
+    [
+     -2.9960096536548626,
+     104.77790126546265,
+     1e-08
+    ]
+   ],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q12512632"
+   ],
+   "P571": [
+    {
+     "time": "+1979-06-15T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ },
+ "Universitas PGRI Palembang": {
+  "qid": "Q97199998",
+  "label": "Universitas PGRI Palembang",
+  "claims": {
+   "P625": [
+    [
+     -2.994784898414286,
+     104.77594276657119,
+     1e-08
+    ]
+   ],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q13149243"
+   ],
+   "P571": [
+    {
+     "time": "+2000-08-07T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+     "time": "+1980-08-31T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+     "time": "+2000-06-09T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ },
+ "Universitas Indo Global Mandiri": {
+  "qid": "Q19749134",
+  "label": "Universitas Indo Global Mandiri",
+  "claims": {
+   "P625": [
+    [
+     -2.963396,
+     104.740755,
+     1e-06
+    ]
+   ],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q11225379"
+   ],
+   "P571": [
+    {
+     "time": "+2008-05-22T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ },
+ "Universitas Tridinanti": {
+  "qid": "Q12523477",
+  "label": "Universitas Tridinanti",
+  "claims": {
+   "P625": [
+    [
+     -2.9714085633692218,
+     104.74601762429101,
+     1e-08
+    ]
+   ],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q11212726"
+   ],
+   "P571": [
+    {
+     "time": "+1977-02-07T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ },
+ "Poltekkes Kemenkes Palembang": {
+  "qid": "Q109913547",
+  "label": "Politeknik Kesehatan Kementerian Kesehatan Palembang",
+  "claims": {
+   "P625": [],
+   "P856": [],
+   "P154": [],
+   "P159": [],
+   "P131": [
+    "Q11225379"
+   ],
+   "P571": [
+    {
+     "time": "+2011-09-27T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+     "time": "+2001-04-16T00:00:00Z",
+     "timezone": 0,
+     "before": 0,
+     "after": 0,
+     "precision": 11,
+     "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+    }
+   ]
+  }
+ }
+}

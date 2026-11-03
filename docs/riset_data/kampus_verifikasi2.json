@@ -1,0 +1,104 @@
+{
+ "reverse": {
+  "polsri-wikidata": {
+   "lat": -2.984025,
+   "lon": 104.732661,
+   "display": "Jalan Lunjuk Jaya, Ilir Barat I, Palembang, Sumatera Selatan, 30144, Indonesia",
+   "name": "Jalan Lunjuk Jaya",
+   "type": "tertiary"
+  },
+  "polsri-nominatim": {
+   "lat": -3.043584,
+   "lon": 104.726753,
+   "display": "Kertapati, Palembang, Sumatera Selatan, 30132, Indonesia",
+   "name": "",
+   "type": "unclassified"
+  },
+  "akamigas-riset": {
+   "lat": -3.00003,
+   "lon": 104.820373,
+   "display": "Perumahan Pertamina Plaju, Plaju, Palembang, Sumatera Selatan, 30265, Indonesia",
+   "name": "",
+   "type": "residential"
+  },
+  "akamigas-nominatim": {
+   "lat": -3.006101,
+   "lon": 104.823404,
+   "display": "Perumahan Pertamina Plaju, Plaju, Palembang, Sumatera Selatan, 30265, Indonesia",
+   "name": "",
+   "type": "residential"
+  },
+  "unsri-indralaya-wikidata": {
+   "lat": -3.216936,
+   "lon": 104.648667,
+   "display": "Tanjung Pering, Ogan Ilir, Sumatera Selatan, 30862, Indonesia",
+   "name": "",
+   "type": "unclassified"
+  },
+  "unsri-bukitbesar": {
+   "lat": -2.983785,
+   "lon": 104.733273,
+   "display": "Ilir Barat I, Palembang, Sumatera Selatan, 30121, Indonesia",
+   "name": "",
+   "type": "residential"
+  },
+  "upgri-wikidata": {
+   "lat": -2.994785,
+   "lon": 104.775943,
+   "display": "Jalan Gotong Royong 2 Adnin., 06, Seberang Ulu I, Palembang, Sumatera Selatan, 30116, Indonesia",
+   "name": "Jalan Gotong Royong 2 Adnin.",
+   "type": "residential"
+  },
+  "poltekkes-npsn": {
+   "lat": -2.968327,
+   "lon": 104.751613,
+   "display": "Ilir Timur I, Palembang, Sumatera Selatan, 30127, Indonesia",
+   "name": "",
+   "type": "residential"
+  },
+  "mdp-osm": {
+   "lat": -2.973732,
+   "lon": 104.764021,
+   "display": "Ilir Timur II, Palembang, Sumatera Selatan, 30113, Indonesia",
+   "name": "",
+   "type": "residential"
+  },
+  "iaiqi-osm": {
+   "lat": -3.249283,
+   "lon": 104.67166,
+   "display": "Jalan Lintas Timur, Indralaya, Ogan Ilir, Sumatera Selatan, 30862, Indonesia",
+   "name": "Jalan Lintas Timur",
+   "type": "trunk"
+  },
+  "ikest-osm": {
+   "lat": -2.997765,
+   "lon": 104.777503,
+   "display": "06, Seberang Ulu I, Palembang, Sumatera Selatan, 30116, Indonesia",
+   "name": "",
+   "type": "residential"
+  }
+ },
+ "overpass": {
+  "Universitas Sriwijaya": {
+   "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  "Politeknik Negeri Sriwijaya": {
+   "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  "Politeknik Akamigas": {
+   "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  "Poltekkes": {
+   "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  "Widya Dharma": {
+   "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  "Al-Ittifaqiah": {
+   "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  "Multi Data": {
+   "error": "<urlopen error [Errno 101] Network is unreachable>"
+  }
+ }
+}

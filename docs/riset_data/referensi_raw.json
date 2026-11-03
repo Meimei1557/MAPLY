@@ -1,0 +1,830 @@
+{
+ "palembang": [
+  {
+   "npsn": "024003",
+   "nama": "Akademi Akuntansi Sjakhyakirti",
+   "alamat": "Jl Sultan Muhammad Mansyur 32",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024014",
+   "nama": "Akademi Akuntansi Unggulan SMB Palembang",
+   "alamat": "Jl Letjen Alamsyah Ratuprawira",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024032",
+   "nama": "Akademi Analis Kesehatan Widya Dharma",
+   "alamat": "Jl Kol H Burlian N0 7 Km 6,5",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024050",
+   "nama": "Akademi Bahasa Asing Bina Insan Indonesia",
+   "alamat": "Jalan H.M. RYACUDU NO.24 (KEL 8 ULU)",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024086",
+   "nama": "Akademi Kebidanan Aisyiyah Palembang",
+   "alamat": "Jln.Kol.H. Barlian Lr. M.Husin No 907 Km 7,5 Kelurahan Karya Baru Kecamatan Suka",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024103",
+   "nama": "Akademi Kebidanan Al-Sua Ibah Palembang",
+   "alamat": "Jl Sukabangun II No 1451 km. 6,5 rt/rw. 25/04 palembang",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024087",
+   "nama": "Akademi Kebidanan Budi Mulia Palembang",
+   "alamat": "Jl. RA. Abusamah No. 2663 Kelurahan Sukajaya Kecamatan Sukarami",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024091",
+   "nama": "Akademi Kebidanan Heppy Zal",
+   "alamat": "Jalan Tangga Takat No 1",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024125",
+   "nama": "Akademi Kebidanan Pondok Pesantren Assanadiyah",
+   "alamat": "Palembang",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024128",
+   "nama": "Akademi Kebidanan Sapta Karya",
+   "alamat": "Palembang",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024114",
+   "nama": "Akademi Kebidanan Tunas Harapan Bangsa",
+   "alamat": "Jl Angkatan 66 Lr Suka Damai",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024135",
+   "nama": "Akademi Keperawatan Aisyiyah Palembang",
+   "alamat": "JL. KOL H. BURLIAN LR. M. AGUSCIK NO. 268 KM. 7,5 PALEMBANG",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024134",
+   "nama": "Akademi Keperawatan Kesdam II Sriwijaya",
+   "alamat": "",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024139",
+   "nama": "Akademi Keperawatan Pembina",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024127",
+   "nama": "Akademi Keperawatan Sapta Karya",
+   "alamat": "Jalan Kom. Pol. HM Damsyik No. 1563 Palembang Sumatera Selatan",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "344027",
+   "nama": "Akademi Kesehatan Lingkungan Pemprov Sumatera Selatan",
+   "alamat": "",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024035",
+   "nama": "Akademi Keuangan Dan Perbankan Mulia Darma Pratama",
+   "alamat": "Jalan Ahmad Yani No 19",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024088",
+   "nama": "Akademi Maritim Bina Bahari",
+   "alamat": "Jalan Kamil No. 1061 Kecamatan Sukarame KM 6 Palembang Telp.0711-7012677",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024027",
+   "nama": "Akademi Pariwisata Widya Dharma",
+   "alamat": "Jl. Raden Imba Kusuma Ratu, Langkapura",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024040",
+   "nama": "Akd Teknik Radiodiag. Dan Radioterapi Widya Dharma",
+   "alamat": "Jl Kol H Burlian No 7 Km 6,5",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024120",
+   "nama": "AMIK Bina Sriwijaya",
+   "alamat": "JL.H.M. Ryacudu No.24 Kel. 8 Ulu Palembang Provinsi Sumatera Selatan",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "024007",
+   "nama": "AMIK Sigma",
+   "alamat": "Jalan diponegoro Baru (Simpang Kedaung)",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "202002",
+   "nama": "IAIN Raden Fatah Palembang",
+   "alamat": "",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "NEGERI",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "022005",
+   "nama": "Institut Ilmu Kesehatan dan Teknologi Muhammadiyah Palembang",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "025011",
+   "nama": "Politeknik Akamigas Palembang",
+   "alamat": "Jl. Kebon Jahe Komplek Pertamina (Komperta) Plaju",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "005006",
+   "nama": "Politeknik Negeri Sriwijaya",
+   "alamat": "Jl Srijaya Negara Bukit Besar",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "NEGERI",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "385004",
+   "nama": "Politeknik Pariwisata Palembang",
+   "alamat": "Jl. Sapta Pesona No. 10 Kelurahan Silaberanti Kecamatan Seberang Ulu 1 Palembang",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "NEGERI",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "425019",
+   "nama": "Politeknik Penerbangan Palembang",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "NEGERI",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "425012",
+   "nama": "Politeknik Transportasi Sungai Danau dan Penyeberangan",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "NEGERI",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "405007",
+   "nama": "Poltekkes Kemenkes Palembang",
+   "alamat": "Jl.Jenderal Sudirman Km.3,5 Komplek RSMH No.1365 samping masjid Ash-Shofa Palem",
+   "kelurahan": "Kemang Manis",
+   "status": "NEGERI",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023047",
+   "nama": "Sekolah Tinggi Bahasa Asing Methodist",
+   "alamat": "Jl Jenderal Sudirman Km 3,5",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023053",
+   "nama": "Sekolah Tinggi Bahasa Asing Widya Dharma Palembang",
+   "alamat": "Jl Kol H Burlian No 7 Km 6,5",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "213517",
+   "nama": "Sekolah Tinggi Ekonomi dan Bisnis Syariah (STEBIS) Indo Global Mandiri",
+   "alamat": "Jl.Jend. Sudirman No. 629 KM, 4 Palembang.",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023127",
+   "nama": "Sekolah Tinggi Ilmu Administrasi Bala Putra Dewa",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "213564",
+   "nama": "Sekolah Tinggi Ilmu Al-Qur'an Al-Lathifiyyah Palembang Sumatera Selatan",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023068",
+   "nama": "Sekolah Tinggi Ilmu Ekonomi Abdi Nusa",
+   "alamat": "Jl. Veteran No. 01 Palembang",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023042",
+   "nama": "Sekolah Tinggi Ilmu Ekonomi Mulia Darma Pratama",
+   "alamat": "Jl Jenderal Ahmad Yani No 19, Plaju, \nPalembang",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023048",
+   "nama": "Sekolah Tinggi Ilmu Ekonomi Musi",
+   "alamat": "Jalan Bangau No 60",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023083",
+   "nama": "Sekolah Tinggi Ilmu Farmasi Bhakti Pertiwi",
+   "alamat": "JL. ARIODILLAH III NO.22 A",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023024",
+   "nama": "Sekolah Tinggi Ilmu Hukum Sumpah Pemuda",
+   "alamat": "Jl Sukabangun Ii No 1610",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023124",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan `Aisyiyah Palembang",
+   "alamat": "Jln.Kol.H. Barlian Lr. M.Husin No 907 Km 7,5 Kelurahan Karya Baru Kecamatan Alan",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023143",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Al-Su'aibah",
+   "alamat": "Kota Palembang Provinsi Sumatera Selatan",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023144",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Dona Palembang",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023069",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Masyarakat Abdi Nusa",
+   "alamat": "Jl.RE.Martadinata No.1 Palembang",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023097",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Siti Khadijah",
+   "alamat": "Jl Demang Lebar Daun Pakjo Palembang",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023017",
+   "nama": "Sekolah Tinggi Ilmu Pertanian Sriwigama",
+   "alamat": "Jalan Demang V Demang Lebar Daun Lorok Pakjo",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023041",
+   "nama": "Sekolah Tinggi Ilmu Psikologi Widya Dharma",
+   "alamat": "Jl. H.M. Ryacudu No.24 Telp (0711) 5210019",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023142",
+   "nama": "Sekolah Tinggi Kesehatan Pondok Pesantren Assanadiyah Palembang",
+   "alamat": "Jl. Banten 6, Kel. 16 Ulu, Kec. Seberang Ulu 2",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023014",
+   "nama": "Sekolah Tinggi Teknik Musi",
+   "alamat": "Jalan Bangau No 60 Kecamatan Ilir Timur Ii",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "233043",
+   "nama": "Sekolah Tinggi Teologi Palembang",
+   "alamat": "",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023095",
+   "nama": "STIA & Pemerintahan Annisa Dwi Salfaritzi",
+   "alamat": "Jalan Puncak Sekuning No. 170 Palembang",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023113",
+   "nama": "STIE Multi Data Palembang",
+   "alamat": "Palembang",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023015",
+   "nama": "STIE Sultan Mahmud Badaruddin",
+   "alamat": "Jl Letjen Alamsyah Rp No 9 Polygon",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023065",
+   "nama": "STIKESMAS Nusantara",
+   "alamat": "Jl Insp Marzuki No 124 Siring Agung Pakjo",
+   "kelurahan": "32 Ilir",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023051",
+   "nama": "STIKESMAS Widya Dharma Palembang",
+   "alamat": "Jl Kol H Burlian No 7 Km 65",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023078",
+   "nama": "STIPSI Abdi Nusa",
+   "alamat": "Jalan Veteran No 1 Palembang",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023084",
+   "nama": "STMIK Global Informatika Mdp",
+   "alamat": "Jalan Rajawali No 14",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "023125",
+   "nama": "STMIK MBC Palembang",
+   "alamat": "Jalan Perintis Kemerdekaan No.62 Palembang",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "233313",
+   "nama": "STT Injili di Palembang",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "233312",
+   "nama": "STT Sriwijaya Palembang",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021007",
+   "nama": "Universitas IBA",
+   "alamat": "Jalan Mayor Ruslan",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021024",
+   "nama": "Universitas Indo Global Mandiri",
+   "alamat": "Jl. Jendral Sudirman No. 629 Km. 3.5 Palembang",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "201009",
+   "nama": "Universitas Islam Negeri Raden Fatah Palembang",
+   "alamat": "Jl.Prof.K.H.Zainal Abidin Fikri KM.3,5 Palembang Sumatera Selatan",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "NEGERI",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021017",
+   "nama": "Universitas Kader Bangsa",
+   "alamat": "Jl Mayjen HM Ryacudu No 88",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021037",
+   "nama": "Universitas Multi Data Palembang",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021006",
+   "nama": "Universitas Palembang",
+   "alamat": "Jalan Dharmapala No 1-A Bukit Besar Palembang",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021013",
+   "nama": "Universitas Sjakhyakirti",
+   "alamat": "Jl Sultan Muhammad Mansyur Kb Gede 32 Ilir",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021030",
+   "nama": "Universitas Sumatera Selatan",
+   "alamat": "-",
+   "kelurahan": "Kec. Ilir Barat II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021011",
+   "nama": "Universitas Tamansiswa",
+   "alamat": "Jalan Tamansiswa No 261",
+   "kelurahan": "Kemang Manis",
+   "status": "SWASTA",
+   "kecamatan": "kec 116001"
+  },
+  {
+   "npsn": "021016",
+   "nama": "Universitas PGRI Palembang",
+   "alamat": "Jl Jenderal Ahmad Yani Lorong Gotong Royong 910",
+   "kelurahan": "3-4 Ulu",
+   "status": "SWASTA",
+   "kecamatan": "kec 116002"
+  },
+  {
+   "npsn": "023105",
+   "nama": "STIKES Muhammadiyah Palembang",
+   "alamat": "Jl. Jend. A. Yani 13 Ulu Palembang 30262 (dibelakang RS Muhammadiyah Palembang)",
+   "kelurahan": "16 Ulu",
+   "status": "SWASTA",
+   "kecamatan": "kec 116003"
+  },
+  {
+   "npsn": "021001",
+   "nama": "Universitas Muhammadiyah Palembang",
+   "alamat": "Jalan Jenderal Ahmad Yani 13 ULU PLAJU PALEMBANG",
+   "kelurahan": "Kec. Seberang Ulu II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116003"
+  },
+  {
+   "npsn": "024095",
+   "nama": "Akademi Kebidanan Nusantara Palembang",
+   "alamat": "Jl Insp Marzuki No 124 Siring Agung Pakjo",
+   "kelurahan": "26 Ilir I",
+   "status": "SWASTA",
+   "kecamatan": "kec 116004"
+  },
+  {
+   "npsn": "024053",
+   "nama": "Akademi Perikanan Wachyuni Mandira",
+   "alamat": "Jalan Infra Modul Ii Jalur 75",
+   "kelurahan": "Demang Lebar Daun",
+   "status": "SWASTA",
+   "kecamatan": "kec 116004"
+  },
+  {
+   "npsn": "212082",
+   "nama": "Institut Agama Islam Widya Dharma Palembang",
+   "alamat": "Jl. Soekarno Hatta No. 234 Kelurahan Siring Agung, Kecamatan Ilir Barat I, Kota",
+   "kelurahan": "Siring Agung",
+   "status": "SWASTA",
+   "kecamatan": "kec 116004"
+  },
+  {
+   "npsn": "023019",
+   "nama": "Sekolah Tinggi Ilmu Ekonomi Aprin",
+   "alamat": "Jalan Baladewa Padang Selasa",
+   "kelurahan": "Demang Lebar Daun",
+   "status": "SWASTA",
+   "kecamatan": "kec 116004"
+  },
+  {
+   "npsn": "023057",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Bina Husada",
+   "alamat": "Jalan Syech Abdul Somad No 28",
+   "kelurahan": "Demang Lebar Daun",
+   "status": "SWASTA",
+   "kecamatan": "kec 116004"
+  },
+  {
+   "npsn": "024006",
+   "nama": "Akademi Sekretari Dan Manajemen Sriwijaya",
+   "alamat": "Jl Letnan Murod No 35 Km 5 Talang Ratu",
+   "kelurahan": "Kec. Ilir Timur I",
+   "status": "SWASTA",
+   "kecamatan": "kec 116005"
+  },
+  {
+   "npsn": "023020",
+   "nama": "Sekolah Tinggi Ilmu Manajemen Amkop",
+   "alamat": "Jl Letnan Murod No 55 Km 5 Talang Ratu Palembang",
+   "kelurahan": "Kec. Ilir Timur I",
+   "status": "SWASTA",
+   "kecamatan": "kec 116005"
+  },
+  {
+   "npsn": "021008",
+   "nama": "Universitas Tridinanti",
+   "alamat": "Jl Kapten Marzuki No 2446 Kamboja",
+   "kelurahan": "Sei Pangeran",
+   "status": "SWASTA",
+   "kecamatan": "kec 116005"
+  },
+  {
+   "npsn": "024044",
+   "nama": "Akademi Manajemen Informatika Dan Komputer Mdp",
+   "alamat": "Jalan Rajawali No 14",
+   "kelurahan": "Kec. Ilir Timur II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116006"
+  },
+  {
+   "npsn": "023052",
+   "nama": "Sekolah Tinggi Ilmu Administrasi Satya Negara",
+   "alamat": "Jalan Sukarejo Sukatani",
+   "kelurahan": "Sungai Buah",
+   "status": "SWASTA",
+   "kecamatan": "kec 116006"
+  },
+  {
+   "npsn": "023072",
+   "nama": "Sekolah Tinggi Ilmu Ekonomi Bina Warga",
+   "alamat": "",
+   "kelurahan": "Kec. Ilir Timur II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116006"
+  },
+  {
+   "npsn": "023098",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Pembina Palembang",
+   "alamat": "Jl Bambang Utoyo N0 179",
+   "kelurahan": "Kec. Ilir Timur II",
+   "status": "SWASTA",
+   "kecamatan": "kec 116006"
+  },
+  {
+   "npsn": "021027",
+   "nama": "Universitas Katolik Musi Charitas",
+   "alamat": "Jalan Bangau No.60 Palembang",
+   "kelurahan": "Lawang Kidul",
+   "status": "SWASTA",
+   "kecamatan": "kec 116006"
+  },
+  {
+   "npsn": "024107",
+   "nama": "Akademi Kebidanan Persada Palembang",
+   "alamat": "Jl Pangeran Ayin Simpang Blk Sukamaju Kenten",
+   "kelurahan": "Sialang",
+   "status": "SWASTA",
+   "kecamatan": "kec 116007"
+  },
+  {
+   "npsn": "024110",
+   "nama": "Akademi Kebidanan Rizki Patya",
+   "alamat": "Jl Perumnas Sako No 245 Kel Sialang",
+   "kelurahan": "Sako",
+   "status": "SWASTA",
+   "kecamatan": "kec 116007"
+  },
+  {
+   "npsn": "024113",
+   "nama": "Akademi Kebidanan Abdurahman",
+   "alamat": "Jl. Sukajaya No.7 Rt.05 RW.01 Kelurahan Sukabangun Kecamatan Sukarami",
+   "kelurahan": "Sukajaya",
+   "status": "SWASTA",
+   "kecamatan": "kec 116008"
+  },
+  {
+   "npsn": "024038",
+   "nama": "Akademi Sains Dan Teknologi Pembangunan",
+   "alamat": "Jl Jend Sudirman No 639 Km 4,5",
+   "kelurahan": "Sukarami",
+   "status": "SWASTA",
+   "kecamatan": "kec 116008"
+  },
+  {
+   "npsn": "024034",
+   "nama": "Apikes Widya Dharma",
+   "alamat": "Jalan Kolonel H. Burlian No. 342 Km. 5 Palembang 30153 Provinsi Sumatera Selata",
+   "kelurahan": "Kec. Sukarami",
+   "status": "SWASTA",
+   "kecamatan": "kec 116008"
+  },
+  {
+   "npsn": "025002",
+   "nama": "Politeknik Anika Palembang",
+   "alamat": "Jalan Kol H Burlian No 992 Km 7,5\nPalembang",
+   "kelurahan": "Talang Betutu",
+   "status": "SWASTA",
+   "kecamatan": "kec 116008"
+  },
+  {
+   "npsn": "023134",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Abdurahman Palembang",
+   "alamat": "Jl. Sukajaya No.7 Rt.05 RW.01 Kelurahan Sukabangun",
+   "kelurahan": "Sukajaya",
+   "status": "SWASTA",
+   "kecamatan": "kec 116008"
+  },
+  {
+   "npsn": "023101",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Perdhaki Charitas",
+   "alamat": "Jl Kol Burlian Lrg Suka Senang Km 7",
+   "kelurahan": "Suka Bangun",
+   "status": "SWASTA",
+   "kecamatan": "kec 116008"
+  },
+  {
+   "npsn": "025004",
+   "nama": "Politeknik Darussalam",
+   "alamat": "Jalan Basuki Rahmat No.1608 E-F Palembang",
+   "kelurahan": "Talang Aman",
+   "status": "SWASTA",
+   "kecamatan": "kec 116009"
+  },
+  {
+   "npsn": "025010",
+   "nama": "Politeknik Palcomtech",
+   "alamat": "Jl Jenderal Sudirman No 3007",
+   "kelurahan": "Kec. Kemuning",
+   "status": "SWASTA",
+   "kecamatan": "kec 116009"
+  },
+  {
+   "npsn": "023005",
+   "nama": "STISIPOL Candradimuka",
+   "alamat": "Jalan Swadaya Sekip Ujung 20 Ilir Ii",
+   "kelurahan": "Talang Aman",
+   "status": "SWASTA",
+   "kecamatan": "kec 116009"
+  },
+  {
+   "npsn": "023103",
+   "nama": "STMIK Palcomtech",
+   "alamat": "Jl Basuki Rahmat No 05 Palembang",
+   "kelurahan": "Talang Aman",
+   "status": "SWASTA",
+   "kecamatan": "kec 116009"
+  },
+  {
+   "npsn": "021019",
+   "nama": "Universitas Bina Darma",
+   "alamat": "Jalan Jenderal Ahmad Yani No.12 Plaju",
+   "kelurahan": "Kec. Plaju",
+   "status": "SWASTA",
+   "kecamatan": "kec 116010"
+  },
+  {
+   "npsn": "023111",
+   "nama": "Sekolah Tinggi Ilmu Kesehatan Mitra Adiguna",
+   "alamat": "Komplek Kenten Permai Blok J No 9-12 Bukit Sangkal",
+   "kelurahan": "Kalidoni",
+   "status": "SWASTA",
+   "kecamatan": "kec 116014"
+  }
+ ],
+ "ogan_ilir": [
+  {
+   "npsn": "213317",
+   "nama": "STIT Al-Qur`an Al-Ittifaqiah (STITQI) Ogan Ilir Sumatera Selatan",
+   "alamat": "Jl. Lintas Timur KM. 36 Desa Indralaya Mulya Kec. Indralaya Kab. Ogan Ilir Prov.",
+   "kelurahan": "Talang Balai Lama",
+   "status": "SWASTA",
+   "kecamatan": "Tanjung Raja"
+  },
+  {
+   "npsn": "213325",
+   "nama": "STIT Raudhatul Ulum, Sakatiga Indralaya, Kota Palembang, Sumatera Selatan",
+   "alamat": "-Kampus \"A\" Pondok Pesantren Raudhatul Ulum Sakatiga Indralaya Ogan Ilir Sumsel",
+   "kelurahan": "Talang Balai Baru I",
+   "status": "SWASTA",
+   "kecamatan": "Tanjung Raja"
+  },
+  {
+   "npsn": "001009",
+   "nama": "Universitas Sriwijaya",
+   "alamat": "Jl Raya Palembang Prabumulih Km. 32  Inderalaya Ogan Komering Ilir",
+   "kelurahan": "Talang Balai Lama",
+   "status": "NEGERI",
+   "kecamatan": "Tanjung Raja"
+  },
+  {
+   "npsn": "212105",
+   "nama": "Institut Agama Islam Al-Qur'an Al-Ittifaqiah Indralaya",
+   "alamat": "Jln. Lintas Timur Km. 36 Indralaya",
+   "kelurahan": "Muara Penimbung Ilir",
+   "status": "SWASTA",
+   "kecamatan": "Indralaya"
+  }
+ ]
+}

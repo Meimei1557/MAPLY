@@ -1,0 +1,306 @@
+{
+ "Universitas Sriwijaya Bukit Besar": [],
+ "Universitas Sriwijaya": [
+  {
+   "lat": -3.2255315,
+   "lon": 104.6459991,
+   "name": "Universitas Sriwijaya",
+   "osm_key": "amenity",
+   "osm_value": "university",
+   "city": "Indralaya",
+   "county": "Ogan Ilir",
+   "street": "Jalan Mazmu",
+   "housenumber": null,
+   "osm_id": 15779890,
+   "osm_type": "R"
+  },
+  {
+   "lat": -3.2139042,
+   "lon": 104.6487591,
+   "name": "Universitas Sriwijaya",
+   "osm_key": "highway",
+   "osm_value": "service",
+   "city": "Tanjung Pering",
+   "county": "Ogan Ilir",
+   "street": null,
+   "housenumber": null,
+   "osm_id": 536540516,
+   "osm_type": "W"
+  }
+ ],
+ "Kampus Unsri": [
+  {
+   "lat": -2.9900503,
+   "lon": 104.7315582,
+   "name": "Fakultas Pertanian UNSRI Kampus Palembang",
+   "osm_key": "amenity",
+   "osm_value": "university",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Padang Selasa",
+   "housenumber": null,
+   "osm_id": 611411132,
+   "osm_type": "W"
+  }
+ ],
+ "Poltekkes Kemenkes Palembang": [
+  {
+   "lat": -2.9937221,
+   "lon": 104.7797021,
+   "name": "Kantor Pajak Kemenkeu Kota Palembang",
+   "osm_key": "office",
+   "osm_value": "government",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Jaya Indah",
+   "housenumber": null,
+   "osm_id": 605158137,
+   "osm_type": "W"
+  },
+  {
+   "lat": -2.9635043,
+   "lon": 104.7417119,
+   "name": "Kanwil Kementerian Hukum dan HAM Sumsel",
+   "osm_key": "office",
+   "osm_value": "company",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Jenderal Sudirman",
+   "housenumber": null,
+   "osm_id": 611585666,
+   "osm_type": "W"
+  }
+ ],
+ "Politeknik Kesehatan Palembang": [
+  {
+   "lat": -2.9682857,
+   "lon": 104.7595503,
+   "name": "Politeknik Kesehatan Palembang Jurusan Farmasi",
+   "osm_key": "amenity",
+   "osm_value": "university",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Ismail Marzuki",
+   "housenumber": null,
+   "osm_id": 9834781759,
+   "osm_type": "N"
+  }
+ ],
+ "STMIK Global Informatika": [],
+ "Multi Data Palembang Rajawali": [
+  {
+   "lat": -2.9737321,
+   "lon": 104.7640212,
+   "name": "STMIK-STIE Multi Data Palembang",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Rajawali",
+   "housenumber": "14",
+   "osm_id": 590371863,
+   "osm_type": "W"
+  }
+ ],
+ "Universitas Tridinanti": [
+  {
+   "lat": -2.9714468,
+   "lon": 104.7460183,
+   "name": "Universitas Tridinanti Palembang",
+   "osm_key": "amenity",
+   "osm_value": "university",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Kapten Marzuki",
+   "housenumber": null,
+   "osm_id": 924328931,
+   "osm_type": "W"
+  }
+ ],
+ "STIE Tridinanti": [],
+ "Al-Ittifaqiah Indralaya": [
+  {
+   "lat": -3.2492832,
+   "lon": 104.6716596,
+   "name": "Pondok Pesantren Al-Ittifaqiah Indralaya",
+   "osm_key": "amenity",
+   "osm_value": "school",
+   "city": "Indralaya",
+   "county": "Ogan Ilir",
+   "street": "Jalan Lintas Timur",
+   "housenumber": null,
+   "osm_id": 13447704414,
+   "osm_type": "N"
+  }
+ ],
+ "Universitas Al-Quran Indralaya": [],
+ "Politeknik Penerbangan Palembang": [
+  {
+   "lat": -2.9086087,
+   "lon": 104.6990114,
+   "name": "Politeknik Penerbangan Palembang",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Adi Sucipto",
+   "housenumber": null,
+   "osm_id": 1446751332,
+   "osm_type": "W"
+  }
+ ],
+ "STIE Serasan Sekate": [],
+ "Politeknik Ahlus Sunnah": [],
+ "STIE APRIN Palembang": [
+  {
+   "lat": -2.9935182,
+   "lon": 104.7300685,
+   "name": "STIE-APRIN Palembang",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Gang Bala Dewa",
+   "housenumber": null,
+   "osm_id": 611393877,
+   "osm_type": "W"
+  }
+ ],
+ "STIA Nusantara Palembang": [
+  {
+   "lat": -3.0050885,
+   "lon": 104.802807,
+   "name": "MI Nusantara",
+   "osm_key": "building",
+   "osm_value": "yes",
+   "city": "Kel. Sentosa, Kec. Seberang Ulu 2, Palembang",
+   "county": null,
+   "street": "Lorong Bina Waluya",
+   "housenumber": null,
+   "osm_id": 606225623,
+   "osm_type": "W"
+  },
+  {
+   "lat": -2.9332957,
+   "lon": 104.766566,
+   "name": "STIA Satya Negara",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Sukerejo",
+   "housenumber": null,
+   "osm_id": 9834755787,
+   "osm_type": "N"
+  },
+  {
+   "lat": -2.9935182,
+   "lon": 104.7300685,
+   "name": "STIE-APRIN Palembang",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Gang Bala Dewa",
+   "housenumber": null,
+   "osm_id": 611393877,
+   "osm_type": "W"
+  },
+  {
+   "lat": -2.9737321,
+   "lon": 104.7640212,
+   "name": "STMIK-STIE Multi Data Palembang",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Rajawali",
+   "housenumber": "14",
+   "osm_id": 590371863,
+   "osm_type": "W"
+  },
+  {
+   "lat": -2.9977646,
+   "lon": 104.777503,
+   "name": "STIKes Muhammadiyah Palembang",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Jalan Silaberanti",
+   "housenumber": null,
+   "osm_id": 9819640658,
+   "osm_type": "N"
+  },
+  {
+   "lat": -2.9893143,
+   "lon": 104.7503175,
+   "name": "R&B Grill Steak Palembang",
+   "osm_key": "amenity",
+   "osm_value": "restaurant",
+   "city": "Palembang",
+   "county": null,
+   "street": "Loading Area Warehouse Indoguna",
+   "housenumber": null,
+   "osm_id": 1209962939,
+   "osm_type": "W"
+  },
+  {
+   "lat": -2.9893291,
+   "lon": 104.7502687,
+   "name": "R&B Grill Steak Palembang",
+   "osm_key": "amenity",
+   "osm_value": "restaurant",
+   "city": "Palembang",
+   "county": null,
+   "street": "Loading Area Warehouse Indoguna",
+   "housenumber": null,
+   "osm_id": 9797662160,
+   "osm_type": "N"
+  },
+  {
+   "lat": -2.9737079,
+   "lon": 104.7324623,
+   "name": "STIK Siti Khadijah",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Gang Musyawarah 2",
+   "housenumber": null,
+   "osm_id": 9834938414,
+   "osm_type": "N"
+  }
+ ],
+ "Akademi Pendidikan Pancasila Mahardika": [],
+ "STISIP Bina Putera Palembang": [],
+ "STIBA Nusantara Palembang": [
+  {
+   "lat": -3.0050885,
+   "lon": 104.802807,
+   "name": "MI Nusantara",
+   "osm_key": "building",
+   "osm_value": "yes",
+   "city": "Kel. Sentosa, Kec. Seberang Ulu 2, Palembang",
+   "county": null,
+   "street": "Lorong Bina Waluya",
+   "housenumber": null,
+   "osm_id": 606225623,
+   "osm_type": "W"
+  },
+  {
+   "lat": -2.9935182,
+   "lon": 104.7300685,
+   "name": "STIE-APRIN Palembang",
+   "osm_key": "amenity",
+   "osm_value": "college",
+   "city": "Palembang",
+   "county": null,
+   "street": "Gang Bala Dewa",
+   "housenumber": null,
+   "osm_id": 611393877,
+   "osm_type": "W"
+  }
+ ],
+ "Universitas YPIB Majalengka Palembang": []
+}

@@ -1,0 +1,40 @@
+{
+ "Universitas Sriwijaya": {
+  "image_original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Lambang_Universitas_Sriwijaya.png?utm_source=id.wikipedia.org&utm_campaign=api&utm_content=original",
+  "image_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Lambang_Universitas_Sriwijaya.png/500px-Lambang_Universitas_Sriwijaya.png?utm_source=id.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wikitext_len": 28741
+ },
+ "Politeknik Negeri Sriwijaya": {
+  "image_original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Politeknik_Negeri_Sriwijaya_logo.svg?utm_source=id.wikipedia.org&utm_campaign=api&utm_content=original",
+  "image_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Politeknik_Negeri_Sriwijaya_logo.svg/500px-Politeknik_Negeri_Sriwijaya_logo.svg.png?utm_source=id.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wikitext_len": 13976
+ },
+ "UIN Raden Fatah": {
+  "wikitext_len": 46
+ },
+ "Universitas Bina Darma": {
+  "wikitext_len": 4902
+ },
+ "Universitas Muhammadiyah Palembang": {
+  "wikitext_len": 6213
+ },
+ "Universitas PGRI Palembang": {
+  "wikitext_len": 7394
+ },
+ "Universitas Indo Global Mandiri": {
+  "wikitext_len": 8190
+ },
+ "Universitas Tridinanti": {
+  "wikitext_len": 2163
+ },
+ "Poltekkes Kemenkes Palembang": {},
+ "STIE Tridinanti": {},
+ "Universitas Indralaya": {},
+ "Politeknik Akamigas Palembang": {},
+ "STMIK Global Informatika Multi Data Palembang": {},
+ "Politeknik Penerbangan Palembang": {},
+ "STIA Satya Negara": {},
+ "STIKes Muhammadiyah Palembang": {},
+ "STIK Siti Khadijah Palembang": {},
+ "STIE APRIN Palembang": {}
+}
