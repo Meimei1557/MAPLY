@@ -971,8 +971,46 @@ a.pg:hover { background: var(--card-elev); border-color: var(--neon); color: var
 }
 .map-pin--kampus i { transform: none; font-size: 14px; color: #fff; }
 /* Tombol layer "Tampilkan kampus" di peta */
-.leaflet-bar.maply-layer-toggle a { width: auto; padding: 6px 10px; font-size: 12.5px; font-weight: 600; line-height: 1.2; }
-.leaflet-bar.maply-layer-toggle a.is-on { background: var(--grad-brand) !important; color: #fff !important; }
+
+/* Tombol Kampus kotak seperti tombol zoom */
+.leaflet-bar.maply-layer-toggle a {
+    width: 30px !important;
+    height: 30px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 0 !important;
+    box-sizing: border-box !important;
+
+    background: #351653 !important;
+    color: #ffffff !important;
+
+    font-size: 17px !important;
+    line-height: 30px !important;
+
+    border-radius: 0 !important;
+    border-bottom: none !important;
+}
+
+/* Kampus aktif */
+.leaflet-bar.maply-layer-toggle a.is-on {
+    background: #8B3DFF !important;
+    color: #ffffff !important;
+}
+
+/* Kampus tidak aktif */
+.leaflet-bar.maply-layer-toggle a.is-off {
+    background: #64748b !important;
+    color: #cbd5e1 !important;
+}
+
+/* Ikon kampus */
+.maply-layer-toggle i {
+    pointer-events: none;
+}
+
 .leaflet-container { font-family: var(--font); background: var(--map-bg); }
 .leaflet-popup-content-wrapper { border-radius: 14px; background: var(--card-elev); color: var(--text); border: 1px solid var(--border-strong); box-shadow: 0 16px 42px rgba(5, 2, 12, .65); }
 .leaflet-popup-content { margin: 14px 16px; font-family: var(--font); }
@@ -1652,3 +1690,77 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
 .ai-run-status--failed { background: var(--danger-bg); color: var(--danger); border-color: rgba(255, 92, 130, .4); }
 .ai-config-warn { margin-bottom: 14px; }
 .queue-hint code { display: inline-block; margin: 0 4px; }
+
+/* Penguin animation on login page */
+.auth-stage {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.auth-card-wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.auth-penguin {
+    position: absolute;
+    left: calc(50% + 250px);
+    top: 50%;
+    width: 380px;
+    transform: translateY(-50%);
+}
+
+.auth-penguin img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    animation: penguinFloat 3s ease-in-out infinite;
+}
+
+@keyframes penguinFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-14px);
+    }
+}
+
+@media (max-width: 768px) {
+    .auth-stage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .auth-penguin {
+        display: block;
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        width: 105px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .auth-stage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .auth-penguin {
+        display: block;
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        width: 105px;
+        margin: 0 auto;
+    }
+}

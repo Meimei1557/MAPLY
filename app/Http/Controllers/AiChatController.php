@@ -291,7 +291,7 @@ class AiChatController extends Controller
             ]);
         };
 
-        // 7. Konfigurasi Gemini.
+        // 7. Konfigurasi .
         $apiKey = config('services.gemini.key');
 
         $model = config(

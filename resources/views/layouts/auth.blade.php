@@ -40,14 +40,20 @@
         </div>
     </div>
 
+   <div class="auth-stage">
     <div class="auth-card-wrap reveal-up">
         <div class="auth-card">
-            {{-- Wrapper stagger: setiap anak kartu muncul berjenjang (animasi CSS, lihat maply.css) --}}
+            {{-- Wrapper stagger: setiap anak kartu muncul berjenjang --}}
             <div class="stagger">
                 @yield('content')
             </div>
         </div>
     </div>
+
+    <div class="auth-penguin">
+       <img src="{{ asset('images/maply-penguin.png') }}" alt="Maskot Penguin Maply">
+    </div>
+</div>
 
     <button type="button" class="theme-toggle auth-theme" data-theme-toggle aria-label="Ganti tema terang/gelap" aria-pressed="false">
         <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
