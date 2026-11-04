@@ -114,26 +114,51 @@
     });
     group.addTo(map);
 
-    // Kontrol toggle khusus Maply di pojok kiri atas
+   
+    // Tombol Kampus berbentuk kotak
     const ToggleControl = L.Control.extend({
       options: { position: 'topleft' },
+
       onAdd: function () {
-        const div = L.DomUtil.create('div', 'leaflet-bar maply-layer-toggle');
+        const div = L.DomUtil.create(
+          'div',
+          'leaflet-bar maply-layer-toggle'
+        );
+
         const a = L.DomUtil.create('a', 'is-on', div);
+
         a.href = '#';
+        a.title = 'Tampilkan atau sembunyikan kampus';
         a.setAttribute('role', 'button');
-        a.textContent = 'Kampus: on';
+
+        // Ikon kampus
+        a.innerHTML = '<i class="fa-solid fa-graduation-cap"></i>';
+
         let on = true;
+
         L.DomEvent.on(a, 'click', (e) => {
           L.DomEvent.preventDefault(e);
+          L.DomEvent.stopPropagation(e);
+
           on = !on;
-          if (on) map.addLayer(group); else map.removeLayer(group);
-          a.textContent = 'Kampus: ' + (on ? 'on' : 'off');
+
+          if (on) {
+            map.addLayer(group);
+          } else {
+            map.removeLayer(group);
+          }
+
           a.classList.toggle('is-on', on);
+          a.classList.toggle('is-off', !on);
         });
+
+        L.DomEvent.disableClickPropagation(div);
+        L.DomEvent.disableScrollPropagation(div);
+
         return div;
       }
     });
+
     new ToggleControl().addTo(map);
     return group;
   }

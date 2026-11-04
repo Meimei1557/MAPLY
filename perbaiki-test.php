@@ -44,7 +44,7 @@ if (!is_file($path1)) {
     } else {
         $isi = str_replace(
             '</php>',
-            "    <env name=\"GEMINI_API_KEY\" value=\"\" force=\"true\"/>\n    </php>",
+            "    <env name=\"_API_KEY\" value=\"\" force=\"true\"/>\n    </php>",
             $isi
         );
         file_put_contents($path1, $isi);
