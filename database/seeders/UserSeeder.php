@@ -8,23 +8,49 @@ use Illuminate\Support\Facades\Hash;
 
 class UserSeeder extends Seeder
 {
-    /**
-     * Akun demo. GANTI password sebelum aplikasi dipakai di server publik
-     * (atau set MAPLY_ADMIN_PASSWORD di .env sebelum menjalankan seeder).
-     */
     public function run(): void
     {
-        $this->upsert('Administrator Maply', 'admin', 'admin@maply.test',
-            (string) config('maply.admin_password'), User::ROLE_ADMIN);
+        $password = (string) config('maply.admin_password');
 
-        // Akun pengguna demo dari versi awal (dipertahankan).
-        $this->upsert('Meisya', 'meisya', 'test@example.com', 'password', User::ROLE_USER);
+        if ($password === '') {
+            throw new \RuntimeException(
+                'MAPLY_ADMIN_PASSWORD belum diatur di file .env'
+            );
+        }
+
+        $this->upsert(
+            'Administrator Maply',
+            'admin',
+            'admin@maply.test',
+            $password,
+            User::ROLE_ADMIN
+        );
+
+        // Akun pengguna demo tetap dipertahankan.
+        $this->upsert(
+            'Meisya',
+            'meisya',
+            'test@example.com',
+            'password',
+            User::ROLE_USER
+        );
     }
 
-    private function upsert(string $name, string $username, string $email, string $password, string $role): void
-    {
+    private function upsert(
+        string $name,
+        string $username,
+        string $email,
+        string $password,
+        string $role
+    ): void {
         $user = User::firstOrNew(['email' => $email]);
-        $user->fill(['name' => $name, 'username' => $username, 'password' => Hash::make($password)]);
+
+        $user->fill([
+            'name' => $name,
+            'username' => $username,
+            'password' => Hash::make($password),
+        ]);
+
         $user->role = $role;
         $user->email_verified_at ??= now();
         $user->save();
