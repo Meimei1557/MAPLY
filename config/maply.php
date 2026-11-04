@@ -101,5 +101,5 @@ return [
 
     // Dipakai seeder. Atur lewat .env.
     'seed_contoh' => env('MAPLY_SEED_CONTOH', false),
-    'admin_password' => env('MAPLY_ADMIN_PASSWORD') ?: 'Admin@Maply2026',
+    'admin_password' => env('MAPLY_ADMIN_PASSWORD', ''),
 ];
