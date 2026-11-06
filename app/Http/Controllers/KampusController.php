@@ -9,9 +9,8 @@ use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 /**
- * Daftar seluruh kampus (sumber tunggal: tabel kampus + kampus_lokasi) dengan
- * pencarian, filter (negeri/swasta, jenis, kecamatan/wilayah), dan paginasi
- * supaya halaman tetap ringan dengan 110+ institusi.
+ * Daftar kampus aktif (sumber tunggal: tabel kampus + kampus_lokasi) dengan
+ * pencarian, filter (negeri/swasta, jenis, kecamatan/wilayah), dan paginasi.
  */
 class KampusController extends Controller
 {
@@ -31,7 +30,9 @@ class KampusController extends Controller
 
         $perPage = 24;
 
+        // Hanya ambil institusi yang aktif.
         $query = Kampus::query()
+            ->where('aktif', true)
             ->with(['lokasiAktif'])
             ->withCount('lokasiAktif');
 
@@ -42,18 +43,23 @@ class KampusController extends Controller
                     ->orWhere('alamat', 'like', "%{$q}%");
             });
         }
+
         if ($request->filled('status')) {
             $query->where('status', $request->input('status'));
         }
+
         if ($request->filled('jenis')) {
             $query->where('jenis', $request->input('jenis'));
         }
+
         if ($request->filled('wilayah')) {
             $query->where('kab_kota', $request->input('wilayah'));
         }
+
         if ($request->filled('kecamatan')) {
             $query->where('kecamatan', $request->input('kecamatan'));
         }
+
         if ($request->input('koordinat', 'semua') === 'terverifikasi') {
             $query->whereHas('lokasiAktif');
         } elseif ($request->input('koordinat', 'semua') === 'belum') {
@@ -61,6 +67,7 @@ class KampusController extends Controller
         }
 
         $kampus = $query
+            ->orderByDesc('lokasi_aktif_count')
             ->orderBy('nama_resmi')
             ->paginate($perPage)
             ->withQueryString();
@@ -79,12 +86,31 @@ class KampusController extends Controller
             'kecamatan' => $request->input('kecamatan'),
             'koordinat' => $request->input('koordinat', 'semua'),
             'jenisOptions' => self::JENIS,
+
+            // Daftar kecamatan hanya dari institusi aktif.
             'kecamatanList' => Kampus::query()
-                ->whereNotNull('kecamatan')->distinct()->orderBy('kecamatan')->pluck('kecamatan'),
+                ->where('aktif', true)
+                ->whereNotNull('kecamatan')
+                ->distinct()
+                ->orderBy('kecamatan')
+                ->pluck('kecamatan'),
+
+            // Statistik hanya menghitung institusi dan lokasi aktif.
             'stat' => [
-                'total' => Kampus::query()->count(),
-                'aktif' => Kampus::query()->where('aktif', true)->count(),
-                'peta' => KampusLokasi::query()->where('aktif', true)->count(),
+                'total' => Kampus::query()
+                    ->where('aktif', true)
+                    ->count(),
+
+                'aktif' => Kampus::query()
+                    ->where('aktif', true)
+                    ->count(),
+
+                'peta' => KampusLokasi::query()
+                    ->where('aktif', true)
+                    ->whereHas('kampus', function ($q) {
+                        $q->where('aktif', true);
+                    })
+                    ->count(),
             ],
         ]);
     }
@@ -108,9 +134,30 @@ class KampusController extends Controller
             'aktif' => $k->aktif,
             'kecamatan' => $k->kecamatan,
             'kab_kota' => $k->kab_kota,
-            'logo' => $lokasi?->logo_path,
+            'logo' => $this->logoKampus($k, $lokasi),
             'punya_koordinat' => $lokasi !== null,
             'terverifikasi' => $lokasi !== null && KampusDirectory::terverifikasi($lokasi),
         ];
+    }
+
+    /**
+     * Logo kartu: logo_path lokasi bila filenya ada; jika tidak, file public/logos/kampus/{kode}.*
+     * (dipakai juga untuk kampus yang belum punya titik koordinat).
+     */
+    private function logoKampus(Kampus $k, ?KampusLokasi $lokasi): ?string
+    {
+        if ($lokasi?->logo_path && is_file(public_path($lokasi->logo_path))) {
+            return $lokasi->logo_path;
+        }
+
+        foreach (['png', 'jpg', 'jpeg', 'webp'] as $ext) {
+            $path = "logos/kampus/{$k->kode}.{$ext}";
+
+            if (is_file(public_path($path))) {
+                return $path;
+            }
+        }
+
+        return null;
     }
 }

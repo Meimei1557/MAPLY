@@ -29,18 +29,37 @@
   }
 
   function pinIcon(kind) {
+    if (kind === 'kampus') {
+        return L.divIcon({
+            className: 'map-pin-wrap',
+            html: `
+                <span class="map-pin map-pin--kampus">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+            `,
+            iconSize: [46, 46],
+            iconAnchor: [23, 23],
+            popupAnchor: [0, -24]
+        });
+    }
+
     const icons = {
-      'ref': 'fa-building-columns',
-      'kampus': 'fa-graduation-cap',
-      'house': 'fa-house',
+        'ref': 'fa-building-columns',
+        'house': 'fa-house',
     };
+
     const icon = icons[kind] || 'fa-house';
+
     return L.divIcon({
-      className: 'map-pin-wrap',
-      html: '<span class="map-pin' + (kind ? ' map-pin--' + kind : '') + '"><i class="fa-solid ' + icon + '"></i></span>',
-      iconSize: [34, 34], iconAnchor: kind === 'kampus' ? [17, 17] : [10, 40], popupAnchor: kind === 'kampus' ? [0, -18] : [6, -38]
+        className: 'map-pin-wrap',
+        html: '<span class="map-pin' +
+            (kind ? ' map-pin--' + kind : '') +
+            '"><i class="fa-solid ' + icon + '"></i></span>',
+        iconSize: [34, 34],
+        iconAnchor: [10, 40],
+        popupAnchor: [6, -38]
     });
-  }
+}
 
   function row(box, label, value) {
     if (value === null || value === undefined || value === '') return;

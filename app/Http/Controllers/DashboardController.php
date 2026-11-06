@@ -36,7 +36,13 @@ class DashboardController extends Controller
         $kampusCards = KampusDirectory::kampusDenganLokasi();
         $titikKota = collect(KampusDirectory::titikKota());
 
-        $refDefault = collect(config('maply.titik_acuan')[config('maply.titik_default')]);
+        // Ambil titik default melalui resolver agar koordinat kampus
+        // menggunakan data terbaru dari database.
+        [, $refDefaultData] = KosController::resolveReference(
+            config('maply.titik_default')
+        );
+
+        $refDefault = collect($refDefaultData);
 
         return view('dashboard', [
             'stats' => $stats,
@@ -45,7 +51,13 @@ class DashboardController extends Controller
             'kampusCards' => $kampusCards,
             'titikKota' => $titikKota,
             'kampusPeta' => KampusDirectory::kampusUntukPeta(),
-            'refDefault' => $refDefault->only(['lat', 'lng', 'nama', 'singkat', 'terverifikasi'])->all(),
+            'refDefault' => $refDefault->only([
+                'lat',
+                'lng',
+                'nama',
+                'singkat',
+                'terverifikasi'
+            ])->all(),
             'facilityOptions' => config('maply.fasilitas'),
         ]);
     }
