@@ -83,42 +83,31 @@
         </div>
     </section>
 
-    {{-- ================= KAMPUS & AREA ================= --}}
-    <section class="section campus-picker" id="titik-acuan">
-        <div class="section__head campus-picker__head">
-            <div><span class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Kampus &amp; area</span><h2>Cari kos dekat tujuanmu</h2><p>Pilih wilayah, lalu pilih kampus tujuanmu.</p></div>
-            <a class="link-arrow" href="{{ route('kampus.index') }}">Lihat semua kampus <i class="fa-solid fa-arrow-right"></i></a>
+    {{-- ================= KAMPUS & AREA (kartu bulat berlogo) ================= --}}
+    <section class="section" id="titik-acuan">
+        <div class="section__head">
+            <div><span class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Kampus &amp; area</span><h2>Cari dekat lokasi yang kamu tuju</h2></div>
+            <a class="link-arrow" href="{{ route('kampus.index') }}">Semua kampus <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-
-        <div class="campus-picker__panel">
-            <div class="campus-picker__regions" role="group" aria-label="Pilih wilayah">
-                <button type="button" class="campus-region is-active" data-campus-region="Palembang" aria-pressed="true"><i class="fa-solid fa-location-dot"></i> Palembang</button>
-                <button type="button" class="campus-region" data-campus-region="Indralaya" aria-pressed="false"><i class="fa-solid fa-location-dot"></i> Indralaya</button>
-            </div>
-
-            <div class="campus-carousel-wrap">
-                <div class="campus-carousel" id="campusCarousel" tabindex="0" aria-label="Daftar kampus">
-                    @foreach($kampusCards as $key => $r)
-                        @php
-                            $campusRegion = str_contains(mb_strtolower((string) ($r['kab_kota'] ?? '')), 'ogan') || str_contains(mb_strtolower((string) ($r['kab_kota'] ?? '')), 'indralaya') ? 'Indralaya' : 'Palembang';
-                            $initIdx = abs(crc32($key)) % 6;
-                            $initial = mb_strtoupper(mb_substr(trim($r['singkat']), 0, 1));
-                        @endphp
-                        <a class="campus-option {{ $r['terverifikasi'] ? '' : 'is-unverified' }}" href="{{ route('kos.index', ['kampus' => $key]) }}" data-campus-option data-region="{{ $campusRegion }}" data-name="{{ $r['singkat'] }}" aria-label="Pilih {{ $r['nama'] }}" title="{{ $r['nama'] }}">
-                            <span class="campus-option__logo">
-                                @if($r['logo'])
-                                    <img src="{{ asset($r['logo']) }}" alt="Logo {{ $r['singkat'] }}" loading="lazy" width="100" height="100">
-                                @else
-                                    <span class="ref-initial init-{{ $initIdx }}">{{ $initial }}</span>
-                                @endif
-                            </span>
-                            <span class="campus-option__name">{{ $r['singkat'] }}</span>
-                            <span class="campus-option__check"><i class="fa-solid fa-check"></i></span>
-                        </a>
-                    @endforeach
-                </div>
-            </div>
-
+        <div class="ref-grid ref-grid--kampus">
+            @foreach($kampusCards as $key => $r)
+                @php
+                    // Warna lingkaran inisial konsisten: hash sederhana dari kode kampus
+                    $initIdx = abs(crc32($key)) % 6;
+                    $initial = mb_strtoupper(mb_substr(trim($r['singkat']), 0, 1));
+                @endphp
+                <a class="ref-card ref-card--kampus {{ $r['terverifikasi'] ? '' : 'ref-card--no-loc' }}" href="{{ route('kos.index', ['kampus' => $key]) }}" title="{{ $r['nama'] }}">
+                    <span class="ref-circle">
+                        @if($r['logo'])
+                            <img src="{{ asset($r['logo']) }}" alt="Logo {{ $r['singkat'] }}" loading="lazy" width="84" height="84">
+                        @else
+                            <span class="ref-initial init-{{ $initIdx }}">{{ $initial }}</span>
+                        @endif
+                    </span>
+                    <h3>{{ $r['singkat'] }}</h3>
+                    @unless($r['terverifikasi'])<small><i class="fa-solid fa-triangle-exclamation"></i> Koordinat belum terverifikasi</small>@endunless
+                </a>
+            @endforeach
         </div>
     </section>
 
@@ -159,110 +148,6 @@
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script src="{{ asset('js/maply-map.js') }}"></script>
 <script>
-    (() => {
-        const root = document.querySelector('.campus-picker');
-        if (!root) return;
-        const viewport = root.querySelector('#campusCarousel');
-        const regionButtons = [...root.querySelectorAll('[data-campus-region]')];
-        const originals = [...viewport.querySelectorAll('[data-campus-option]')];
-        if (!viewport || !originals.length) return;
-
-        // Track khusus membuat animasi tidak bergantung pada scrollLeft browser.
-        const track = document.createElement('div');
-        track.className = 'campus-carousel__track';
-        originals.forEach(node => track.appendChild(node));
-        viewport.appendChild(track);
-
-        let selected = null;
-        let paused = false;
-        let raf = 0;
-        let previousTime = 0;
-        let offset = 0;
-        let loopWidth = 0;
-        const speed = 22; // px/detik, lambat dan stabil
-
-        function markSelection() {
-            originals.forEach(option => {
-                const active = option === selected;
-                option.classList.toggle('is-selected', active);
-                option.setAttribute('aria-current', active ? 'true' : 'false');
-            });
-        }
-
-        function rebuild(region) {
-            track.querySelectorAll('[data-carousel-clone]').forEach(node => node.remove());
-            originals.forEach(option => {
-                option.hidden = option.dataset.region !== region;
-            });
-            const visible = originals.filter(option => !option.hidden);
-            if (!visible.includes(selected)) selected = visible[0] || null;
-            visible.forEach(option => {
-                const clone = option.cloneNode(true);
-                clone.dataset.carouselClone = 'true';
-                clone.setAttribute('aria-hidden', 'true');
-                clone.removeAttribute('aria-current');
-                track.appendChild(clone);
-            });
-            markSelection();
-            requestAnimationFrame(() => {
-                loopWidth = track.scrollWidth / 2;
-                offset = -loopWidth;
-                track.style.transform = `translate3d(${offset}px,0,0)`;
-                previousTime = 0;
-            });
-        }
-
-        function animate(time) {
-            if (previousTime && !paused && loopWidth > 0) {
-                const delta = Math.min(time - previousTime, 50);
-                offset += speed * delta / 1000; // bergerak dari kiri ke kanan
-                if (offset >= 0) offset = -loopWidth;
-                track.style.transform = `translate3d(${offset}px,0,0)`;
-            }
-            previousTime = time;
-            raf = requestAnimationFrame(animate);
-        }
-
-        regionButtons.forEach(button => button.addEventListener('click', () => {
-            regionButtons.forEach(item => {
-                const active = item === button;
-                item.classList.toggle('is-active', active);
-                item.setAttribute('aria-pressed', active ? 'true' : 'false');
-            });
-            rebuild(button.dataset.campusRegion);
-        }));
-
-        // Logo asli dan duplikat tetap berupa tautan aktif menuju hasil pencarian.
-        track.addEventListener('click', event => {
-            const option = event.target.closest('[data-campus-option]');
-            if (!option) return;
-            if (option.dataset.carouselClone) {
-                event.preventDefault();
-                const original = originals.find(item => item.dataset.name === option.dataset.name && item.dataset.region === option.dataset.region);
-                if (original) window.location.href = original.href;
-                return;
-            }
-            selected = option;
-            markSelection();
-        });
-
-        viewport.addEventListener('mouseenter', () => { paused = true; });
-        viewport.addEventListener('mouseleave', () => { paused = false; previousTime = 0; });
-        viewport.addEventListener('focusin', () => { paused = true; });
-        viewport.addEventListener('focusout', event => {
-            if (!viewport.contains(event.relatedTarget)) { paused = false; previousTime = 0; }
-        });
-        viewport.addEventListener('touchstart', () => { paused = true; }, { passive: true });
-        viewport.addEventListener('touchend', () => { paused = false; previousTime = 0; }, { passive: true });
-
-        rebuild('Palembang');
-        raf = requestAnimationFrame(animate);
-        window.addEventListener('resize', () => {
-            const active = regionButtons.find(button => button.classList.contains('is-active'));
-            if (active) rebuild(active.dataset.campusRegion);
-        });
-    })();
-
     MaplyMap.initList({
         id: 'homeMap',
         ref: @json($refDefault),

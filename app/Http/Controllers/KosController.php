@@ -21,54 +21,30 @@ class KosController extends Controller
     ];
 
     /**
-     * Menentukan titik acuan jarak.
-     * Kampus menggunakan koordinat dari database.
-     * Titik kota non-kampus tetap menggunakan konfigurasi.
-     *
-     * Mendukung kunci lama seperti palembang dan indralaya.
+     * Menentukan titik acuan jarak. Urutan: config titik kota/alias → kampus dari DB
+     * (kode lokasi maupun kode kampus) → titik bawaan. Mendukung kunci lama
+     * ('palembang', 'indralaya').
      *
      * @return array{0: string, 1: array<string, mixed>}
      */
     public static function resolveReference(?string $key): array
     {
-        $refs = config('maply.titik_acuan', []);
-
+        $refs = config('maply.titik_acuan');
         $key = Str::lower((string) $key);
         $key = config('maply.alias_titik', [])[$key] ?? $key;
 
-        // Titik non-kampus tetap menggunakan konfigurasi.
-        if (
-            isset($refs[$key])
-            && ($refs[$key]['jenis'] ?? '') !== 'Kampus'
-        ) {
-            return [$key, $refs[$key]];
-        }
-
-        // Hubungkan referensi lama dengan kode lokasi database.
-        $kodeLokasi = config('maply.alias_lokasi', [])[$key] ?? $key;
-
-        // Ambil koordinat kampus langsung dari database.
-        if (
-            $kodeLokasi !== ''
-            && ($dbRef = KampusDirectory::refDariDb($kodeLokasi)) !== null
-        ) {
-            return $dbRef;
-        }
-
-        // Fallback jika data database belum tersedia.
         if (isset($refs[$key])) {
             return [$key, $refs[$key]];
         }
 
-        // Gunakan titik default.
-        $defaultKey = config('maply.titik_default');
-        $defaultKode = config('maply.alias_lokasi', [])[$defaultKey] ?? $defaultKey;
-
-        if (($dbRef = KampusDirectory::refDariDb($defaultKode)) !== null) {
+        // Kampus dari tabel kampus + kampus_lokasi (sumber tunggal daftar kampus).
+        if ($key !== '' && ($dbRef = KampusDirectory::refDariDb($key)) !== null) {
             return $dbRef;
         }
 
-        return [$defaultKey, $refs[$defaultKey]];
+        $key = config('maply.titik_default');
+
+        return [$key, $refs[$key]];
     }
 
     public function index(Request $request): View
@@ -97,11 +73,9 @@ class KosController extends Controller
 
         $min = $request->filled('harga_min') ? (int) $request->input('harga_min') : null;
         $max = $request->filled('harga_max') ? (int) $request->input('harga_max') : null;
-
         if ($min !== null && $max !== null && $min > $max) {
             [$min, $max] = [$max, $min];
         }
-
         $radius = $request->filled('radius') ? (float) $request->input('radius') : null;
         $urut = $request->input('urut', 'terdekat');
         $data = $request->input('data', 'semua');
@@ -112,40 +86,33 @@ class KosController extends Controller
         if ($min !== null) {
             $query->where('harga', '>=', $min);
         }
-
         if ($max !== null) {
             $query->where('harga', '<=', $max);
         }
-
         if ($wilayah) {
             $query->where('kota', config('maply.wilayah.'.$wilayah.'.kota'));
         }
-
         if ($request->filled('tipe')) {
             $query->where('tipe', $request->input('tipe'));
         }
-
         if ($request->filled('kecamatan')) {
             $query->where('kecamatan', $request->input('kecamatan'));
         }
-
         if ($verifikasi !== 'semua') {
             $query->where('status_data', $verifikasi);
         }
-
         if ($data === 'publik') {
             $query->where('status_data', '!=', 'contoh');
         } elseif ($data === 'contoh') {
             $query->where('status_data', 'contoh');
         }
-
         foreach ((array) $request->input('fasilitas', []) as $facility) {
             $query->whereHas('fasilitas', fn ($q) => $q->where('nama_fasilitas', $facility));
         }
 
-        // Jarak dihitung di PHP agar kompatibel dengan SQLite maupun MySQL.
+        // Jarak dihitung di PHP (bukan SQL) agar jalan di SQLite maupun MySQL. Jumlah data kos
+        // per kota masih kecil; bila membesar (ribuan), pindahkan ke query berbasis bounding box.
         $items = $query->get();
-
         $items->each(function (Kos $k) use ($ref) {
             $k->jarak_km = $k->punya_koordinat
                 ? Geo::distanceKm($ref['lat'], $ref['lng'], $k->latitude, $k->longitude)
@@ -163,7 +130,6 @@ class KosController extends Controller
             'nama' => $items->sortBy(fn (Kos $k) => Str::lower($k->nama_kos)),
             default => $items->sortBy(fn (Kos $k) => $k->jarak_km ?? INF),
         };
-
         $items = $items->values();
 
         $total = $items->count();
@@ -178,23 +144,15 @@ class KosController extends Controller
             ['path' => $request->url(), 'query' => $request->query()]
         );
 
-        // Peta menampilkan semua hasil yang cocok.
+        // Peta menampilkan SEMUA hasil yang cocok (bukan hanya halaman aktif); data tanpa koordinat dilewati.
         $mapItems = $items
             ->filter(fn (Kos $k) => $k->punya_koordinat)
             ->map(fn (Kos $k) => $k->toMapData($k->jarak_km, $refKey))
             ->values();
 
         $activeFilters = collect([
-            $request->filled('q'),
-            $min !== null,
-            $max !== null,
-            $request->filled('tipe'),
-            $request->filled('kecamatan'),
-            $request->filled('fasilitas'),
-            (bool) $wilayah,
-            $radius !== null,
-            $data !== 'semua',
-            $verifikasi !== 'semua',
+            $request->filled('q'), $min !== null, $max !== null, $request->filled('tipe'),
+            $request->filled('kecamatan'), $request->filled('fasilitas'), (bool) $wilayah, $radius !== null, $data !== 'semua', $verifikasi !== 'semua',
         ])->filter()->count();
 
         return view('kos.index', [
@@ -219,9 +177,7 @@ class KosController extends Controller
             'facilityOptions' => config('maply.fasilitas'),
             'kecamatanList' => Kos::tersedia()->whereNotNull('kecamatan')
                 ->when($wilayah, fn ($q) => $q->where('kota', config('maply.wilayah.'.$wilayah.'.kota')))
-                ->distinct()
-                ->orderBy('kecamatan')
-                ->pluck('kecamatan'),
+                ->distinct()->orderBy('kecamatan')->pluck('kecamatan'),
             'activeFilters' => $activeFilters,
         ]);
     }
