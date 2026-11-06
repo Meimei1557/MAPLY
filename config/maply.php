@@ -92,6 +92,12 @@ return [
         'palembang' => 'unsri-bukit',
         'indralaya' => 'unsri-indralaya',
     ],
+// Menghubungkan kunci lama dengan kode lokasi kampus di database.
+'alias_lokasi' => [
+    'unsri-bukit' => 'unsri-1',
+    'unsri-indralaya' => 'unsri-2',
+    'uin-raden-fatah' => 'uin-raden-fatah-4',
+],
 
     'fasilitas' => ['AC', 'WiFi', 'Kamar Mandi Dalam', 'Dapur', 'Parkir', 'Laundry', 'CCTV'],
 
