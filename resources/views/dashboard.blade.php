@@ -101,15 +101,14 @@
                     @foreach($kampusCards as $key => $r)
                         @php
                             $campusRegion = str_contains(mb_strtolower((string) ($r['kab_kota'] ?? '')), 'ogan') || str_contains(mb_strtolower((string) ($r['kab_kota'] ?? '')), 'indralaya') ? 'Indralaya' : 'Palembang';
-                            $initIdx = abs(crc32($key)) % 6;
-                            $initial = mb_strtoupper(mb_substr(trim($r['singkat']), 0, 1));
                         @endphp
                         <a class="campus-option {{ $r['terverifikasi'] ? '' : 'is-unverified' }}" href="{{ route('kos.index', ['kampus' => $key]) }}" data-campus-option data-region="{{ $campusRegion }}" data-name="{{ $r['singkat'] }}" aria-label="Pilih {{ $r['nama'] }}" title="{{ $r['nama'] }}">
                             <span class="campus-option__logo">
                                 @if($r['logo'])
-                                    <img src="{{ asset($r['logo']) }}" alt="Logo {{ $r['singkat'] }}" loading="lazy" width="100" height="100">
+                                    <img src="{{ preg_match('/^https?:\/\//i', $r['logo']) ? $r['logo'] : asset($r['logo']) }}" alt="Logo resmi {{ $r['singkat'] }}" loading="lazy" width="100" height="100" onerror="this.hidden=true; this.nextElementSibling.hidden=false">
+                                    <span class="campus-logo-placeholder" aria-label="Logo belum tersedia" hidden><i class="fa-solid fa-graduation-cap"></i></span>
                                 @else
-                                    <span class="ref-initial init-{{ $initIdx }}">{{ $initial }}</span>
+                                    <span class="campus-logo-placeholder" aria-label="Logo belum tersedia"><i class="fa-solid fa-graduation-cap"></i></span>
                                 @endif
                             </span>
                             <span class="campus-option__name">{{ $r['singkat'] }}</span>

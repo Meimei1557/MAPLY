@@ -11,13 +11,13 @@ class KosSeeder extends Seeder
 {
     /**
      * Sumber data:
-     *  - database/data/kos_publik.json : listing dari sumber publik (tiap data punya sumber_url).
-     *    Status 'perlu_konfirmasi'. Koordinat sengaja dikosongkan bila belum terverifikasi.
-     *  - database/data/kos_hasil_pengumpulan.json : 288 kos Palembang & Indralaya (sumber: Lokanesia, pin Google Maps).
-     *  - database/data/kos_tambahan.json : 145 kost tambahan dari halaman Lokanesia baru
-     *    (Tridinanti, UIGM, PalComTech) — dihasilkan 2026-10-22.
-     *  - database/data/kos_contoh.json : DATA CONTOH untuk demonstrasi fitur (bukan listing nyata).
-     *    Lewati dengan MAPLY_SEED_CONTOH=false di .env.
+     *  - database/data/kos_publik.json
+     *  - database/data/kos_hasil_pengumpulan.json
+     *  - database/data/kos_tambahan.json
+     *  - database/data/kos_contoh.json (data demonstrasi)
+     *
+     * Fasilitas hanya diperbarui jika kolom fasilitas tersedia
+     * di dalam data JSON.
      */
     public function run(): void
     {
@@ -39,6 +39,7 @@ class KosSeeder extends Seeder
         }
 
         $rows = json_decode((string) file_get_contents($file), true);
+
         if (! is_array($rows)) {
             $this->command?->error("Format JSON tidak valid: {$file}");
 
@@ -47,29 +48,63 @@ class KosSeeder extends Seeder
 
         foreach ($rows as $row) {
             DB::transaction(function () use ($row) {
+
+                // Periksa keberadaan kolom sebelum menghapusnya dari data kos.
+                $adaDataFasilitas = array_key_exists('fasilitas', $row);
+
                 $fasilitas = $row['fasilitas'] ?? [];
+
                 unset($row['fasilitas']);
-                if (! array_key_exists('catatan_data', $row) && ($row['status_data'] ?? '') !== 'contoh') {
+
+                // Catatan kelengkapan data.
+                if (
+                    ! array_key_exists('catatan_data', $row)
+                    && ($row['status_data'] ?? '') !== 'contoh'
+                ) {
                     $kurang = [];
-                    foreach (['harga' => 'harga', 'kontak_telepon' => 'nomor telepon', 'latitude' => 'koordinat'] as $k => $l) {
+
+                    foreach ([
+                        'harga' => 'harga',
+                        'kontak_telepon' => 'nomor telepon',
+                        'latitude' => 'koordinat',
+                    ] as $k => $l) {
                         if (empty($row[$k])) {
                             $kurang[] = $l;
                         }
                     }
+
                     if (! $fasilitas) {
                         $kurang[] = 'fasilitas';
                     }
-                    $row['catatan_data'] = $kurang ? 'Belum ada: '.implode(', ', $kurang).'.' : null;
+
+                    $row['catatan_data'] = $kurang
+                        ? 'Belum ada: '.implode(', ', $kurang).'.'
+                        : null;
                 }
 
+                // Simpan atau perbarui data kos.
                 $kos = Kos::updateOrCreate(
-                    ['nama_kos' => $row['nama_kos'], 'alamat' => $row['alamat']],
+                    [
+                        'nama_kos' => $row['nama_kos'],
+                        'alamat' => $row['alamat'],
+                    ],
                     $row
                 );
 
-                Fasilitas::where('kos_id', $kos->id)->delete();
-                foreach (array_unique($fasilitas) as $nama) {
-                    Fasilitas::create(['kos_id' => $kos->id, 'nama_fasilitas' => $nama]);
+                // Fasilitas hanya diperbarui jika kolom tersedia di JSON.
+                if ($adaDataFasilitas && is_array($fasilitas)) {
+                    Fasilitas::where('kos_id', $kos->id)->delete();
+
+                    foreach (array_unique($fasilitas) as $nama) {
+                        if (! is_string($nama) || trim($nama) === '') {
+                            continue;
+                        }
+
+                        Fasilitas::create([
+                            'kos_id' => $kos->id,
+                            'nama_fasilitas' => trim($nama),
+                        ]);
+                    }
                 }
             });
         }

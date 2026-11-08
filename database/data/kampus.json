@@ -525,23 +525,7 @@
         "tanggal_cek":  "2026-11-02",
         "catatan":  "Tercantum dalam direktori institusi BanPT."
     },
-    {
-        "kode":  "sekolah-tinggi-ilmu-kesehatan-abdurahman-palembang",
-        "nama_resmi":  "Sekolah Tinggi Ilmu Kesehatan Abdurahman Palembang",
-        "singkatan":  null,
-        "status":  "Swasta",
-        "jenis":  "Sekolah Tinggi",
-        "aktif":  true,
-        "alamat":  "Jl. Sukajaya No. 7, KM 5,5, Sukabangun, Sukarami, Palembang",
-        "kecamatan":  "Sukarami",
-        "kab_kota":  "Palembang",
-        "provinsi":  "Sumatera Selatan",
-        "situs_resmi":  null,
-        "sumber_data":  [
-                            {
-                                "url":  "https://referensi.data.kemendikdasmen.go.id/pendidikan/dikti/116008/3",
-                                "tanggal":  "2026-11-02"
-                            },
+    
                             {
                                 "url":  "https://www.banpt.or.id/direktori/institusi/pencarian_institusi.php",
                                 "tanggal":  "2026-11-02"

@@ -99,7 +99,45 @@ return [
     'uin-raden-fatah' => 'uin-raden-fatah-4',
 ],
 
-    'fasilitas' => ['AC', 'WiFi', 'Kamar Mandi Dalam', 'Dapur', 'Parkir', 'Laundry', 'CCTV'],
+    'fasilitas' => [
+    // Kamar
+    'Kasur',
+    'Lemari',
+    'Meja Belajar',
+    'Kursi',
+    'Kipas Angin',
+    'AC',
+    'Jendela',
+
+    // Kamar mandi
+    'Kamar Mandi Dalam',
+    'Kamar Mandi Luar',
+    'Shower',
+    'Water Heater',
+
+    // Internet dan hiburan
+    'WiFi',
+    'Televisi',
+
+    // Area bersama
+    'Dapur',
+    'Dapur Bersama',
+    'Ruang Tamu',
+    'Ruang Jemur',
+
+    // Parkir dan keamanan
+    'Parkir',
+    'Parkir Motor',
+    'Parkir Mobil',
+    'CCTV',
+    'Penjaga Kos',
+    'Akses 24 Jam',
+
+    // Layanan
+    'Laundry',
+    'Kebersihan',
+    'Listrik Termasuk',
+],
 
     'radius_opsi' => [1, 2, 3, 5, 10],
 

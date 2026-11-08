@@ -531,15 +531,78 @@ pre { margin: 0; }
   color: var(--lavender);
   border: 1px solid var(--border-soft);
 }
-.badge--putra { background: var(--violet-bg); color: var(--lavender); border-color: var(--border-strong); }
-.badge--putri { background: var(--putri-bg); color: var(--putri-fg); border-color: var(--putri-border); }
-.badge--campur { background: var(--campur-bg); color: var(--campur-fg); border-color: var(--campur-border); }
-.badge--belum-diketahui, .badge--muted { background: rgba(181, 108, 255, .09); color: var(--muted); border-color: var(--border-soft); }
-.badge--ok { background: var(--ok-bg); color: var(--ok); border-color: rgba(54, 211, 153, .4); }
-.badge--warn { background: var(--warn-bg); color: var(--warn); border-color: rgba(255, 184, 77, .4); }
-.badge--danger { background: var(--danger-bg); color: var(--danger); border-color: rgba(255, 92, 130, .4); }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chip { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 8px; background: var(--code-bg); border: 1px solid var(--border-soft); color: var(--muted); font-size: 12.5px; }
+.badge--putra {
+    background: var(--violet-bg);
+    color: var(--lavender);
+    border-color: var(--border-strong);
+}
+
+.badge--putri {
+    background: var(--putri-bg);
+    color: var(--putri-fg);
+    border-color: var(--putri-border);
+}
+
+.badge--campur {
+    background: var(--campur-bg);
+    color: var(--campur-fg);
+    border-color: var(--campur-border);
+}
+
+/* Tipe kos belum diketahui */
+.badge--belum-diketahui {
+    background: #FFF0D9;
+    color: #9A4D00;
+    border: 1px solid #E9A23B;
+    font-weight: 700;
+}
+
+/* Badge netral */
+.badge--muted {
+    background: rgba(181, 108, 255, .09);
+    color: var(--muted);
+    border-color: var(--border-soft);
+}
+
+/* Status tersedia — tetap */
+.badge--ok {
+    background: var(--ok-bg);
+    color: var(--ok);
+    border-color: rgba(54, 211, 153, .4);
+}
+
+/* Data belum lengkap */
+.badge--warn {
+    background: #FDE8E7;
+    color: #B42318;
+    border: 1px solid #E99A95;
+    font-weight: 700;
+}
+
+/* Status penuh — tetap */
+.badge--danger {
+    background: var(--danger-bg);
+    color: var(--danger);
+    border-color: rgba(255, 92, 130, .4);
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    background: var(--code-bg);
+    border: 1px solid var(--border-soft);
+    color: var(--muted);
+    font-size: 12.5px;
+}
 
 /* ---------- Input ---------- */
 .input, .select, .textarea {
@@ -1714,7 +1777,9 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
   box-shadow:0 5px 18px rgba(92,48,160,.12); transition:.22s;
 }
 .campus-option__logo img { width:100%; height:100%; object-fit:contain; padding:8px; }
-.campus-option__logo .ref-initial { width:100%; height:100%; display:grid; place-items:center; border-radius:50%; color:#fff; font-size:29px; font-weight:800; }
+.campus-option__logo .campus-logo-placeholder { width:100%; height:100%; display:grid; place-items:center; color:var(--muted); font-size:30px; }
+.campus-option__logo .campus-logo-placeholder[hidden] { display:none !important; }
+.campus-option__logo img[hidden] { display:none !important; }
 .campus-option.is-selected .campus-option__logo {
   border:3px solid #8b3dff; box-shadow:0 0 0 6px rgba(139,61,255,.12), 0 0 25px rgba(139,61,255,.38);
 }
@@ -1878,139 +1943,5 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
         width: 90px;
     }
 }
-
-/* QUICK FILTER CHIPS */
-.quick-chips {
-    width: 100%;
-    max-width: 1100px;
-    margin: 24px auto;
-    padding: 0 16px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    box-sizing: border-box;
-}
-
-.quick-chips a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 12px 22px;
-    border-radius: 50px;
-
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;
-    white-space: nowrap;
-
-    color: #7138d8;
-    background: rgba(124, 58, 237, 0.08);
-    border: 1px solid rgba(124, 58, 237, 0.28);
-
-    transition: all 0.2s ease;
-}
-
-.quick-chips a:hover {
-    background: #7c3aed;
-    color: #ffffff;
-    border-color: #7c3aed;
-    transform: translateY(-2px);
-}
-
-/* MODE GELAP */
-html.dark .quick-chips a,
-body.dark .quick-chips a,
-[data-theme="dark"] .quick-chips a {
-    color: #c4a5ff;
-    background: rgba(139, 92, 246, 0.13);
-    border-color: rgba(167, 139, 250, 0.35);
-}
-
-html.dark .quick-chips a:hover,
-body.dark .quick-chips a:hover,
-[data-theme="dark"] .quick-chips a:hover {
-    color: #ffffff;
-    background: #7c3aed;
-    border-color: #7c3aed;
-}
-
-/* TAMPILAN HP */
-@media (max-width: 600px) {
-    .quick-chips {
-        gap: 8px;
-        padding: 0 10px;
-    }
-
-    .quick-chips a {
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-}
-
-/* Judul wilayah kampus */
-.campus-region-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
-    width: fit-content;
-    margin: 20px auto 28px;
-    padding: 14px 30px;
-
-    font-size: 20px;
-    font-weight: 750;
-    letter-spacing: -0.4px;
-
-    color: #7138d8;
-    background: linear-gradient(
-        135deg,
-        rgba(139, 92, 246, 0.15),
-        rgba(192, 132, 252, 0.10)
-    );
-
-    border: 1px solid rgba(139, 92, 246, 0.3);
-    border-radius: 18px;
-
-    box-shadow: 0 8px 24px rgba(124, 58, 237, 0.10);
-}
-
-.campus-region-title i {
-    font-size: 20px;
-    color: #9333ea;
-}
-
-/* Mode gelap */
-html.dark .campus-region-title,
-body.dark .campus-region-title,
-[data-theme="dark"] .campus-region-title {
-    color: #e9d5ff;
-    background: linear-gradient(
-        135deg,
-        rgba(139, 92, 246, 0.24),
-        rgba(88, 28, 135, 0.18)
-    );
-    border-color: rgba(192, 132, 252, 0.35);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-}
-
-html.dark .campus-region-title i,
-body.dark .campus-region-title i,
-[data-theme="dark"] .campus-region-title i {
-    color: #c084fc;
-}
-
-@media (max-width: 600px) {
-    .campus-region-title {
-        font-size: 17px;
-        padding: 12px 20px;
-    }
-}
-
-
 
 

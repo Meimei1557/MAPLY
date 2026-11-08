@@ -81,8 +81,70 @@ class KampusDirectory
             'alamat' => $lokasi->alamat ?? $kampus?->alamat,
             'kecamatan' => $lokasi->kecamatan ?? $kampus?->kecamatan,
             'kab_kota' => $lokasi->kab_kota ?? $kampus?->kab_kota,
-            'logo' => $lokasi->logo_path,
+            'logo' => self::logoPath($lokasi, $kampus),
         ];
+    }
+
+
+    /**
+     * Logo lokal yang sudah diverifikasi sebagai berkas gambar kampus.
+     * Jangan memakai SVG berisi huruf/monogram buatan sebagai pengganti logo resmi.
+     * Jika path database kosong atau rusak, gunakan aset raster lokal yang tersedia.
+     */
+    private static function logoPath(KampusLokasi $lokasi, ?Kampus $kampus): ?string
+    {
+        $pathTersimpan = $lokasi->logo_path;
+        if ($pathTersimpan && !preg_match('/^https?:\\/\\//i', $pathTersimpan)
+            && preg_match('/\\.(png|jpe?g|webp)$/i', $pathTersimpan)
+            && is_file(public_path($pathTersimpan))) {
+            return $pathTersimpan;
+        }
+
+        // Utamakan aset lokal berdasarkan kode kampus, termasuk bila ekstensi
+        // file berbeda dari path lama yang tersimpan di database.
+        $kode = $kampus?->kode;
+        if ($kode) {
+            foreach (['png', 'jpg', 'jpeg', 'webp'] as $ext) {
+                $pathLokal = "logos/kampus/{$kode}.{$ext}";
+                if (is_file(public_path($pathLokal))) {
+                    return $pathLokal;
+                }
+            }
+        }
+
+        $asetResmi = [
+            'unsri' => 'logos/kampus/unsri.png',
+            'polsri' => 'logos/kampus/polsri.png',
+            'uin-raden-fatah' => 'logos/kampus/uin-raden-fatah.png',
+            'bina-darma' => 'logos/kampus/bina-darma.png',
+            'um-palembang' => 'logos/kampus/um-palembang.png',
+            'uigm' => 'logos/kampus/uigm.png',
+            'tridinanti' => 'logos/kampus/tridinanti.png',
+            'poltekkes' => 'logos/kampus/poltekkes.png',
+            'akamigas' => 'logos/kampus/akamigas.png',
+            'politeknik-pariwisata-palembang' => 'logos/kampus/politeknik-pariwisata-palembang.png',
+            'stik-siti-khadijah' => 'logos/kampus/stik-siti-khadijah.jpg',
+            // Logo berikut memakai URL sumber gambar karena file lokal resmi belum tersedia di arsip.
+            'upgri-palembang' => 'logos/kampus/upgri-palembang.png',
+            'umdp-palembang' => 'https://cdn.annibuku.com/uploads/logo-kampus/948-universitas-multi-data-palembang.jpg',
+            'poltekbang-palembang' => 'https://assets.nsd.co.id/images/kampus/logo/RDFEMkIzMDktMkMzMi00Mzc5LUI2NjctRDIyNjdGNDkzMTE1.jpg',
+            'sekolah-tinggi-ilmu-kesehatan-bina-husada' => 'https://pbs.twimg.com/profile_images/1580820760288849920/xhuXzRrC_400x400.jpg',
+            'universitas-kader-bangsa' => 'https://1.bp.blogspot.com/-8JO9Xyjtdec/X8JrPehHpKI/AAAAAAAAK4s/CJakkAXUa2Qfc1fd9E7rraWMDsW_T_PnQCLcBGAsYHQ/w1200-h630-p-k-no-nu/Universitas_Kader_Bangsa.png',
+            'universitas-iba' => 'https://iba.ac.id/assets/images/partner_1775796556.jpeg',
+            'sekolah-tinggi-ilmu-kesehatan-mitra-adiguna' => 'https://digitepp.id/packages/upload/kep/logo/XnlNEVN.png',
+        ];
+
+        $fallback = $kode ? ($asetResmi[$kode] ?? null) : null;
+
+        if (!$fallback) {
+            return null;
+        }
+
+        if (preg_match('/^https?:\/\//i', $fallback)) {
+            return $fallback;
+        }
+
+        return is_file(public_path($fallback)) ? $fallback : null;
     }
 
     /** Titik hanya dianggap terverifikasi bila presisi bukan 'perkiraan' dan punya jejak sumber. */
@@ -142,7 +204,7 @@ class KampusDirectory
                 'lat' => (float) $l->latitude,
                 'lng' => (float) $l->longitude,
                 'presisi' => $l->presisi,
-                'logo' => $l->logo_path,
+                'logo' => self::logoPath($l, $l->kampus),
                 'kos_sekitar' => $koordinatKos
                     ->filter(fn ($k) => Geo::distanceKm((float) $l->latitude, (float) $l->longitude, (float) $k->latitude, (float) $k->longitude) <= $radiusKm)
                     ->count(),

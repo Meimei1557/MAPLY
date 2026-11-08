@@ -1,0 +1,559 @@
+[
+  {
+    "kode": "unsri-1",
+    "kampus_slug": "unsri",
+    "nama_lokasi": "Kampus Palembang (Bukit Besar)",
+    "is_utama": false,
+    "latitude": -2.983785,
+    "longitude": 104.733273,
+    "presisi": "kawasan",
+    "alamat": "Jl. Padang Selasa No. 524, Bukit Besar, Ilir Barat I",
+    "kecamatan": "Ilir Barat I",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/unsri.png",
+      "sumber": "Wikimedia Commons – lambang Universitas Sriwijaya",
+      "url_sumber": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lambang_Universitas_Sriwijaya.png/250px-Lambang_Universitas_Sriwijaya.png"
+    },
+    "sumber_koordinat": "https://www.openstreetmap.org/way/573769414",
+    "metode_koordinat": "OSM ( kompleks fakultas UNSRI Bukit Besar)",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "kawasan Ilir Barat I — sesuai wilayah kampus Bukit Besar",
+        "tanggal": "2026-11-02"
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Titik mewakili kawasan kampus Bukit Besar (OSM way \"Fakultas Hukum UNSRI\"); bukan titik satu gedung."
+  },
+  {
+    "kode": "unsri-2",
+    "kampus_slug": "unsri",
+    "nama_lokasi": "Kampus Indralaya",
+    "is_utama": true,
+    "latitude": -3.2169361,
+    "longitude": 104.6486667,
+    "presisi": "gedung",
+    "alamat": "Jl. Raya Palembang – Prabumulih KM 32, Tanjung Pering, Indralaya",
+    "kecamatan": "Indralaya",
+    "kab_kota": "Ogan Ilir",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/unsri.png",
+      "sumber": "Wikimedia Commons – lambang Universitas Sriwijaya",
+      "url_sumber": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lambang_Universitas_Sriwijaya.png/250px-Lambang_Universitas_Sriwijaya.png"
+    },
+    "sumber_koordinat": "https://www.wikidata.org/wiki/Q4200297",
+    "metode_koordinat": "Wikidata P625 (kampus Indralaya UNSRI), dikonfirmasi relasi OSM 15779890",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "reverse Nominatim = Tanjung Pering, Ogan Ilir — kelurahan lokasi kampus; sesuai",
+        "tanggal": "2026-11-02"
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Lokasi utama perkuliahan UNSRI di Ogan Ilir."
+  },
+  {
+    "kode": "polsri-3",
+    "kampus_slug": "polsri",
+    "nama_lokasi": "Kampus Srijaya Negara",
+    "is_utama": true,
+    "latitude": -2.984025,
+    "longitude": 104.732661,
+    "presisi": "kawasan",
+    "alamat": "Jl. Srijaya Negara, Bukit Besar, Ilir Barat II",
+    "kecamatan": "Ilir Barat II",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/polsri.png",
+      "sumber": "Wikimedia Commons – logo Politeknik Negeri Sriwijaya",
+      "url_sumber": "https://commons.wikimedia.org/wiki/File:Politeknik_Negeri_Sriwijaya_logo.svg"
+    },
+    "sumber_koordinat": "https://www.wikidata.org/wiki/Q12506034",
+    "metode_koordinat": "Wikidata P625, dikonfirmasi OSM way 122227029",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "reverse Nominatim = Ilir Barat I/Besar area, sekitar Jl. Lunjuk Jaya — wilayah kompleks Bukit Besar; Nominatim \"Kertapati\" dianggap objek salah nama",
+        "tanggal": "2026-11-02"
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Nominatim pencarian nama menunjuk objek salah nama di Kertapati ( Polman Sriwijaya); dipakai koordinat Wikidata/OSM di Jl. Srijaya Negara sesuai alamat resmi polsri.ac.id."
+  },
+  {
+    "kode": "uin-raden-fatah-4",
+    "kampus_slug": "uin-raden-fatah",
+    "nama_lokasi": "Kampus Sudirman KM 3,5",
+    "is_utama": true,
+    "latitude": -2.9636111,
+    "longitude": 104.7489444,
+    "presisi": "kawasan",
+    "alamat": "Jl. Prof. K. H. Zainal Abidin Fikri ( eks Jl. Jend. Sudirman 26) KM 3,5",
+    "kecamatan": "Kemuning",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/uin-raden-fatah.png",
+      "sumber": "Situs resmi UIN Raden Fatah",
+      "url_sumber": "https://pmb.radenfatah.ac.id/images/logo-uin.png"
+    },
+    "sumber_koordinat": "https://www.wikidata.org/wiki/Q12486119",
+    "metode_koordinat": "Wikidata P625, dikonfirmasi node OSM 9821621673/9821670352",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "MATCH 100 m dengan Nominatim \"UIN Raden Fatah Palembang\"",
+        "tanggal": "2026-11-02",
+        "titik_nominatim": [
+          -2.9645025,
+          104.7487634
+        ]
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "UIN memiliki kampus baru di Jakabaring (5 Ulu) yang belum diberi titik karena belum terverifikasi koordinatnya. Kampus Jakabaring tercantum pada inventaris alamat, tetapi belum ditambahkan sebagai marker karena koordinatnya belum diverifikasi."
+  },
+  {
+    "kode": "bina-darma-5",
+    "kampus_slug": "bina-darma",
+    "nama_lokasi": "Kampus Utama Jl. A. Yani",
+    "is_utama": true,
+    "latitude": -2.999509,
+    "longitude": 104.770577,
+    "presisi": "gedung",
+    "alamat": "Jl. Jend. Ahmad Yani No. 12, Silaberanti, Ilir Barat II",
+    "kecamatan": "Ilir Barat II",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/bina-darma.png",
+      "sumber": "Aset logo Universitas Bina Darma; identitas logo dijelaskan di situs resmi",
+      "url_sumber": "https://www.binadarma.ac.id/about/"
+    },
+    "sumber_koordinat": "https://www.wikidata.org/wiki/Q12523305",
+    "metode_koordinat": "Wikidata P625, dikonfirmasi OSM way 932847259 (≈6 m)",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "MATCH 6 m dengan Nominatim \"Universitas Bina Darma, Jalan Ahmad Yani\"",
+        "tanggal": "2026-11-02",
+        "titik_nominatim": [
+          -2.9995597,
+          104.7705751
+        ]
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Kampus utama Jl. A. Yani; ada gedung lain ( No. 3, 9/10 Ulu) yang tidak diberi titik terpisah."
+  },
+  {
+    "kode": "um-palembang-6",
+    "kampus_slug": "um-palembang",
+    "nama_lokasi": "Kampus Utama (Kampus A)",
+    "is_utama": true,
+    "latitude": -2.997195,
+    "longitude": 104.778334,
+    "presisi": "kawasan",
+    "alamat": "Jl. Jenderal Ahmad Yani, 13 Ulu, Seberang Ulu II",
+    "kecamatan": "Seberang Ulu II",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/um-palembang.png",
+      "sumber": "Situs resmi Universitas Muhammadiyah Palembang",
+      "url_sumber": "https://um-palembang.ac.id/wp-content/uploads/2021/03/cropped-Logo-UMPalembang-2020-Mini-270x270.png"
+    },
+    "sumber_koordinat": "Data NPSN Kemendikdasmen",
+    "metode_koordinat": "Koordinat lokasi Kampus A berdasarkan data NPSN",
+    "verifikasi_koordinat": null,
+    "tanggal_cek": "2026-11-04",
+    "catatan": "Lokasi utama Universitas Muhammadiyah Palembang, Kampus A."
+  },
+  {
+    "kode": "upgri-palembang-7",
+    "kampus_slug": "upgri-palembang",
+    "nama_lokasi": "Kampus 13 Ulu",
+    "is_utama": true,
+    "latitude": -2.9947849,
+    "longitude": 104.7759428,
+    "presisi": "kawasan",
+    "alamat": "Jl. Jend. Ahmad Yani, 13 Ulu, Seberang Ulu I",
+    "kecamatan": "Seberang Ulu I",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "https://d1fdloi71mui9q.cloudfront.net/WnpJPzLgRLKOq2GIq5pb_5UIvU2v5iKfzBjGP",
+      "sumber": "Akun resmi UPGRI Palembang di Linktree (avatar resmi)",
+      "url_sumber": "https://linktr.ee/upgriofficial"
+    },
+    "sumber_koordinat": "https://www.wikidata.org/wiki/Q97199998",
+    "metode_koordinat": "Wikidata P625",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "reverse Nominatim = Jl. Gotong Royong 2, Seberang Ulu I — sesuai alamat resmi ( 13 Ulu)",
+        "tanggal": "2026-11-02"
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Situs resmi mengembalikan 409 saat pengecekan; koordinat dari Wikidata."
+  },
+  {
+    "kode": "uigm-8",
+    "kampus_slug": "uigm",
+    "nama_lokasi": "Kampus Sudirman KM 4",
+    "is_utama": true,
+    "latitude": -2.963396,
+    "longitude": 104.740755,
+    "presisi": "gedung",
+    "alamat": "Jl. Jend. Sudirman KM 4, Kambang Iwak, Ilir Barat I",
+    "kecamatan": "Ilir Barat I",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/uigm.png",
+      "sumber": "Situs resmi Universitas Indo Global Mandiri",
+      "url_sumber": "https://uigm.ac.id/wp-content/uploads/2024/10/logoUIGM_gold.png"
+    },
+    "sumber_koordinat": "https://www.wikidata.org/wiki/Q19749134",
+    "metode_koordinat": "Wikidata P625",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "MATCH 6 m dengan Nominatim \"Universitas Indo Global Mandiri, Jalan Jenderal Sudirman\"",
+        "tanggal": "2026-11-02",
+        "titik_nominatim": [
+          -2.9634196,
+          104.7408102
+        ]
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": null
+  },
+  {
+    "kode": "tridinanti-9",
+    "kampus_slug": "tridinanti",
+    "nama_lokasi": "Kampus Kapten Marzuki",
+    "is_utama": true,
+    "latitude": -2.9714086,
+    "longitude": 104.7460176,
+    "presisi": "gedung",
+    "alamat": "Jl. Kapten Marzuki No. 2446, Ilir Timur I",
+    "kecamatan": "Ilir Timur I",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/tridinanti.png",
+      "sumber": "Situs resmi Universitas Tridinanti",
+      "url_sumber": "https://univ-tridinanti.ac.id/images/svg/logo.png"
+    },
+    "sumber_koordinat": "https://www.wikidata.org/wiki/Q12523477",
+    "metode_koordinat": "Wikidata P625 ≡ OSM way 924328931",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "MATCH 4 m dengan Nominatim \"Universitas Tridinanti Palembang, Jalan Kapten Marzuki\"",
+        "tanggal": "2026-11-02",
+        "titik_nominatim": [
+          -2.9714468,
+          104.7460183
+        ]
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Pusat peta embed situs resmi bergeser ±250 m; dipakai titik Wikidata/OSM."
+  },
+  {
+    "kode": "poltekkes-10",
+    "kampus_slug": "poltekkes",
+    "nama_lokasi": "Kampus Sudirman KM 3,5",
+    "is_utama": true,
+    "latitude": -2.968327,
+    "longitude": 104.751613,
+    "presisi": "kawasan",
+    "alamat": "Direktorat, Jl. Jenderal Sudirman KM 3,5 No. 1365, Sekip Jaya, Kemuning, Palembang",
+    "kecamatan": "Ilir Barat II",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/poltekkes.png",
+      "sumber": "Situs resmi Poltekkes Kemenkes Palembang",
+      "url_sumber": "https://poltekkespalembang.ac.id/wp-content/uploads/2024/09/cropped-logopolkesbang.png"
+    },
+    "sumber_koordinat": "https://data.kemendikdasmen.go.id ( NPSN 405007, peta satuan)",
+    "metode_koordinat": "Peta NPSN Kemendikdasmen",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "reverse Nominatim = Ilir Timur I 30127 ( area sekitar); sumber utama peta NPSN Kemendikdasmen",
+        "tanggal": "2026-11-02"
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Unit Farmasi di Jl. Ismail Marzuki adalah node OSM berbeda; titik ini kampus utama."
+  },
+  {
+    "kode": "umdp-palembang-11",
+    "kampus_slug": "umdp-palembang",
+    "nama_lokasi": "Kampus Jl. Rajawali",
+    "is_utama": true,
+    "latitude": -2.973732,
+    "longitude": 104.764021,
+    "presisi": "kawasan",
+    "alamat": "Jl. Rajawali No. 14, Ilir Timur II, Palembang",
+    "kecamatan": "Ilir Timur II",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "https://cdn.annibuku.com/uploads/logo-kampus/948-universitas-multi-data-palembang.jpg",
+      "sumber": "Direktori kampus; identitas logo Universitas MDP, perlu konfirmasi silang dengan aset resmi kampus",
+      "url_sumber": "https://mdp.ac.id/"
+    },
+    "sumber_koordinat": "https://www.openstreetmap.org/way/590371863",
+    "metode_koordinat": "OSM way \"STMIK Global Informatika MDP\"",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "reverse Nominatim = Ilir Timur II 30113; titik dari OSM way bernama di Jl. Rajawali",
+        "tanggal": "2026-11-02"
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Titik = OSM way \"STMIK Global Informatika MDP\"; satuan tersebut melebur menjadi Universitas Multi Data Palembang (2018). Alamat persis gedung perlu konfirmasi. Kampus B Sudirman tercantum pada inventaris alamat, tetapi belum ditambahkan sebagai marker karena koordinatnya belum diverifikasi."
+  },
+  {
+    "kode": "poltekbang-palembang-13",
+    "kampus_slug": "poltekbang-palembang",
+    "nama_lokasi": "Kampus Jl. Adi Sucipto",
+    "is_utama": true,
+    "latitude": -2.908609,
+    "longitude": 104.699011,
+    "presisi": "kawasan",
+    "alamat": "Jl. Adi Sucipto, SMB II, Sukarami ( dekat Bandara SMB II)",
+    "kecamatan": "Sukarami",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "https://assets.nsd.co.id/images/kampus/logo/RDFEMkIzMDktMkMzMi00Mzc5LUI2NjctRDIyNjdGNDkzMTE1.jpg",
+      "sumber": "Direktori kampus; lambang Politeknik Penerbangan Palembang, situs resmi kampus menjadi rujukan identitas",
+      "url_sumber": "https://poltekbangplg.ac.id/"
+    },
+    "sumber_koordinat": "https://www.openstreetmap.org/way/1446751332",
+    "metode_koordinat": "OSM way + MATCH Nominatim",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "MATCH tepat dengan Nominatim \"Politeknik Penerbangan Palembang, Jalan Adi Sucipto\"",
+        "tanggal": "2026-11-02",
+        "titik_nominatim": [
+          -2.9086087,
+          104.6990114
+        ]
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": null
+  },
+  {
+    "kode": "stik-siti-khadijah-15",
+    "kampus_slug": "stik-siti-khadijah",
+    "nama_lokasi": "Kampus Demang Lebar Daun",
+    "is_utama": true,
+    "latitude": -2.973708,
+    "longitude": 104.732462,
+    "presisi": "kawasan",
+    "alamat": "Jl. Demang Lebar Daun area, Ilir Barat I",
+    "kecamatan": "Ilir Barat I",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/stik-siti-khadijah.jpg",
+      "sumber": "Situs resmi STIK Siti Khadijah",
+      "url_sumber": "https://stik-sitikhadijah.ac.id/public/uploads/logo.jpg"
+    },
+    "sumber_koordinat": "https://www.openstreetmap.org/node/9834938414",
+    "metode_koordinat": "OSM node + MATCH Nominatim",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "MATCH tepat dengan Nominatim \"STIK Siti Khadijah\"",
+        "tanggal": "2026-11-02",
+        "titik_nominatim": [
+          -2.9737079,
+          104.7324623
+        ]
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": null
+  },
+  {
+    "kode": "akamigas-17",
+    "kampus_slug": "akamigas",
+    "nama_lokasi": "Kampus Komperta Plaju",
+    "is_utama": true,
+    "latitude": -3.00003,
+    "longitude": 104.820373,
+    "presisi": "kawasan",
+    "alamat": "Jl. Suka Rama, Komperta, Plaju",
+    "kecamatan": "Plaju",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/akamigas.png",
+      "sumber": "Situs resmi Politeknik Akamigas Palembang",
+      "url_sumber": "https://akamigaspalembang.ac.id/images/logo-3.png"
+    },
+    "sumber_koordinat": "https://www.openstreetmap.org/way/611444727",
+    "metode_koordinat": "OSM way area kampus Komperta",
+    "verifikasi_koordinat": [
+      {
+        "sumber": "Nominatim/OpenStreetMap (pemeriksaan silang MAPLY)",
+        "hasil": "reverse Nominatim = Perumahan Pertamina Plaju — area Komperta; titik OSM way dipertahankan",
+        "tanggal": "2026-11-02"
+      }
+    ],
+    "tanggal_cek": "2026-11-02",
+    "catatan": "Nominatim pencarian nama menunjuk jalan Perumahan Pertamina ±800 m; dipakai OSM way area kampus. Kampus Jakabaring tercantum pada inventaris alamat, tetapi belum ditambahkan sebagai marker karena koordinatnya belum diverifikasi."
+  },
+  {
+    "kode": "politeknik-pariwisata-palembang-1",
+    "kampus_slug": "politeknik-pariwisata-palembang",
+    "nama_lokasi": "Politeknik Pariwisata Palembang — Lokasi utama",
+    "is_utama": true,
+    "latitude": -3.0144824,
+    "longitude": 104.7862418,
+    "presisi": "kawasan",
+    "alamat": "Jl. Sapta Pesona No. 10 Kelurahan Silaberanti Kecamatan Seberang Ulu 1 Palembang",
+    "kecamatan": "Seberang Ulu I",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "logos/kampus/politeknik-pariwisata-palembang.png",
+      "sumber": "Halaman unduh logo situs resmi Poltekpar Palembang",
+      "url_sumber": "https://poltekpar-palembang.ac.id/layanan/unduh/"
+    },
+    "sumber_koordinat": "Nominatim/OpenStreetMap (way 1322994901)",
+    "metode_koordinat": "Geocoding Nominatim dengan nama + alamat institusi",
+    "verifikasi_koordinat": [
+      {
+        "url": "https://www.openstreetmap.org/way/1322994901",
+        "tanggal": "2026-11-03",
+        "catatan": "Kecocokan nama 2 token (ratio 0.25); display: Politeknik Pariwisata Palembang, Jalan Silaberanti, RW 07 Kel. Silaberanti Kec. Seberang Ulu 1, Seberang Ulu I, Palembang, Sumatera Selatan, 30116, Indonesia"
+      }
+    ],
+    "tanggal_cek": "2026-11-03",
+    "catatan": "Koordinat hasil geocoding Nominatim presisi kawasan."
+  },
+  {
+    "kode": "sekolah-tinggi-ilmu-kesehatan-bina-husada-1",
+    "kampus_slug": "sekolah-tinggi-ilmu-kesehatan-bina-husada",
+    "nama_lokasi": "Sekolah Tinggi Ilmu Kesehatan Bina Husada — Lokasi utama",
+    "is_utama": true,
+    "latitude": -2.989282,
+    "longitude": 104.7557681,
+    "presisi": "kawasan",
+    "alamat": "Jalan Syech Abdul Somad No 28",
+    "kecamatan": "Ilir Barat I",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "https://pbs.twimg.com/profile_images/1580820760288849920/xhuXzRrC_400x400.jpg",
+      "sumber": "Akun media sosial STIK Bina Husada Palembang",
+      "url_sumber": "https://x.com/stikbinahusada_"
+    },
+    "sumber_koordinat": "Nominatim/OpenStreetMap (way 493453025)",
+    "metode_koordinat": "Geocoding Nominatim dengan nama + alamat institusi",
+    "verifikasi_koordinat": [
+      {
+        "url": "https://www.openstreetmap.org/way/493453025",
+        "tanggal": "2026-11-03",
+        "catatan": "Kecocokan nama 2 token (ratio 0.31); display: Sekolah Tinggi Ilmu Kesehatan Bina Husada, Jalan Syeh A. Somad, RW. 03, Kel. 22 Ilir, Kec. Bukit Kecil, Palembang, Bukit Kecil, Palembang, Sumatera Selatan, 30135, Indonesia"
+      }
+    ],
+    "tanggal_cek": "2026-11-03",
+    "catatan": "Koordinat hasil geocoding Nominatim presisi kawasan."
+  },
+  {
+    "kode": "universitas-kader-bangsa-1",
+    "kampus_slug": "universitas-kader-bangsa",
+    "nama_lokasi": "Universitas Kader Bangsa — Lokasi utama",
+    "is_utama": true,
+    "latitude": -2.9967818,
+    "longitude": 104.7663973,
+    "presisi": "kawasan",
+    "alamat": "Jl Mayjen HM Ryacudu No 88",
+    "kecamatan": "Ilir Barat II",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "https://1.bp.blogspot.com/-8JO9Xyjtdec/X8JrPehHpKI/AAAAAAAAK4s/CJakkAXUa2Qfc1fd9E7rraWMDsW_T_PnQCLcBGAsYHQ/w1200-h630-p-k-no-nu/Universitas_Kader_Bangsa.png",
+      "sumber": "Direktori pendidikan; lambang Universitas Kader Bangsa Palembang (perlu konfirmasi aset resmi)",
+      "url_sumber": "https://ukb.ac.id/"
+    },
+    "sumber_koordinat": "Nominatim/OpenStreetMap (way 932824600)",
+    "metode_koordinat": "Geocoding Nominatim dengan nama + alamat institusi",
+    "verifikasi_koordinat": [
+      {
+        "url": "https://www.openstreetmap.org/way/932824600",
+        "tanggal": "2026-11-03",
+        "catatan": "Kecocokan nama 2 token (ratio 0.22); display: Universitas Kader Bangsa, Jalan Lintas Timur, RW 04, Seberang Ulu I, Palembang, Sumatera Selatan, 30251, Indonesia"
+      }
+    ],
+    "tanggal_cek": "2026-11-03",
+    "catatan": "Koordinat hasil geocoding Nominatim presisi kawasan."
+  },
+  {
+    "kode": "universitas-iba-1",
+    "kampus_slug": "universitas-iba",
+    "nama_lokasi": "Kampus Utama Universitas IBA",
+    "is_utama": true,
+    "latitude": -2.9644698,
+    "longitude": 104.763853,
+    "presisi": "kawasan",
+    "alamat": "Jl. Mayor Ruslan, Palembang",
+    "kecamatan": "Ilir Timur II",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "https://iba.ac.id/assets/images/partner_1775796556.jpeg",
+      "sumber": "Situs resmi Universitas IBA; logo yang ditampilkan pada aset kemitraan",
+      "url_sumber": "https://iba.ac.id/"
+    },
+    "sumber_koordinat": "Data NPSN Kemendikdasmen",
+    "metode_koordinat": "Koordinat lokasi berdasarkan data NPSN",
+    "verifikasi_koordinat": null,
+    "tanggal_cek": "2026-11-04",
+    "catatan": "Lokasi utama Universitas IBA."
+  },
+  {
+    "kode": "mitra-adiguna-1",
+    "kampus_slug": "sekolah-tinggi-ilmu-kesehatan-mitra-adiguna",
+    "nama_lokasi": "Kampus Utama STIKES Mitra Adiguna",
+    "is_utama": true,
+    "latitude": -2.9383124,
+    "longitude": 104.7723014,
+    "presisi": "kawasan",
+    "alamat": "Komplek Kenten Permai Blok J No. 9-12, Bukit Sangkal, Kalidoni, Palembang",
+    "kecamatan": "Kalidoni",
+    "kab_kota": "Palembang",
+    "provinsi": "Sumatera Selatan",
+    "logo": {
+      "path": "https://digitepp.id/packages/upload/kep/logo/XnlNEVN.png",
+      "sumber": "Halaman DigiTEPP yang menampilkan lambang STIKes Mitra Adiguna Palembang",
+      "url_sumber": "https://digitepp.id/kep-detail/84"
+    },
+    "sumber_koordinat": "Data NPSN Kemendikdasmen",
+    "metode_koordinat": "Koordinat lokasi berdasarkan data NPSN",
+    "verifikasi_koordinat": null,
+    "tanggal_cek": "2026-11-04",
+       "catatan": "Lokasi utama STIKES Mitra Adiguna."
+  }
+  ]

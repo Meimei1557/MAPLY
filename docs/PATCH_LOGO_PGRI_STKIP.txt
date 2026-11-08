@@ -1,0 +1,18 @@
+PATCH KHUSUS LOGO UNIVERSITAS PGRI PALEMBANG
+
+File yang perlu ditempel ke proyek:
+1. app/Support/KampusDirectory.php
+2. public/logos/kampus/upgri-palembang.png
+
+Tujuan:
+- Menggunakan logo UPGRI secara lokal, bukan tautan CloudFront eksternal yang bisa gagal dimuat.
+- Logo dipakai pada carousel Beranda dan komponen lain yang memakai KampusDirectory.
+- Tidak perlu mengubah database atau menjalankan seeder.
+
+Catatan STKIP:
+STKIP PGRI Palembang adalah nama/sejarah lama yang kemudian dikembangkan menjadi Universitas PGRI Palembang pada 9 Juni 2000. Karena itu STKIP PGRI tidak ditambahkan sebagai kampus terpisah agar tidak menduplikasi UPGRI.
+
+Sumber verifikasi perubahan nama: Buku Pedoman Akademik Universitas PGRI Palembang 2024/2025, halaman 2, situs resmi UPGRI.
+https://univpgri-palembang.ac.id/wp-content/uploads/2024/10/BUKU-PEDOMAN-AKADEMIK-2024_2025.pdf
+
+Logo lokal dibuat dari logo yang sudah terlihat pada screenshot halaman Kampus & Area yang diberikan pengguna; untuk kualitas cetak/arsip, ganti dengan file logo resolusi tinggi dari UPGRI bila tersedia.
