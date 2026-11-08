@@ -96,10 +96,16 @@ class KampusSeeder extends Seeder
             }
         }
 
+       
         // Sinkronisasi dilakukan dalam satu transaksi.
-        DB::transaction(function () use ($rows, $lokasiRows) {
+        DB::transaction(function () use (
+            $rows,
+            $lokasiRows,
+            $kodeLokasi,
+            $daftarKampus
+        ) {
 
-            // Nonaktifkan data lama tanpa menghapusnya.
+            // Nonaktifkan data lama terlebih dahulu.
             Kampus::query()->update(['aktif' => false]);
 
             KampusLokasi::query()->update(['aktif' => false]);
@@ -154,10 +160,28 @@ class KampusSeeder extends Seeder
                     ]
                 );
             }
+
+            // Hapus lokasi yang tidak termasuk dalam 19 data final.
+            KampusLokasi::query()
+                ->whereNotIn('kode', array_keys($kodeLokasi))
+                ->delete();
+
+            // Hapus kampus yang tidak termasuk dalam 20 data final.
+            Kampus::query()
+                ->whereNotIn('kode', array_keys($daftarKampus))
+                ->delete();
         });
 
+        // Periksa jumlah data aktif setelah sinkronisasi.
         $jumlahKampusAktif = Kampus::where('aktif', true)->count();
         $jumlahLokasiAktif = KampusLokasi::where('aktif', true)->count();
+
+        if ($jumlahKampusAktif !== 20 || $jumlahLokasiAktif !== 19) {
+            throw new RuntimeException(
+                "Sinkronisasi gagal. Kampus aktif: {$jumlahKampusAktif}, " .
+                "lokasi aktif: {$jumlahLokasiAktif}."
+            );
+        }
 
         $this->command?->info(
             "Sinkronisasi selesai: {$jumlahKampusAktif} institusi aktif, " .
