@@ -19,6 +19,41 @@
         <div class="fx-dot" style="left:84%;top:30%" data-depth="22"></div>
         <div class="fx-dot" style="left:14%;top:76%" data-depth="34"></div>
         <div class="fx-dot fx-dot--soft" style="left:76%;top:82%" data-depth="26"></div>
+        {{-- Animasi motor penguin --}}
+<div class="fx-motor">
+    <img src="{{ asset('images/penguin motor.png') }}" alt="">
+</div>
+
+{{-- Bintang dekorasi di sekitar koordinat hijau --}}
+<div class="fx-stars">
+    <span class="fx-star fx-star--one">✦</span>
+    <span class="fx-star fx-star--two">✧</span>
+    <span class="fx-star fx-star--three">✦</span>
+</div>
+
+{{-- Bintang tambahan sisi kiri --}}
+<div class="fx-left-stars">
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+</div>
+
+{{-- Deteksi lokasi sisi kanan --}}
+<div class="fx-location-detect">
+    <i class="fa-solid fa-location-crosshairs"></i>
+    <i class="fa-solid fa-location-dot"></i>
+</div>
+{{-- Lingkaran deteksi lokasi tambahan kanan atas --}}
+<div class="fx-location-detect fx-location-detect--top">
+    <i class="fa-solid fa-location-crosshairs"></i>
+</div>
+
+{{-- Bintang tambahan sisi kanan --}}
+<div class="fx-right-stars">
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+</div>
 
         <span class="fx-pin-wrap" style="left:12%;top:30%" data-depth="40">
             <span class="fx-pin"><i class="fa-solid fa-location-dot"></i></span>

@@ -42,33 +42,27 @@
                     <i class="fa-solid fa-wand-magic-sparkles"></i> AI Kost Manager
                 </a>
                 <a class="snav {{ request()->routeIs('admin.koordinat') ? 'active' : '' }}" href="{{ route('admin.koordinat') }}">
-                    <i class="fa-solid fa-map-pinned"></i> Peta Koordinat
+                   <a class="snav {{ request()->routeIs('admin.koordinat') ? 'active' : '' }}" href="{{ route('admin.koordinat') }}">
+    <i class="fa-solid fa-map-location-dot"></i>
+    <span>Peta Koordinat</span>
+</a>
                 </a>
             @endcan
         </nav>
 
         {{-- Ilustrasi Jembatan Ampera — dekorasi & penanda lokasi Palembang.
              Cari kos dekat Ampera tetap tersedia lewat dropdown "Dekat" dan filter titik acuan. --}}
-        <div class="sidebar__ampera" aria-hidden="true">
-            <svg viewBox="0 0 220 96" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
-                <!-- Sungai Musi -->
-                <path d="M8 84 Q 32 80 56 84 T 104 84 T 152 84 T 200 84" stroke="var(--neon)" stroke-opacity=".4" stroke-width="2" stroke-linecap="round"/>
-                <path d="M22 90 Q 46 86 70 90 T 118 90 T 166 90" stroke="var(--lavender)" stroke-opacity=".28" stroke-width="1.6" stroke-linecap="round"/>
-                <!-- Kabel utama & penyangga -->
-                <path d="M74 24 Q 110 56 146 24" stroke="var(--neon)" stroke-opacity=".55" stroke-width="1.8" stroke-linecap="round"/>
-                <path d="M88 36 V 64 M 100 44 V 64 M 112 46 V 64 M 124 42 V 64 M 134 33 V 64" stroke="var(--neon)" stroke-opacity=".35" stroke-width="1.4" stroke-linecap="round"/>
-                <path d="M74 24 L 44 64 M 146 24 L 176 64" stroke="var(--neon)" stroke-opacity=".5" stroke-width="1.6" stroke-linecap="round"/>
-                <!-- Menara kembar -->
-                <path d="M70 64 V 20 M 82 64 V 20 M 68 27 H 84 M 70 42 H 82" stroke="var(--lavender)" stroke-width="2.6" stroke-linecap="round"/>
-                <path d="M138 64 V 20 M 150 64 V 20 M 136 27 H 152 M 138 42 H 150" stroke="var(--lavender)" stroke-width="2.6" stroke-linecap="round"/>
-                <!-- Lantai jembatan -->
-                <path d="M4 66 H 216" stroke="var(--violet)" stroke-width="3.6" stroke-linecap="round"/>
-                <path d="M12 72 H 208" stroke="var(--violet)" stroke-opacity=".35" stroke-width="1.5" stroke-linecap="round"/>
-                <!-- Titik lokasi Ampera -->
-                <circle cx="110" cy="66" r="9" fill="var(--neon)" opacity=".22"/>
-                <circle cx="110" cy="66" r="3.4" fill="var(--neon)"/>
-            </svg>
-        </div>
+       
+{{-- Ilustrasi Jembatan Ampera MAPLY --}}
+<div class="sidebar__ampera" aria-hidden="true">
+    <img
+        src="{{ asset('images/ampera-maply.png') }}"
+        alt=""
+        class="sidebar__ampera-image"
+    />
+    <span class="sidebar__ampera-glow"></span>
+</div>
+
 
         <div class="sidebar__foot">
             <div class="side-user">
@@ -158,11 +152,41 @@
 {{-- ================= CHATBOT MOY AI ================= --}}
 @php $moyLogo = asset('images/moy-ai-logo.svg'); @endphp
 <div class="maply-ai-chat" id="maplyAiChat">
-    <button type="button" class="maply-ai-launch" id="aiChatToggle" aria-expanded="false" aria-controls="aiChatPanel" aria-label="Buka chat Moy AI">
-        <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
-        <span>Chat Maply AI</span>
-        <span class="ai-ping" aria-hidden="true"></span>
-    </button>
+    
+<button type="button" class="maply-ai-launch" id="aiChatToggle" aria-expanded="false" aria-controls="aiChatPanel" aria-label="Buka chat Moy AI">
+
+    <span class="moy-ai-pin">
+        <svg viewBox="0 0 100 120" aria-hidden="true">
+            <defs>
+                <linearGradient id="moyPinGradient" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#e9c7ff"/>
+                    <stop offset="45%" stop-color="#a855f7"/>
+                    <stop offset="100%" stop-color="#6420c4"/>
+                </linearGradient>
+            </defs>
+
+            <path d="M50 5 C25 5 9 23 9 47 C9 75 35 99 50 115 C65 99 91 75 91 47 C91 23 75 5 50 5Z"
+                  fill="url(#moyPinGradient)"
+                  stroke="#e9d5ff"
+                  stroke-width="2.5"/>
+
+            <circle cx="50" cy="46" r="27" fill="#f5eaff"/>
+            <circle cx="40" cy="41" r="3.2" fill="#6420a5"/>
+            <circle cx="60" cy="41" r="3.2" fill="#6420a5"/>
+
+            <path d="M38 53 Q50 67 62 53"
+                  fill="none"
+                  stroke="#6420a5"
+                  stroke-width="3.5"
+                  stroke-linecap="round"/>
+        </svg>
+    </span>
+
+    <span class="moy-ai-label">Moy AI</span>
+    <span class="ai-ping" aria-hidden="true"></span>
+
+</button>
+
 
     <section class="maply-ai-panel" id="aiChatPanel" hidden aria-label="Chat Moy AI">
         <header class="maply-ai-header">

@@ -1944,4 +1944,969 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
     }
 }
 
+/* ==========================================
+   ANIMASI MOTOR PENGUIN MAPLY
+   ========================================== */
 
+.fx-motor {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    width: 125px;
+    z-index: 1;
+    pointer-events: none;
+    animation: motorRide 13s linear infinite;
+    will-change: transform;
+}
+
+.fx-motor img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    animation: motorBounce 0.45s ease-in-out infinite alternate;
+}
+
+@keyframes motorRide {
+    from {
+        transform: translateX(-160px);
+    }
+    to {
+        transform: translateX(calc(100vw + 160px));
+    }
+}
+
+@keyframes motorBounce {
+    from {
+        transform: translateY(0) rotate(-1deg);
+    }
+    to {
+        transform: translateY(-3px) rotate(1deg);
+    }
+}
+
+/* ==========================================
+   TIGA BINTANG DI SEKITAR PIN HIJAU
+   ========================================== */
+
+.fx-stars {
+    position: absolute;
+    left: 87%;
+    top: 58%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fx-star {
+    position: absolute;
+    color: #a855f7;
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.7);
+    animation: starTwinkle 2s ease-in-out infinite;
+}
+
+.fx-star--one {
+    top: 0;
+    left: 5px;
+    font-size: 19px;
+}
+
+.fx-star--two {
+    top: 35px;
+    left: 65px;
+    font-size: 24px;
+    animation-delay: 0.7s;
+}
+
+.fx-star--three {
+    top: 72px;
+    left: 20px;
+    font-size: 14px;
+    animation-delay: 1.3s;
+}
+
+@keyframes starTwinkle {
+    0%, 100% {
+        opacity: 0.35;
+        transform: scale(0.8) rotate(0deg);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2) rotate(25deg);
+    }
+}
+
+/* Animasi tetap nyaman di perangkat kecil */
+@media (max-width: 768px) {
+    .fx-motor {
+        width: 85px;
+        bottom: 5px;
+    }
+
+    .fx-stars {
+        left: 82%;
+        top: 58%;
+        transform: scale(0.8);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fx-motor,
+    .fx-motor img,
+    .fx-star {
+        animation: none;
+    }
+}
+/* BINTANG TAMBAHAN SISI KIRI */
+.fx-left-stars {
+    position: absolute;
+    left: 7%;
+    top: 39%;
+    width: 230px;
+    height: 180px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fx-left-stars span {
+    position: absolute;
+    color: #a855f7;
+    font-size: 20px;
+    text-shadow: 0 0 12px rgba(168, 85, 247, .8);
+    animation: starTwinkle 2.5s ease-in-out infinite;
+}
+
+.fx-left-stars span:nth-child(1) {
+    left: 5px;
+    top: 5px;
+}
+
+.fx-left-stars span:nth-child(2) {
+    left: 145px;
+    top: 65px;
+    animation-delay: .8s;
+}
+
+.fx-left-stars span:nth-child(3) {
+    left: 65px;
+    top: 135px;
+    animation-delay: 1.4s;
+}
+
+
+/* IKON DETEKSI LOKASI */
+.fx-location-detect {
+    position: absolute;
+    left: 92%;
+    top: 60%;
+    width: 65px;
+    height: 65px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fx-location-detect i:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    color: #a855f7;
+    opacity: .75;
+    animation: locationDetect 3s ease-in-out infinite;
+}
+
+.fx-location-detect i:last-child {
+    position: absolute;
+    top: 38px;
+    left: 35px;
+    font-size: 15px;
+    color: #9333ea;
+    opacity: .8;
+    animation: locationDetect 3s ease-in-out infinite 1s;
+}
+
+@keyframes locationDetect {
+    0%, 100% {
+        transform: scale(.85);
+        opacity: .45;
+    }
+
+    50% {
+        transform: scale(1.15);
+        opacity: 1;
+    }
+}
+
+
+/* BINTANG TAMBAHAN SISI KANAN */
+.fx-right-stars {
+    position: absolute;
+    left: 74%;
+    top: 38%;
+    width: 230px;
+    height: 220px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fx-right-stars span {
+    position: absolute;
+    color: #a855f7;
+    font-size: 20px;
+    text-shadow: 0 0 12px rgba(168, 85, 247, .8);
+    animation: starTwinkle 2.5s ease-in-out infinite;
+}
+
+.fx-right-stars span:nth-child(1) {
+    left: 20px;
+    top: 10px;
+}
+
+.fx-right-stars span:nth-child(2) {
+    left: 175px;
+    top: 95px;
+    animation-delay: .8s;
+}
+
+.fx-right-stars span:nth-child(3) {
+    left: 75px;
+    top: 175px;
+    animation-delay: 1.5s;
+}
+
+
+/* PENYESUAIAN LAYAR HP */
+@media (max-width: 768px) {
+    .fx-left-stars,
+    .fx-right-stars {
+        transform: scale(.7);
+    }
+
+    .fx-location-detect {
+        transform: scale(.75);
+    }
+}
+/* LINGKARAN DETEKSI LOKASI KANAN ATAS */
+.fx-location-detect--top {
+    left: 91%;
+    top: 30%;
+    width: 48px;
+    height: 48px;
+    border: 1.5px solid rgba(168, 85, 247, .75);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(168, 85, 247, .25);
+    animation: locationCirclePulse 2.5s ease-in-out infinite;
+}
+
+.fx-location-detect--top i:first-child {
+    position: static;
+    font-size: 23px;
+    color: #a855f7;
+    animation: locationDetect 3s ease-in-out infinite;
+}
+
+@keyframes locationCirclePulse {
+    0%, 100% {
+        transform: scale(.95);
+        box-shadow: 0 0 10px rgba(168, 85, 247, .2);
+    }
+
+    50% {
+        transform: scale(1.08);
+        box-shadow: 0 0 20px rgba(168, 85, 247, .55);
+    }
+}
+/* PENGUIN MOTOR RESPONSIVE UNTUK HP */
+.fx-motor img {
+    height: auto;
+    object-fit: contain;
+    filter: none;
+    image-rendering: auto;
+    backface-visibility: hidden;
+}
+
+/* Tampilan layar HP */
+@media (max-width: 768px) {
+    .fx-motor img {
+        width: clamp(110px, 28vw, 160px);
+        max-width: none;
+        height: auto;
+        object-fit: contain;
+        filter: none;
+    }
+
+    .fx-location-detect--top {
+        left: 87%;
+        top: 27%;
+        transform: scale(.8);
+    }
+}
+/* PERBAIKAN UKURAN PENGUIN MOTOR DI HP */
+@media (max-width: 768px) {
+    .fx-motor img {
+        width: 95px !important;
+        max-width: 95px !important;
+        height: auto !important;
+        object-fit: contain;
+        filter: none !important;
+    }
+}
+/* FIX WARNA ASLI PENGUIN MOTOR */
+.fx-motor {
+    opacity: 1 !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+.fx-motor img {
+    opacity: 1 !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+    -webkit-filter: none !important;
+}
+
+/* =====================================
+   MOY AI - FUTURISTIC COORDINATE BUTTON
+===================================== */
+
+.maply-ai-launch {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100px;
+    height: 125px;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    overflow: visible;
+    isolation: isolate;
+}
+
+/* PIN KOORDINAT */
+.moy-ai-pin {
+    position: relative;
+    display: flex;
+    width: 68px;
+    height: 78px;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 0 8px rgba(168, 85, 247, .65));
+    animation: moyFloat 3s ease-in-out infinite;
+    transition: filter .3s ease, transform .3s ease;
+}
+
+.moy-ai-pin svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+/* CAHAYA DI BELAKANG PIN */
+.moy-ai-pin::before {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: rgba(168, 85, 247, .20);
+    filter: blur(18px);
+    z-index: -1;
+    animation: moyGlow 2.5s ease-in-out infinite;
+}
+
+/* TULISAN MOY AI */
+.moy-ai-label {
+    color: #c084fc;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-shadow: 0 0 10px rgba(168, 85, 247, .65);
+    transition: color .3s ease;
+}
+
+/* TITIK CAHAYA */
+.maply-ai-launch .ai-ping {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #d8b4fe;
+    box-shadow: 0 0 12px #c084fc;
+    animation: moyPing 1.8s ease-in-out infinite;
+}
+
+/* ANIMASI MELAYANG */
+@keyframes moyFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+/* ANIMASI CAHAYA */
+@keyframes moyGlow {
+    0%, 100% {
+        opacity: .45;
+        transform: scale(.85);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.15);
+    }
+}
+
+/* ANIMASI TITIK */
+@keyframes moyPing {
+    0%, 100% {
+        opacity: .5;
+        transform: scale(.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.3);
+    }
+}
+
+/* EFEK SAAT KURSOR DIARAHKAN */
+.maply-ai-launch:hover .moy-ai-pin {
+    filter: drop-shadow(0 0 16px rgba(192, 132, 252, .95));
+    transform: scale(1.08);
+}
+
+.maply-ai-launch:hover .moy-ai-label {
+    color: #e9d5ff;
+}
+
+/* EFEK SAAT DIKLIK */
+.maply-ai-launch:active .moy-ai-pin {
+    transform: scale(.94);
+}
+
+/* AKSESIBILITAS */
+@media (prefers-reduced-motion: reduce) {
+    .moy-ai-pin,
+    .moy-ai-pin::before,
+    .maply-ai-launch .ai-ping {
+        animation: none;
+    }
+}
+/* HILANGKAN LATAR BELAKANG TOMBOL MOY AI */
+.maply-ai-launch {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border-radius: 0 !important;
+}
+
+/* HILANGKAN EFEK LATAR SAAT HOVER */
+.maply-ai-launch:hover,
+.maply-ai-launch:focus,
+.maply-ai-launch:active {
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* =========================================
+   MOY AI - FLOATING WIDGET FINAL IMPROVEMENT
+========================================= */
+
+/* Widget selalu menempel pada layar */
+.maply-ai-chat {
+    position: fixed !important;
+    right: 26px !important;
+    bottom: 24px !important;
+    top: auto !important;
+    left: auto !important;
+    z-index: 2147483000 !important;
+
+    width: max-content !important;
+    height: auto !important;
+    overflow: visible !important;
+    isolation: isolate !important;
+}
+
+/* Tombol pin */
+.maply-ai-chat .maply-ai-launch {
+    position: relative !important;
+    z-index: 2147483000 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 92px !important;
+    height: 112px !important;
+    gap: 2px !important;
+    padding: 5px !important;
+
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+
+/* Ukuran dan cahaya pin */
+.maply-ai-pin {
+    width: 65px !important;
+    height: 74px !important;
+    filter:
+        drop-shadow(0 0 7px rgba(168, 85, 247, .7))
+        drop-shadow(0 0 15px rgba(168, 85, 247, .3)) !important;
+}
+
+/* Tulisan Moy AI lebih modern dan jelas */
+.moy-ai-label {
+    display: block !important;
+    position: relative !important;
+    z-index: 2 !important;
+
+    margin-top: 2px !important;
+    padding: 2px 7px !important;
+
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    font-style: normal !important;
+    letter-spacing: .5px !important;
+
+    color: #ffffff !important;
+    -webkit-text-stroke: .65px #7026b9 !important;
+
+    text-shadow:
+        0 1px 2px #35105e,
+        0 0 7px rgba(168, 85, 247, .9) !important;
+
+    white-space: nowrap !important;
+}
+
+/* Panel chat tetap bisa digunakan */
+.maply-ai-chat .maply-ai-panel {
+    z-index: 2147483000 !important;
+}
+
+/* Tampilan pada layar kecil */
+@media (max-width: 600px) {
+    .maply-ai-chat {
+        right: 12px !important;
+        bottom: 14px !important;
+    }
+
+    .maply-ai-chat .maply-ai-launch {
+        transform: scale(.9);
+        transform-origin: bottom right;
+    }
+}
+
+/* ==========================================
+   MAPLY - AMPERA RESPONSIVE ILLUSTRATION
+========================================== */
+
+.sidebar__ampera {
+    position: relative !important;
+    isolation: isolate;
+
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+
+    flex: 1 1 auto !important;
+    width: 100% !important;
+
+    min-height: 190px !important;
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+}
+
+/* GAMBAR AMPERA UTUH DAN TAJAM */
+.sidebar__ampera-image {
+    position: relative;
+    z-index: 1;
+
+    display: block !important;
+
+    width: 100% !important;
+    height: auto !important;
+    max-height: 270px !important;
+
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    object-fit: contain !important;
+    object-position: center bottom !important;
+
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    /* Warna tetap jelas di kedua tema */
+    mix-blend-mode: normal !important;
+    filter:
+        saturate(1.2)
+        contrast(1.12)
+        drop-shadow(0 0 9px rgba(147, 51, 234, .3));
+
+    animation: amperaFloat 6s ease-in-out infinite;
+}
+
+/* CAHAYA DI BELAKANG JEMBATAN */
+.sidebar__ampera-glow {
+    position: absolute;
+    z-index: 0;
+
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+
+    height: 90px;
+
+    background: radial-gradient(
+        ellipse at center bottom,
+        rgba(168, 85, 247, .32),
+        rgba(168, 85, 247, .10) 45%,
+        transparent 75%
+    );
+
+    filter: blur(20px);
+    pointer-events: none;
+
+    animation: amperaGlow 4s ease-in-out infinite;
+}
+
+/* MODE TERANG */
+html[data-theme="light"] .sidebar__ampera-image,
+[data-theme="light"] .sidebar__ampera-image,
+body.light .sidebar__ampera-image {
+    filter:
+        saturate(1.35)
+        contrast(1.22)
+        drop-shadow(0 0 8px rgba(126, 34, 206, .4))
+        drop-shadow(0 0 16px rgba(147, 51, 234, .18));
+}
+
+/* MODE GELAP */
+html[data-theme="dark"] .sidebar__ampera-image,
+[data-theme="dark"] .sidebar__ampera-image,
+body.dark .sidebar__ampera-image {
+    filter:
+        saturate(1.2)
+        contrast(1.12)
+        drop-shadow(0 0 12px rgba(168, 85, 247, .45));
+}
+
+/* ANIMASI */
+@keyframes amperaFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes amperaGlow {
+    0%, 100% {
+        opacity: .5;
+        transform: scale(.92);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.08);
+    }
+}
+
+/* TAMPILAN HP */
+@media (max-width: 600px) {
+    .sidebar__ampera {
+        flex: 0 0 auto !important;
+
+        width: 100% !important;
+        min-height: 0 !important;
+        height: auto !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        overflow: visible !important;
+    }
+
+    .sidebar__ampera-image {
+        width: 100% !important;
+        height: auto !important;
+
+        max-height: 190px !important;
+        min-height: 0 !important;
+
+        object-fit: contain !important;
+        object-position: center bottom !important;
+    }
+
+    .sidebar__ampera-glow {
+        height: 65px;
+    }
+}
+
+/* AKSESIBILITAS */
+@media (prefers-reduced-motion: reduce) {
+    .sidebar__ampera-image,
+    .sidebar__ampera-glow {
+        animation: none !important;
+    }
+}
+
+/* ==========================================
+   MAPLY - AMPERA SIDEBAR RESTORE & IMPROVE
+========================================== */
+
+.sidebar__ampera {
+    position: relative !important;
+    isolation: isolate;
+
+    /* Tidak mendorong menu sidebar */
+    flex: 0 0 145px !important;
+    width: 100% !important;
+    height: 145px !important;
+    min-height: 145px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+
+    overflow: hidden !important;
+}
+
+/* Gambar Ampera */
+.sidebar__ampera-image {
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    object-fit: contain !important;
+    object-position: center bottom !important;
+
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    mix-blend-mode: screen !important;
+
+    filter:
+        saturate(1.3)
+        contrast(1.2)
+        drop-shadow(0 0 8px rgba(168, 85, 247, .35));
+
+    animation: amperaFloat 6s ease-in-out infinite;
+}
+
+/* Cahaya ungu */
+.sidebar__ampera-glow {
+    position: absolute;
+    z-index: 0;
+
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+    height: 65px;
+
+    background: radial-gradient(
+        ellipse,
+        rgba(168, 85, 247, .3),
+        transparent 75%
+    );
+
+    filter: blur(18px);
+    pointer-events: none;
+    animation: amperaGlow 4s ease-in-out infinite;
+}
+
+/* Mode terang */
+html[data-theme="light"] .sidebar__ampera-image,
+[data-theme="light"] .sidebar__ampera-image {
+    filter:
+        saturate(1.4)
+        contrast(1.25)
+        drop-shadow(0 0 9px rgba(126, 34, 206, .35));
+}
+
+/* Animasi */
+@keyframes amperaFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+}
+
+@keyframes amperaGlow {
+    0%, 100% { opacity: .5; }
+    50% { opacity: 1; }
+}
+
+/* HP: tetap proporsional, tidak mengubah navigasi */
+@media (max-width: 600px) {
+    .sidebar__ampera {
+        flex: 0 0 135px !important;
+        height: 135px !important;
+        min-height: 135px !important;
+    }
+
+    .sidebar__ampera-image {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+    }
+}
+
+/* Aksesibilitas */
+@media (prefers-reduced-motion: reduce) {
+    .sidebar__ampera-image,
+    .sidebar__ampera-glow {
+        animation: none !important;
+    }
+}
+
+/* =====================================
+   MAPLY - AMPERA SIDEBAR RESPONSIVE
+===================================== */
+
+/* Area gambar Ampera */
+.sidebar__ampera {
+    position: relative !important;
+    flex: 0 0 175px !important;
+    width: 100% !important;
+    height: 175px !important;
+    min-height: 175px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Gambar Ampera */
+.sidebar__ampera-image {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    mix-blend-mode: normal !important;
+    animation: amperaFloat 6s ease-in-out infinite;
+}
+
+/* Cahaya di belakang gambar */
+.sidebar__ampera-glow {
+    position: absolute;
+    inset: auto 0 0;
+    height: 75px;
+    background: radial-gradient(
+        ellipse at center bottom,
+        rgba(168, 85, 247, .28),
+        transparent 75%
+    );
+    filter: blur(15px);
+    pointer-events: none;
+}
+
+/* Mode gelap */
+html[data-theme="dark"] .sidebar__ampera-image,
+body.dark .sidebar__ampera-image {
+    mix-blend-mode: screen !important;
+}
+
+/* Mode terang */
+html[data-theme="light"] .sidebar__ampera-image,
+body.light .sidebar__ampera-image {
+    mix-blend-mode: multiply !important;
+}
+
+/* Animasi */
+@keyframes amperaFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+/* Tampilan HP */
+@media (max-width: 768px) {
+    .sidebar__ampera {
+        flex-basis: 130px !important;
+        height: 130px !important;
+        min-height: 130px !important;
+    }
+}
+
+/* AMPERA - STATIC & BLEND WITH SIDEBAR */
+
+/* Gambar tidak bergerak */
+.sidebar__ampera-image {
+    animation: none !important;
+    transform: none !important;
+}
+
+/* Mode gelap */
+html[data-theme="dark"] .sidebar__ampera-image,
+body.dark .sidebar__ampera-image {
+    mix-blend-mode: screen !important;
+}
+
+/* Mode terang */
+html[data-theme="light"] .sidebar__ampera-image,
+body.light .sidebar__ampera-image {
+    mix-blend-mode: multiply !important;
+}
+
+/* Cahaya lembut */
+.sidebar__ampera-glow {
+    animation: none !important;
+    opacity: 0.65;
+}
