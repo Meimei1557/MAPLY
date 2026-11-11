@@ -11,11 +11,19 @@
     </div>
 
     <div class="detail-layout">
-        <div class="detail-main">
-            <div class="detail-photo photo-box {{ $kos->foto_url ? '' : 'is-empty' }}">
-                @if($kos->foto_url)<img src="{{ $kos->foto_url }}" alt="Foto {{ $kos->nama_kos }}" data-fallback>@endif
-                <div class="placeholder"><i class="fa-solid fa-house-chimney"></i><span>Foto kos belum tersedia</span></div>
-            </div>
+    <div class="detail-main">
+
+        @php
+            $fotoKos = $kos->foto_url
+                ?: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&auto=format&fit=crop';
+        @endphp
+
+        <div class="detail-photo photo-box">
+            <img src="{{ $fotoKos }}" alt="Foto {{ $kos->nama_kos }}" data-fallback>
+        </div>
+
+        <div class="panel">
+
 
             <div class="panel">
                 <div class="detail-title">
@@ -93,8 +101,9 @@
                 </div>
             @endif
         </div>
+    </div>
 
-        <aside class="side-card">
+    <aside class="side-card">
             <div class="panel">
                 @if($kos->harga !== null)
                     <div class="big-price">{{ $kos->harga_label }} <small>/ bulan</small></div>

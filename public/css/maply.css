@@ -2910,3 +2910,67 @@ body.light .sidebar__ampera-image {
     animation: none !important;
     opacity: 0.65;
 }
+
+
+/* =====================================================
+   PERBAIKAN LAYOUT DETAIL KOS MAPLY
+   ===================================================== */
+
+/* Desktop: dua kolom sejajar */
+.detail-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 360px;
+    gap: 24px;
+    align-items: start;
+    width: 100%;
+}
+
+.detail-main {
+    min-width: 0;
+    width: 100%;
+}
+
+.detail-photo {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.detail-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.side-card {
+    width: 100%;
+    min-width: 0;
+    position: sticky;
+    top: calc(var(--topbar-h) + 16px);
+}
+
+/* Tablet dan HP: satu kolom */
+@media (max-width: 960px) {
+    .detail-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .side-card {
+        position: static;
+        width: 100%;
+    }
+}
+
+/* HP kecil */
+@media (max-width: 600px) {
+    .detail-photo {
+        aspect-ratio: 4 / 3;
+    }
+
+    .detail-title h1 {
+        font-size: 24px;
+    }
+}
+
