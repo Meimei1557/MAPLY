@@ -33,22 +33,23 @@
                 <i class="fa-solid fa-graduation-cap"></i> Kampus &amp; Area
             </a>
 
-            @can('kelola-kos')
-                <span class="sidebar__section">Administrator</span>
-                <a class="snav {{ request()->routeIs('admin.kos.*') ? 'active' : '' }}" href="{{ route('admin.kos.index') }}">
-                    <i class="fa-solid fa-list-check"></i> Kelola Kos
-                </a>
-                <a class="snav {{ request()->routeIs('admin.ai-kos.*') ? 'active' : '' }}" href="{{ route('admin.ai-kos.index') }}">
-                    <i class="fa-solid fa-wand-magic-sparkles"></i> AI Kost Manager
-                </a>
-                <a class="snav {{ request()->routeIs('admin.koordinat') ? 'active' : '' }}" href="{{ route('admin.koordinat') }}">
-                   <a class="snav {{ request()->routeIs('admin.koordinat') ? 'active' : '' }}" href="{{ route('admin.koordinat') }}">
-    <i class="fa-solid fa-map-location-dot"></i>
-    <span>Peta Koordinat</span>
-</a>
-                </a>
-            @endcan
-        </nav>
+ 
+@can('kelola-kos')
+    <span class="sidebar__section">Administrator</span>
+
+    <a class="snav {{ request()->routeIs('admin.kos.*') ? 'active' : '' }}" href="{{ route('admin.kos.index') }}">
+        <i class="fa-solid fa-list-check"></i> Kelola Kos
+    </a>
+
+    <a class="snav {{ request()->routeIs('admin.ai-kos.*') ? 'active' : '' }}" href="{{ route('admin.ai-kos.index') }}">
+        <i class="fa-solid fa-wand-magic-sparkles"></i> AI Kost Manager
+    </a>
+
+    <a class="snav {{ request()->routeIs('admin.koordinat') ? 'active' : '' }}" href="{{ route('admin.koordinat') }}">
+        <i class="fa-solid fa-map-location-dot"></i> Peta Koordinat
+    </a>
+@endcan
+
 
         {{-- Ilustrasi Jembatan Ampera — dekorasi & penanda lokasi Palembang.
              Cari kos dekat Ampera tetap tersedia lewat dropdown "Dekat" dan filter titik acuan. --}}
@@ -156,37 +157,13 @@
 <button type="button" class="maply-ai-launch" id="aiChatToggle" aria-expanded="false" aria-controls="aiChatPanel" aria-label="Buka chat Moy AI">
 
     <span class="moy-ai-pin">
-        <svg viewBox="0 0 100 120" aria-hidden="true">
-            <defs>
-                <linearGradient id="moyPinGradient" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0%" stop-color="#e9c7ff"/>
-                    <stop offset="45%" stop-color="#a855f7"/>
-                    <stop offset="100%" stop-color="#6420c4"/>
-                </linearGradient>
-            </defs>
-
-            <path d="M50 5 C25 5 9 23 9 47 C9 75 35 99 50 115 C65 99 91 75 91 47 C91 23 75 5 50 5Z"
-                  fill="url(#moyPinGradient)"
-                  stroke="#e9d5ff"
-                  stroke-width="2.5"/>
-
-            <circle cx="50" cy="46" r="27" fill="#f5eaff"/>
-            <circle cx="40" cy="41" r="3.2" fill="#6420a5"/>
-            <circle cx="60" cy="41" r="3.2" fill="#6420a5"/>
-
-            <path d="M38 53 Q50 67 62 53"
-                  fill="none"
-                  stroke="#6420a5"
-                  stroke-width="3.5"
-                  stroke-linecap="round"/>
-        </svg>
+        <img src="{{ $moyLogo }}" alt="Moy AI">
     </span>
 
     <span class="moy-ai-label">Moy AI</span>
     <span class="ai-ping" aria-hidden="true"></span>
 
 </button>
-
 
     <section class="maply-ai-panel" id="aiChatPanel" hidden aria-label="Chat Moy AI">
         <header class="maply-ai-header">

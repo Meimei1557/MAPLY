@@ -5,7 +5,7 @@
     <title>@yield('title', 'Maply') — Maply</title>
     @stack('head')
 </head>
-<body class="auth-body">
+<body class="auth-body {{ request()->routeIs('login', 'register') ? 'auth-login-page' : '' }}">
 <div class="auth-page">
     {{-- Lapisan dekoratif di belakang kartu: titik koordinat, pin, garis, radar --}}
     <div class="auth-fx" id="authFx" aria-hidden="true">
@@ -19,9 +19,9 @@
         <div class="fx-dot" style="left:84%;top:30%" data-depth="22"></div>
         <div class="fx-dot" style="left:14%;top:76%" data-depth="34"></div>
         <div class="fx-dot fx-dot--soft" style="left:76%;top:82%" data-depth="26"></div>
-        {{-- Animasi motor penguin --}}
+        {{-- Animasi motor harimau --}}
 <div class="fx-motor">
-    <img src="{{ asset('images/penguin motor.png') }}" alt="">
+    <img src="{{ asset('images/harimau-motor.png') }}" alt="">
 </div>
 
 {{-- Bintang dekorasi di sekitar koordinat hijau --}}
@@ -74,8 +74,11 @@
             <div class="fx-sweep" style="animation-direction:reverse"></div>
         </div>
     </div>
+<div class="auth-stage">
+    <div class="auth-penguin">
+        <img src="{{ asset('images/harimau-maps.png') }}" alt="Harimau putih membaca Maps">
+    </div>
 
-   <div class="auth-stage">
     <div class="auth-card-wrap reveal-up">
         <div class="auth-card">
             {{-- Wrapper stagger: setiap anak kartu muncul berjenjang --}}
@@ -85,8 +88,10 @@
         </div>
     </div>
 
-    <div class="auth-penguin">
-       <img src="{{ asset('images/maply-penguin.png') }}" alt="Maskot Penguin Maply">
+{{-- Animasi motor khusus HP --}}
+<div class="auth-mobile-motor">
+    <div class="auth-mobile-motor__rider">
+        <img src="{{ asset('images/harimau-motor.png') }}" alt="Harimau putih mengendarai motor">
     </div>
 </div>
 
