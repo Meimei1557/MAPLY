@@ -1063,8 +1063,49 @@ a.pg:hover { background: var(--card-elev); border-color: var(--neon); color: var
 }
 .map-pin--kampus i { transform: none; font-size: 14px; color: #fff; }
 /* Tombol layer "Tampilkan kampus" di peta */
-.leaflet-bar.maply-layer-toggle a { width: auto; padding: 6px 10px; font-size: 12.5px; font-weight: 600; line-height: 1.2; }
-.leaflet-bar.maply-layer-toggle a.is-on { background: var(--grad-brand) !important; color: #fff !important; }
+
+/* Tombol toggle kampus di bawah zoom peta */
+.leaflet-bar.maply-layer-toggle a {
+    width: 34px !important;
+    height: 34px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    line-height: 1 !important;
+    font-size: 18px !important;
+    color: #FFFFFF !important;
+    background: #7028DC !important;
+    text-decoration: none !important;
+    border-radius: 3px;
+}
+
+/* Ikon topi wisuda */
+.leaflet-bar.maply-layer-toggle a i {
+    display: block !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+
+/* Saat tombol aktif */
+.leaflet-bar.maply-layer-toggle a.is-on {
+    background: #7028DC !important;
+    color: #FFFFFF !important;
+}
+
+/* Saat tombol tidak aktif */
+.leaflet-bar.maply-layer-toggle a.is-off {
+    background: #D8C6F2 !important;
+    color: #5420A8 !important;
+}
+
+.leaflet-bar.maply-layer-toggle a.is-off i {
+    color: #5420A8 !important;
+}
+
 .leaflet-container { font-family: var(--font); background: var(--map-bg); }
 
 /* =========================================================
