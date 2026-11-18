@@ -13,7 +13,8 @@ class GeocodeKosCommand extends Command
     protected $signature = 'maply:geocode-kos
         {--limit=20 : Maksimal kost yang diproses}
         {--retry : Coba kembali data yang gagal}
-        {--delay=1200 : Jeda antarpermintaan dalam milidetik}';
+        {--delay=1200 : Jeda antarpermintaan dalam milidetik}
+        {--sync-json : Simpan koordinat hasil geocoding ke JSON sumber agar ikut Git}';
 
     protected $description = 'Mencari kandidat koordinat kost berdasarkan alamat, jalan, dan kawasan.';
 
@@ -332,6 +333,16 @@ class GeocodeKosCommand extends Command
             usleep($delay * 1000);
         }
 
+        if ($this->option('sync-json')) {
+            $sync = $this->syncSourceJson();
+
+            $this->info(
+                "Sinkronisasi JSON: {$sync['matched']} data cocok; " .
+                "{$sync['updated']} koordinat diperbarui; " .
+                "{$sync['without_coordinates']} belum memiliki koordinat."
+            );
+        }
+
         $this->newLine();
 
         $this->info(
@@ -347,6 +358,143 @@ class GeocodeKosCommand extends Command
         );
 
         return self::SUCCESS;
+    }
+
+    /**
+     * Menyalin koordinat database ke JSON sumber KosSeeder.
+     *
+     * Seeder memakai tiga JSON ini sebagai sumber utama. Tanpa sinkronisasi,
+     * koordinat yang hanya tersimpan di MySQL akan hilang saat teman menjalankan
+     * seeder pada laptopnya.
+     */
+    private function syncSourceJson(): array
+    {
+        $files = [
+            database_path('data/kos_publik.json'),
+            database_path('data/kos_hasil_pengumpulan.json'),
+            database_path('data/kos_tambahan.json'),
+        ];
+
+        $databaseKos = Kos::query()->get()->keyBy(
+            fn (Kos $kos) => $this->sourceKey(
+                (string) $kos->nama_kos,
+                (string) $kos->alamat
+            )
+        );
+
+        $matched = 0;
+        $updated = 0;
+        $withoutCoordinates = 0;
+
+        foreach ($files as $file) {
+            if (! is_file($file)) {
+                $this->warn("JSON sumber tidak ditemukan: {$file}");
+                continue;
+            }
+
+            $rows = json_decode((string) file_get_contents($file), true);
+
+            if (! is_array($rows)) {
+                $this->error("JSON sumber tidak valid: {$file}");
+                continue;
+            }
+
+            $changed = false;
+
+            foreach ($rows as &$row) {
+                if (! is_array($row)) {
+                    continue;
+                }
+
+                $key = $this->sourceKey(
+                    (string) ($row['nama_kos'] ?? ''),
+                    (string) ($row['alamat'] ?? '')
+                );
+
+                $kos = $databaseKos->get($key);
+
+                if (! $kos) {
+                    continue;
+                }
+
+                $matched++;
+
+                if (! $this->validPair($kos->latitude, $kos->longitude)) {
+                    $withoutCoordinates++;
+                    continue;
+                }
+
+                $latitude = (float) $kos->latitude;
+                $longitude = (float) $kos->longitude;
+
+                if (
+                    (float) ($row['latitude'] ?? 0) !== $latitude ||
+                    (float) ($row['longitude'] ?? 0) !== $longitude ||
+                    ($row['koordinat_status'] ?? null) !== $kos->koordinat_status
+                ) {
+                    $row['latitude'] = $latitude;
+                    $row['longitude'] = $longitude;
+                    $row['koordinat_status'] = $kos->koordinat_status ?: 'perkiraan';
+
+                    foreach ([
+                        'geocoding_status',
+                        'geocoding_source',
+                        'geocoding_score',
+                        'geocoded_at',
+                        'geocoding_query',
+                    ] as $column) {
+                        if ($kos->{$column} !== null) {
+                            $row[$column] = $kos->{$column} instanceof \DateTimeInterface
+                                ? $kos->{$column}->format('Y-m-d H:i:s')
+                                : $kos->{$column};
+                        }
+                    }
+
+                    if (isset($row['catatan_data'])) {
+                        $row['catatan_data'] = preg_replace(
+                            '/(?:Belum ada:\s*)?koordinat\s*,?\s*/iu',
+                            '',
+                            (string) $row['catatan_data']
+                        );
+                        $row['catatan_data'] = trim(
+                            preg_replace('/\s{2,}/u', ' ', $row['catatan_data']),
+                            " ,;."
+                        );
+                    }
+
+                    $changed = true;
+                    $updated++;
+                }
+            }
+            unset($row);
+
+            if ($changed) {
+                $json = json_encode(
+                    $rows,
+                    JSON_PRETTY_PRINT |
+                    JSON_UNESCAPED_UNICODE |
+                    JSON_UNESCAPED_SLASHES
+                );
+
+                if ($json === false || file_put_contents($file, $json . PHP_EOL) === false) {
+                    $this->error("Gagal menulis JSON sumber: {$file}");
+                } else {
+                    $this->line("JSON diperbarui: " . basename($file));
+                }
+            }
+        }
+
+        return [
+            'matched' => $matched,
+            'updated' => $updated,
+            'without_coordinates' => $withoutCoordinates,
+        ];
+    }
+
+    private function sourceKey(string $name, string $address): string
+    {
+        $value = mb_strtolower(trim($name) . '|' . trim($address));
+        return trim(preg_replace('/\s+/u', ' ', $value));
     }
 
     /**
