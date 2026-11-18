@@ -76,3 +76,36 @@ Tes ada di `tests/Feature` (autentikasi, pencarian/filter/pagination/data kosong
 ## AI Kost Manager & Moy AI
 
 Panduan instalasi, integrasi Google Places API, trust score, antrean, scheduler, persetujuan admin, dan chatbot tersedia pada [PANDUAN-AI-KOST-MANAGER.md](PANDUAN-AI-KOST-MANAGER.md). Asisten chat bernama **Moy AI** (identitas visual: `public/images/moy-ai-logo.svg`) — nama aplikasi tetap "Maply".
+
+## Sinkronisasi koordinat kos ke GitHub
+
+Data kos utama Maply berasal dari tiga file JSON yang dipakai oleh `KosSeeder`:
+`database/data/kos_publik.json`, `kos_hasil_pengumpulan.json`, dan `kos_tambahan.json`.
+Koordinat yang hanya disimpan di MySQL laptop tidak otomatis ikut `git pull`.
+
+Untuk menyimpan hasil geocoding ke file sumber bersama:
+
+```bash
+php artisan maply:geocode-kos --limit=100 --sync-json
+```
+
+Jalankan kembali perintah tersebut untuk memproses antrean berikutnya. Perintah hanya mengisi koordinat yang belum valid dan tidak menimpa koordinat valid yang sudah ada. Hasil yang tidak ditemukan tetap perlu ditinjau; jangan mengarang koordinat agar jumlah marker terlihat penuh. Opsi `--sync-json` menyalin koordinat database yang valid ke tiga JSON sumber sehingga dapat di-commit.
+
+Setelah hasilnya diperiksa:
+
+```bash
+git add database/data/kos_publik.json database/data/kos_hasil_pengumpulan.json database/data/kos_tambahan.json
+git commit -m "Simpan koordinat kos Maply"
+git push origin main
+```
+
+Teman yang menarik pembaruan dapat menjalankan:
+
+```bash
+git pull origin main
+php artisan migrate
+php artisan db:seed --class=KosSeeder
+```
+
+Seeder memakai `updateOrCreate` berdasarkan nama dan alamat kos, sehingga memperbarui data sumber yang cocok tanpa mengosongkan seluruh tabel. Jangan gunakan `migrate:fresh` pada database yang sudah berisi data penting.
+
