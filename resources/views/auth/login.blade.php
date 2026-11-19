@@ -39,4 +39,14 @@
     </form>
 
     <p class="switch">Belum punya akun? <a href="{{ route('register') }}">Daftar</a></p>
+    <div class="auth-divider">
+    <span>ATAU</span>
+</div>
+
+<a href="{{ route('google.redirect') }}"
+   class="btn btn-block"
+   style="border: 1px solid #ccc; margin-top: 12px; text-align: center;">
+    <i class="fa-brands fa-google"></i>
+    Masuk dengan Google
+</a>
 @endsection
