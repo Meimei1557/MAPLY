@@ -43,10 +43,16 @@
     <span>ATAU</span>
 </div>
 
-<a href="{{ route('google.redirect') }}"
-   class="btn btn-block"
-   style="border: 1px solid #ccc; margin-top: 12px; text-align: center;">
+<a href="{{ route('google.redirect') }}" class="btn btn-block btn-google">
     <i class="fa-brands fa-google"></i>
     Masuk dengan Google
 </a>
+@endsection
+
+@section('side-tagline')
+<div class="auth-tagline">
+    <span class="auth-tagline__badge"><i class="fa-solid fa-location-dot"></i> Maply</span>
+    <p class="auth-tagline__text">Maply membantu kamu mencari <span class="auth-tagline__grad">kosan terbaikmu</span></p>
+    <span class="auth-tagline__line" aria-hidden="true"></span>
+</div>
 @endsection

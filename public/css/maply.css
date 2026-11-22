@@ -1709,12 +1709,15 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
 .auth-card-wrap { position: relative; z-index: 2; width: 100%; max-width: 430px; }
 .auth-card {
   background: var(--card-glass);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border-strong);
-  border-radius: 20px;
-  padding: 30px 28px;
-  box-shadow: 0 30px 80px rgba(5, 2, 12, .35), 0 0 60px rgba(139, 61, 255, .12);
+  border-radius: 18px;
+  padding: 32px 30px 28px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, .05),
+    0 24px 70px rgba(5, 2, 12, .38),
+    0 0 46px rgba(139, 61, 255, .10);
 }
 .auth-brand { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 20px; text-align: center; }
 .auth-brand .brand__mark { width: 52px; height: 52px; border-radius: 16px 16px 16px 5px; font-size: 22px; background: var(--grad-brand); box-shadow: 0 10px 26px rgba(139, 61, 255, .5); }
@@ -1729,6 +1732,37 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
 .auth-card .switch a { color: var(--neon); font-weight: 700; }
 .auth-card .switch a:hover { color: var(--lavender); }
 .auth-card .notice { font-size: 13.5px; }
+
+/* ---------- Presisi kartu login: elemen seragam & rapi ---------- */
+/* Input & tombol dalam kartu auth: tinggi dan radius yang konsisten */
+.auth-card .input,
+.auth-card .btn { border-radius: 12px; }
+.auth-card .input { min-height: 46px; padding: 11px 14px; }
+.auth-card .input-icon > i { left: 13px; }
+.auth-card .input-icon .input { padding-left: 38px; }
+.auth-card .btn { min-height: 46px; font-size: 15px; }
+.auth-card .fgroup > label { font-size: 13px; margin-bottom: 1px; }
+.auth-card .auth-form { gap: 16px; }
+.auth-card .lead { margin: -10px 0 22px; font-size: 13.5px; line-height: 1.6; }
+
+/* Divider "ATAU" antara form utama dan tombol Google */
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  color: var(--muted-deep);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .18em;
+}
+.auth-divider::before,
+.auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--border-strong); }
+
+/* Tombol masuk dengan Google (menggantikan gaya inline lama) */
+.btn-google { background: var(--field); border: 1px solid var(--border-strong); color: var(--text); margin-top: 12px; font-weight: 600; }
+.btn-google:hover { border-color: var(--neon); background: var(--violet-bg); color: var(--text); }
+.btn-google .fa-google { color: #ea4335; }
 
 /* ---------- Footer ---------- */
 .footer { background: var(--topbar-bg); color: var(--muted-deep); padding: 24px 0; margin-top: auto; font-size: 13.5px; border-top: 1px solid var(--border-soft); }
@@ -2131,8 +2165,109 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
     }
 }
 
+/* ==========================================
+   TAGLINE PROMOSI SISI KIRI - LOGIN DESKTOP
+   ========================================== */
+
+.auth-tagline {
+    position: absolute;
+    left: clamp(24px, 6vw, 96px);
+    top: 47%;
+    max-width: min(300px, 26vw);
+    z-index: 1;
+    pointer-events: none;
+    animation: taglineIn .7s ease both, taglineFloat 5.5s ease-in-out .8s infinite;
+}
+
+/* Lencana kecil "Maply" di atas teks */
+.auth-tagline__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--border-strong);
+    background: var(--violet-bg);
+    color: var(--lavender);
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.auth-tagline__badge i {
+    font-size: 12px;
+    color: var(--neon);
+}
+
+/* Teks utama: font display tebal dengan aksen gradient */
+.auth-tagline__text {
+    margin: 16px 0 0;
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.4vw, 38px);
+    line-height: 1.28;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    color: var(--text);
+}
+
+.auth-tagline__grad {
+    background: linear-gradient(115deg, var(--violet) 5%, var(--neon) 55%, var(--lavender) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Garis aksen gradient di bawah teks */
+.auth-tagline__line {
+    display: block;
+    width: 68px;
+    height: 4px;
+    margin-top: 16px;
+    border-radius: 999px;
+    background: var(--grad-brand);
+    box-shadow: 0 0 16px rgba(139, 61, 255, .55);
+}
+
+/* Muncul lembut lalu mengapung pelan */
+@keyframes taglineIn {
+    from {
+        opacity: 0;
+        transform: translateY(calc(-50% + 14px));
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes taglineFloat {
+    0%, 100% {
+        transform: translateY(-50%);
+    }
+
+    50% {
+        transform: translateY(calc(-50% - 8px));
+    }
+}
+
+/* Sisi kiri hanya ada di layar lebar */
+@media (max-width: 1279px) {
+    .auth-tagline {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .auth-tagline {
+        animation: none;
+        transform: translateY(-50%);
+    }
+}
+
 /* Pastikan elemen utama login tetap di atas penguin */
-.auth-stage > :not(.auth-penguin):not(.auth-theme) {
+.auth-stage > :not(.auth-penguin):not(.auth-theme):not(.auth-tagline) {
     position: relative;
     z-index: 3;
 }
