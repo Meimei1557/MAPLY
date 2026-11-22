@@ -8,6 +8,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KampusController;
 use App\Http\Controllers\KosController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GoogleAuthController;
 
 Route::get('/', fn () => redirect()->route(auth()->check() ? 'dashboard' : 'login'))->name('home');
 
@@ -20,6 +21,13 @@ Route::middleware('guest')->group(function () {
     Route::post('/register', [AuthController::class, 'register'])->middleware('throttle:10,1')->name('register.process');
 
     Route::get('/lupa-password', [AuthController::class, 'showForgot'])->name('password.request');
+    Route::get('/auth/google/redirect',
+    [GoogleAuthController::class, 'redirectToGoogle']
+)->name('google.redirect');
+
+Route::get('/auth/google/callback',
+    [GoogleAuthController::class, 'handleGoogleCallback']
+)->name('google.callback');
 });
 
 // ------------------------------------------------- Pengguna yang sudah login

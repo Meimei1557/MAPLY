@@ -4,6 +4,61 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<style>
+    /* Tombol ditempatkan di kolom tersendiri agar tidak menutupi logo kampus. */
+    .campus-carousel-wrap {
+        display: grid;
+        grid-template-columns: 38px minmax(0, 1fr) 38px;
+        align-items: center;
+        column-gap: 10px;
+        width: 100%;
+    }
+
+    .campus-carousel-arrow {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        place-items: center;
+        width: 38px;
+        height: 38px;
+        padding: 0;
+        border: 1px solid rgba(181, 108, 255, .55);
+        border-radius: 50%;
+        background: rgba(24, 10, 43, .94);
+        color: #fff;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, .24);
+        cursor: pointer;
+        transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
+    }
+
+    .campus-carousel-arrow:hover {
+        background: #963bfa;
+        transform: scale(1.08);
+        box-shadow: 0 5px 18px rgba(150, 59, 250, .3);
+    }
+
+    .campus-carousel-arrow:focus-visible {
+        outline: 2px solid #d9b5ff;
+        outline-offset: 3px;
+    }
+
+    .campus-carousel {
+        min-width: 0;
+        width: 100%;
+    }
+
+    @media (max-width: 600px) {
+        .campus-carousel-wrap {
+            grid-template-columns: 32px minmax(0, 1fr) 32px;
+            column-gap: 6px;
+        }
+
+        .campus-carousel-arrow {
+            width: 32px;
+            height: 32px;
+        }
+    }
+</style>
 @endpush
 @section('content')
 @php $user = auth()->user(); @endphp
@@ -86,23 +141,18 @@
     {{-- ================= KAMPUS & AREA ================= --}}
     <section class="section campus-picker" id="titik-acuan">
         <div class="section__head campus-picker__head">
-            <div><span class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Kampus &amp; area</span><h2>Cari kos dekat tujuanmu</h2><p>Pilih wilayah, lalu pilih kampus tujuanmu.</p></div>
+            <div><span class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Kampus &amp; area</span><h2>Cari kos dekat tujuanmu</h2><p>Pilih kampus tujuanmu.</p></div>
             <a class="link-arrow" href="{{ route('kampus.index') }}">Lihat semua kampus <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
         <div class="campus-picker__panel">
-            <div class="campus-picker__regions" role="group" aria-label="Pilih wilayah">
-                <button type="button" class="campus-region is-active" data-campus-region="Palembang" aria-pressed="true"><i class="fa-solid fa-location-dot"></i> Palembang</button>
-                <button type="button" class="campus-region" data-campus-region="Indralaya" aria-pressed="false"><i class="fa-solid fa-location-dot"></i> Indralaya</button>
-            </div>
-
             <div class="campus-carousel-wrap">
+                <button type="button" class="campus-carousel-arrow campus-carousel-arrow--left" id="campusPrev" aria-label="Geser daftar kampus ke kiri" title="Kampus sebelumnya">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
                 <div class="campus-carousel" id="campusCarousel" tabindex="0" aria-label="Daftar kampus">
                     @foreach($kampusCards as $key => $r)
-                        @php
-                            $campusRegion = str_contains(mb_strtolower((string) ($r['kab_kota'] ?? '')), 'ogan') || str_contains(mb_strtolower((string) ($r['kab_kota'] ?? '')), 'indralaya') ? 'Indralaya' : 'Palembang';
-                        @endphp
-                        <a class="campus-option {{ $r['terverifikasi'] ? '' : 'is-unverified' }}" href="{{ route('kos.index', ['kampus' => $key]) }}" data-campus-option data-region="{{ $campusRegion }}" data-name="{{ $r['singkat'] }}" aria-label="Pilih {{ $r['nama'] }}" title="{{ $r['nama'] }}">
+                        <a class="campus-option {{ $r['terverifikasi'] ? '' : 'is-unverified' }}" href="{{ route('kos.index', ['kampus' => $key]) }}" data-campus-option data-name="{{ $r['singkat'] }}" aria-label="Pilih {{ $r['nama'] }}" title="{{ $r['nama'] }}">
                             <span class="campus-option__logo">
                                 @if($r['logo'])
                                     <img src="{{ preg_match('/^https?:\/\//i', $r['logo']) ? $r['logo'] : asset($r['logo']) }}" alt="Logo resmi {{ $r['singkat'] }}" loading="lazy" width="100" height="100" onerror="this.hidden=true; this.nextElementSibling.hidden=false">
@@ -116,6 +166,9 @@
                         </a>
                     @endforeach
                 </div>
+                <button type="button" class="campus-carousel-arrow campus-carousel-arrow--right" id="campusNext" aria-label="Geser daftar kampus ke kanan" title="Kampus berikutnya">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
             </div>
 
         </div>
@@ -161,15 +214,22 @@
     (() => {
         const root = document.querySelector('.campus-picker');
         if (!root) return;
-        const viewport = root.querySelector('#campusCarousel');
-        const regionButtons = [...root.querySelectorAll('[data-campus-region]')];
-        const originals = [...viewport.querySelectorAll('[data-campus-option]')];
-        if (!viewport || !originals.length) return;
 
-        // Track khusus membuat animasi tidak bergantung pada scrollLeft browser.
+        const viewport = root.querySelector('#campusCarousel');
+        if (!viewport) return;
+
+        const originals = [...viewport.querySelectorAll('[data-campus-option]')];
+        if (!originals.length) return;
+
+        // Semua kampus Palembang dan Indralaya ditampilkan dalam satu carousel.
         const track = document.createElement('div');
         track.className = 'campus-carousel__track';
-        originals.forEach(node => track.appendChild(node));
+
+        originals.forEach(option => {
+            option.hidden = false;
+            track.appendChild(option);
+        });
+
         viewport.appendChild(track);
 
         let selected = null;
@@ -188,21 +248,21 @@
             });
         }
 
-        function rebuild(region) {
+        function rebuild() {
             track.querySelectorAll('[data-carousel-clone]').forEach(node => node.remove());
+
             originals.forEach(option => {
-                option.hidden = option.dataset.region !== region;
-            });
-            const visible = originals.filter(option => !option.hidden);
-            if (!visible.includes(selected)) selected = visible[0] || null;
-            visible.forEach(option => {
+                option.hidden = false;
+
                 const clone = option.cloneNode(true);
                 clone.dataset.carouselClone = 'true';
                 clone.setAttribute('aria-hidden', 'true');
                 clone.removeAttribute('aria-current');
                 track.appendChild(clone);
             });
+
             markSelection();
+
             requestAnimationFrame(() => {
                 loopWidth = track.scrollWidth / 2;
                 offset = -loopWidth;
@@ -215,51 +275,102 @@
             if (previousTime && !paused && loopWidth > 0) {
                 const delta = Math.min(time - previousTime, 50);
                 offset += speed * delta / 1000; // bergerak dari kiri ke kanan
+
                 if (offset >= 0) offset = -loopWidth;
+
                 track.style.transform = `translate3d(${offset}px,0,0)`;
             }
+
             previousTime = time;
             raf = requestAnimationFrame(animate);
         }
-
-        regionButtons.forEach(button => button.addEventListener('click', () => {
-            regionButtons.forEach(item => {
-                const active = item === button;
-                item.classList.toggle('is-active', active);
-                item.setAttribute('aria-pressed', active ? 'true' : 'false');
-            });
-            rebuild(button.dataset.campusRegion);
-        }));
 
         // Logo asli dan duplikat tetap berupa tautan aktif menuju hasil pencarian.
         track.addEventListener('click', event => {
             const option = event.target.closest('[data-campus-option]');
             if (!option) return;
+
             if (option.dataset.carouselClone) {
                 event.preventDefault();
-                const original = originals.find(item => item.dataset.name === option.dataset.name && item.dataset.region === option.dataset.region);
+
+                const original = originals.find(item =>
+                    item.dataset.name === option.dataset.name &&
+                    item.href === option.href
+                );
+
                 if (original) window.location.href = original.href;
                 return;
             }
+
             selected = option;
             markSelection();
         });
 
-        viewport.addEventListener('mouseenter', () => { paused = true; });
-        viewport.addEventListener('mouseleave', () => { paused = false; previousTime = 0; });
-        viewport.addEventListener('focusin', () => { paused = true; });
-        viewport.addEventListener('focusout', event => {
-            if (!viewport.contains(event.relatedTarget)) { paused = false; previousTime = 0; }
+        viewport.addEventListener('mouseenter', () => {
+            paused = true;
         });
-        viewport.addEventListener('touchstart', () => { paused = true; }, { passive: true });
-        viewport.addEventListener('touchend', () => { paused = false; previousTime = 0; }, { passive: true });
 
-        rebuild('Palembang');
-        raf = requestAnimationFrame(animate);
-        window.addEventListener('resize', () => {
-            const active = regionButtons.find(button => button.classList.contains('is-active'));
-            if (active) rebuild(active.dataset.campusRegion);
+        viewport.addEventListener('mouseleave', () => {
+            paused = false;
+            previousTime = 0;
         });
+
+        viewport.addEventListener('focusin', () => {
+            paused = true;
+        });
+
+        viewport.addEventListener('focusout', event => {
+            if (!viewport.contains(event.relatedTarget)) {
+                paused = false;
+                previousTime = 0;
+            }
+        });
+
+        viewport.addEventListener('touchstart', () => {
+            paused = true;
+        }, { passive: true });
+
+        viewport.addEventListener('touchend', () => {
+            paused = false;
+            previousTime = 0;
+        }, { passive: true });
+
+        // Tombol panah menggeser beberapa kartu sekaligus agar kampus lebih cepat dijangkau.
+        function moveByArrow(direction) {
+            if (!loopWidth) return;
+
+            const firstCard = originals[0];
+            const cardWidth = firstCard.getBoundingClientRect().width;
+            const trackGap = parseFloat(window.getComputedStyle(track).columnGap || window.getComputedStyle(track).gap) || 0;
+            const step = Math.max(220, (cardWidth + trackGap) * 2);
+
+            paused = true;
+            offset += direction * step;
+
+            // Jaga posisi tetap berada pada rentang loop tanpa jeda kosong.
+            while (offset >= 0) offset -= loopWidth;
+            while (offset <= -loopWidth) offset += loopWidth;
+
+            track.style.transition = 'transform 380ms ease';
+            track.style.transform = `translate3d(${offset}px,0,0)`;
+
+            window.setTimeout(() => {
+                track.style.transition = '';
+                previousTime = 0;
+                paused = false;
+            }, 400);
+        }
+
+        const prevButton = root.querySelector('#campusPrev');
+        const nextButton = root.querySelector('#campusNext');
+
+        prevButton?.addEventListener('click', () => moveByArrow(-1));
+        nextButton?.addEventListener('click', () => moveByArrow(1));
+
+        rebuild();
+        raf = requestAnimationFrame(animate);
+
+        window.addEventListener('resize', rebuild);
     })();
 
     MaplyMap.initList({
