@@ -3041,3 +3041,37 @@ body.light .sidebar__ampera-image {
     bottom: auto !important;
     z-index: 99999 !important;
 }
+/* FIX: Membuat tulisan popup peta lebih jelas */
+.leaflet-popup-content {
+    color: #333333 !important;
+    opacity: 1 !important;
+}
+
+.leaflet-popup-content p,
+.leaflet-popup-content div,
+.leaflet-popup-content span,
+.leaflet-popup-content li,
+.leaflet-popup-content small {
+    opacity: 1 !important;
+    color: #444444 !important;
+    -webkit-text-fill-color: #444444 !important;
+}
+
+/* Judul popup */
+.leaflet-popup-content h3,
+.leaflet-popup-content h4 {
+    color: #292929 !important;
+    opacity: 1 !important;
+}
+
+/* Harga kos */
+.leaflet-popup-content .price,
+.leaflet-popup-content .harga {
+    color: #9333ea !important;
+    opacity: 1 !important;
+}
+
+/* Link dan tombol popup */
+.leaflet-popup-content a {
+    opacity: 1 !important;
+}
