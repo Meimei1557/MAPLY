@@ -1063,242 +1063,31 @@ a.pg:hover { background: var(--card-elev); border-color: var(--neon); color: var
 }
 .map-pin--kampus i { transform: none; font-size: 14px; color: #fff; }
 /* Tombol layer "Tampilkan kampus" di peta */
-
-/* Tombol toggle kampus di bawah zoom peta */
-.leaflet-bar.maply-layer-toggle a {
-    width: 34px !important;
-    height: 34px !important;
-    padding: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    box-sizing: border-box !important;
-    line-height: 1 !important;
-    font-size: 18px !important;
-    color: #FFFFFF !important;
-    background: #7028DC !important;
-    text-decoration: none !important;
-    border-radius: 3px;
-}
-
-/* Ikon topi wisuda */
-.leaflet-bar.maply-layer-toggle a i {
-    display: block !important;
-    font-size: 18px !important;
-    line-height: 1 !important;
-    color: #FFFFFF !important;
-    opacity: 1 !important;
-}
-
-/* Saat tombol aktif */
-.leaflet-bar.maply-layer-toggle a.is-on {
-    background: #7028DC !important;
-    color: #FFFFFF !important;
-}
-
-/* Saat tombol tidak aktif */
-.leaflet-bar.maply-layer-toggle a.is-off {
-    background: #D8C6F2 !important;
-    color: #5420A8 !important;
-}
-
-.leaflet-bar.maply-layer-toggle a.is-off i {
-    color: #5420A8 !important;
-}
-
+.leaflet-bar.maply-layer-toggle a { width: auto; padding: 6px 10px; font-size: 12.5px; font-weight: 600; line-height: 1.2; }
+.leaflet-bar.maply-layer-toggle a.is-on { background: var(--grad-brand) !important; color: #fff !important; }
 .leaflet-container { font-family: var(--font); background: var(--map-bg); }
-
-/* =========================================================
-   MAPLY - LEAFLET POPUP
-   PERBAIKAN KONTRAS DAN KETERBACAAN INFORMASI KOS
-   ========================================================= */
-
-/* Background popup */
-.leaflet-popup-content-wrapper {
-    border-radius: 14px !important;
-    background: #FFFFFF !important;
-    color: #24212B !important;
-    border: 1px solid #E5D9F5 !important;
-    box-shadow: 0 12px 35px rgba(0, 0, 0, .22) !important;
-}
-
-/* Isi popup */
-.leaflet-popup-content {
-    margin: 14px 16px !important;
-    font-family: var(--font) !important;
-    color: #34313B !important;
-    font-size: 13px !important;
-    line-height: 1.6 !important;
-}
-
-/* Ujung popup */
-.leaflet-popup-tip {
-    background: #FFFFFF !important;
-}
-
-/* Tombol tutup */
-.leaflet-popup-close-button {
-    color: #51445F !important;
-    opacity: 1 !important;
-}
-
-.leaflet-popup-close-button:hover {
-    color: #7028DC !important;
-}
-
-/* Kontrol peta */
-.leaflet-container {
-    font-family: var(--font);
-    background: var(--map-bg);
-}
-
-.leaflet-bar a {
-    background: var(--card-elev) !important;
-    color: var(--text) !important;
-    border-color: var(--border) !important;
-}
-
-.leaflet-bar a:hover {
-    background: var(--violet-bg) !important;
-}
-
-.leaflet-control-attribution {
-    background: var(--topbar-bg) !important;
-    color: var(--muted-deep) !important;
-}
-
-.leaflet-control-attribution a {
-    color: var(--neon) !important;
-}
-
-/* Marker cluster */
-.marker-cluster {
-    background: rgba(139, 61, 255, .3);
-}
-
-.marker-cluster div {
-    background: rgba(139, 61, 255, .85);
-    color: #fff;
-    font-weight: 700;
-}
-
-/* Kontainer informasi kos */
-.map-popup {
-    min-width: 195px;
-    color: #34313B !important;
-    opacity: 1 !important;
-}
-
-/* Nama kos */
-.map-popup__title {
-    display: block;
-    font-family: var(--font-display);
-    font-size: 16px;
-    font-weight: 800;
-    color: #24212B !important;
-    margin-bottom: 5px;
-    line-height: 1.4;
-}
-
-/* Harga */
-.map-popup__price {
-    font-weight: 800;
-    color: #7028DC !important;
-    margin: 6px 0 4px;
-    font-size: 14px;
-}
-
-/* Informasi tambahan */
-.map-popup__meta {
-    font-size: 12.5px;
-    color: #45404F !important;
-    font-weight: 500;
-}
-
-/* Baris alamat, jenis, fasilitas, lokasi, status */
-.map-popup__row {
-    font-size: 12.5px;
-    margin-top: 4px;
-    line-height: 1.55;
-    color: #45404F !important;
-    font-weight: 500;
-}
-
-/* Label informasi */
-.map-popup__row b {
-    color: #24212B !important;
-    font-weight: 800;
-}
-
-/* Area tombol */
-.map-popup__actions {
-    display: flex;
-    gap: 8px;
-    margin-top: 12px;
-    flex-wrap: wrap;
-}
-
-/* Tombol lihat detail */
-.map-popup__link {
-    display: inline-block;
-    padding: 8px 12px;
-    border-radius: 9px;
-    background: #7028DC !important;
-    color: #FFFFFF !important;
-    font-size: 13px;
-    font-weight: 700;
-    border: 1px solid #7028DC;
-    transition: .16s;
-    text-decoration: none;
-}
-
-.map-popup__link:hover {
-    background: #5720B5 !important;
-    color: #FFFFFF !important;
-}
-
-/* Tombol Google Maps */
-.map-popup__link--ghost {
-    background: #F0E8FC !important;
-    color: #5420A8 !important;
-    border: 1px solid #D7C4F5 !important;
-}
-
-.map-popup__link--ghost:hover {
-    background: #E4D5FA !important;
-    color: #42158E !important;
-}
-
-/* Pastikan teks popup tidak ikut transparan */
-.leaflet-popup-content-wrapper .map-popup,
-.leaflet-popup-content-wrapper .map-popup * {
-    opacity: 1 !important;
-    text-shadow: none !important;
-}
-
-/* Tampilan HP */
-@media (max-width: 600px) {
-    .leaflet-popup-content {
-        margin: 12px !important;
-        font-size: 12.5px !important;
-    }
-
-    .map-popup {
-        min-width: 180px;
-        max-width: 260px;
-    }
-
-    .map-popup__title {
-        font-size: 15px;
-    }
-
-    .map-popup__row,
-    .map-popup__meta {
-        font-size: 12px;
-    }
-}
-
-/* END MAPLY POPUP FIX */
+.leaflet-popup-content-wrapper { border-radius: 14px; background: var(--card-elev); color: var(--text); border: 1px solid var(--border-strong); box-shadow: 0 16px 42px rgba(5, 2, 12, .65); }
+.leaflet-popup-content { margin: 14px 16px; font-family: var(--font); }
+.leaflet-popup-tip { background: var(--card-elev); }
+.leaflet-popup-close-button { color: var(--muted) !important; }
+.leaflet-popup-close-button:hover { color: var(--text) !important; }
+.leaflet-bar a { background: var(--card-elev) !important; color: var(--text) !important; border-color: var(--border) !important; }
+.leaflet-bar a:hover { background: var(--violet-bg) !important; }
+.leaflet-control-attribution { background: var(--topbar-bg) !important; color: var(--muted-deep) !important; }
+.leaflet-control-attribution a { color: var(--neon) !important; }
+.marker-cluster { background: rgba(139, 61, 255, .3); }
+.marker-cluster div { background: rgba(139, 61, 255, .85); color: #fff; font-weight: 700; }
+.map-popup { min-width: 195px; }
+.map-popup__title { display: block; font-family: var(--font-display); font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+.map-popup__price { font-weight: 700; color: var(--neon); margin: 6px 0 2px; }
+.map-popup__meta { font-size: 12.5px; color: var(--muted); }
+.map-popup__row { font-size: 12.5px; margin-top: 3px; line-height: 1.4; color: var(--muted); }
+.map-popup__row b { color: var(--text); font-weight: 600; }
+.map-popup__actions { display: flex; gap: 8px; margin-top: 11px; flex-wrap: wrap; }
+.map-popup__link { display: inline-block; padding: 7px 12px; border-radius: 9px; background: var(--grad-brand); color: #fff !important; font-size: 13px; font-weight: 600; transition: .16s; }
+.map-popup__link:hover { filter: brightness(1.1); }
+.map-popup__link--ghost { background: rgba(181, 108, 255, .12); color: var(--lavender) !important; border: 1px solid var(--border); }
+.map-popup__link--ghost:hover { background: var(--violet-bg); }
 
 /* ---------- Info / transparansi ---------- */
 .info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
@@ -1674,14 +1463,6 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
 }
 /* Tombol toggle tema di pojok halaman auth */
 .auth-theme { position: absolute; top: 18px; right: 18px; z-index: 5; }
-    .auth-login-page .auth-theme {
-    position: fixed !important;
-    top: 10px !important;
-    right: 10px !important;
-    left: auto !important;
-    bottom: auto !important;
-    z-index: 99999 !important;
-}
 /* Lapisan dekoratif: titik koordinat, pin peta, garis, radar */
 .auth-fx { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
 .auth-fx > * { position: absolute; will-change: transform; }
@@ -1709,15 +1490,12 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
 .auth-card-wrap { position: relative; z-index: 2; width: 100%; max-width: 430px; }
 .auth-card {
   background: var(--card-glass);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border: 1px solid var(--border-strong);
-  border-radius: 18px;
-  padding: 32px 30px 28px;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, .05),
-    0 24px 70px rgba(5, 2, 12, .38),
-    0 0 46px rgba(139, 61, 255, .10);
+  border-radius: 20px;
+  padding: 30px 28px;
+  box-shadow: 0 30px 80px rgba(5, 2, 12, .35), 0 0 60px rgba(139, 61, 255, .12);
 }
 .auth-brand { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 20px; text-align: center; }
 .auth-brand .brand__mark { width: 52px; height: 52px; border-radius: 16px 16px 16px 5px; font-size: 22px; background: var(--grad-brand); box-shadow: 0 10px 26px rgba(139, 61, 255, .5); }
@@ -1732,37 +1510,6 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
 .auth-card .switch a { color: var(--neon); font-weight: 700; }
 .auth-card .switch a:hover { color: var(--lavender); }
 .auth-card .notice { font-size: 13.5px; }
-
-/* ---------- Presisi kartu login: elemen seragam & rapi ---------- */
-/* Input & tombol dalam kartu auth: tinggi dan radius yang konsisten */
-.auth-card .input,
-.auth-card .btn { border-radius: 12px; }
-.auth-card .input { min-height: 46px; padding: 11px 14px; }
-.auth-card .input-icon > i { left: 13px; }
-.auth-card .input-icon .input { padding-left: 38px; }
-.auth-card .btn { min-height: 46px; font-size: 15px; }
-.auth-card .fgroup > label { font-size: 13px; margin-bottom: 1px; }
-.auth-card .auth-form { gap: 16px; }
-.auth-card .lead { margin: -10px 0 22px; font-size: 13.5px; line-height: 1.6; }
-
-/* Divider "ATAU" antara form utama dan tombol Google */
-.auth-divider {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-top: 18px;
-  color: var(--muted-deep);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .18em;
-}
-.auth-divider::before,
-.auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--border-strong); }
-
-/* Tombol masuk dengan Google (menggantikan gaya inline lama) */
-.btn-google { background: var(--field); border: 1px solid var(--border-strong); color: var(--text); margin-top: 12px; font-weight: 600; }
-.btn-google:hover { border-color: var(--neon); background: var(--violet-bg); color: var(--text); }
-.btn-google .fa-google { color: #ea4335; }
 
 /* ---------- Footer ---------- */
 .footer { background: var(--topbar-bg); color: var(--muted-deep); padding: 24px 0; margin-top: auto; font-size: 13.5px; border-top: 1px solid var(--border-soft); }
@@ -2165,109 +1912,8 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
     }
 }
 
-/* ==========================================
-   TAGLINE PROMOSI SISI KIRI - LOGIN DESKTOP
-   ========================================== */
-
-.auth-tagline {
-    position: absolute;
-    left: clamp(24px, 6vw, 96px);
-    top: 47%;
-    max-width: min(300px, 26vw);
-    z-index: 1;
-    pointer-events: none;
-    animation: taglineIn .7s ease both, taglineFloat 5.5s ease-in-out .8s infinite;
-}
-
-/* Lencana kecil "Maply" di atas teks */
-.auth-tagline__badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 7px 14px;
-    border-radius: 999px;
-    border: 1px solid var(--border-strong);
-    background: var(--violet-bg);
-    color: var(--lavender);
-    font-size: 11.5px;
-    font-weight: 700;
-    letter-spacing: .16em;
-    text-transform: uppercase;
-}
-
-.auth-tagline__badge i {
-    font-size: 12px;
-    color: var(--neon);
-}
-
-/* Teks utama: font display tebal dengan aksen gradient */
-.auth-tagline__text {
-    margin: 16px 0 0;
-    font-family: var(--font-display);
-    font-size: clamp(24px, 2.4vw, 38px);
-    line-height: 1.28;
-    font-weight: 800;
-    letter-spacing: -.02em;
-    color: var(--text);
-}
-
-.auth-tagline__grad {
-    background: linear-gradient(115deg, var(--violet) 5%, var(--neon) 55%, var(--lavender) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-/* Garis aksen gradient di bawah teks */
-.auth-tagline__line {
-    display: block;
-    width: 68px;
-    height: 4px;
-    margin-top: 16px;
-    border-radius: 999px;
-    background: var(--grad-brand);
-    box-shadow: 0 0 16px rgba(139, 61, 255, .55);
-}
-
-/* Muncul lembut lalu mengapung pelan */
-@keyframes taglineIn {
-    from {
-        opacity: 0;
-        transform: translateY(calc(-50% + 14px));
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(-50%);
-    }
-}
-
-@keyframes taglineFloat {
-    0%, 100% {
-        transform: translateY(-50%);
-    }
-
-    50% {
-        transform: translateY(calc(-50% - 8px));
-    }
-}
-
-/* Sisi kiri hanya ada di layar lebar */
-@media (max-width: 1279px) {
-    .auth-tagline {
-        display: none;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .auth-tagline {
-        animation: none;
-        transform: translateY(-50%);
-    }
-}
-
 /* Pastikan elemen utama login tetap di atas penguin */
-.auth-stage > :not(.auth-penguin):not(.auth-theme):not(.auth-tagline) {
+.auth-stage > :not(.auth-penguin) {
     position: relative;
     z-index: 3;
 }
@@ -2329,7 +1975,7 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
     width: 125px;
     z-index: 1;
     pointer-events: none;
-    animation: motorRide 9s linear infinite;
+    animation: motorRide 13s linear infinite;
     will-change: transform;
 }
 
@@ -2672,23 +2318,22 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
 .moy-ai-pin {
     position: relative;
     display: flex;
-    width: 82px;
-    height: 83px;
+    width: 100px;
+    height: 85px;
     align-items: center;
     justify-content: center;
+    filter: drop-shadow(0 0 8px rgba(168, 85, 247, .65));
     animation: moyFloat 3s ease-in-out infinite;
-    transition: transform .3s ease;
+    transition: filter .3s ease, transform .3s ease;
 }
 
-.moy-ai-pin img {
+.moy-ai-pin svg {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    padding: 0;
-    background: transparent;
-    border: none;
+    overflow: visible;
 }
+
 /* CAHAYA DI BELAKANG PIN */
 .moy-ai-pin::before {
     content: "";
@@ -2701,36 +2346,15 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
     z-index: -1;
     animation: moyGlow 2.5s ease-in-out infinite;
 }
-/* Cahaya Moy AI terus memancar otomatis */
-.maply-ai-launch .moy-ai-pin::before {
-    animation: moyGlow 3s ease-in-out infinite !important;
-}
-
-@keyframes moyGlow {
-    0%, 100% {
-        opacity: 0.35;
-        transform: scale(0.85);
-    }
-
-    50% {
-        opacity: 1;
-        transform: scale(1.25);
-    }
-}
 
 /* TULISAN MOY AI */
 .moy-ai-label {
-    color: #6d28d9;
-    font-size: 14px;
+    color: #c084fc;
+    font-size: 13px;
     font-weight: 800;
-    letter-spacing: 1px;
-    text-shadow: 0 1px 2px rgba(109, 40, 217, .15);
-    transition: color .3s ease, text-shadow .3s ease;
-}
-
-[data-theme="dark"] .moy-ai-label {
-    color: #d8b4fe;
-    text-shadow: 0 0 8px rgba(216, 180, 254, .35);
+    letter-spacing: 1.2px;
+    text-shadow: 0 0 10px rgba(168, 85, 247, .65);
+    transition: color .3s ease;
 }
 
 /* TITIK CAHAYA */
@@ -3310,66 +2934,110 @@ body.light .sidebar__ampera-image {
     animation: none !important;
     opacity: 0.65;
 }
+/* =====================================
+   LOGIN HP - SUSUNAN MASKOT MAPLY
+   ===================================== */
 
-/* =====================================================
-   PERBAIKAN LAYOUT DETAIL KOS MAPLY
-   ===================================================== */
-
-/* Desktop: dua kolom sejajar */
-.detail-layout {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 360px;
-    gap: 24px;
-    align-items: start;
-    width: 100%;
+.auth-login-page .auth-mobile-motor {
+    display: none;
 }
 
-.detail-main {
-    min-width: 0;
-    width: 100%;
-}
+@media (max-width: 768px) {
 
-.detail-photo {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-}
-
-.detail-photo img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.side-card {
-    width: 100%;
-    min-width: 0;
-    position: sticky;
-    top: calc(var(--topbar-h) + 16px);
-}
-
-/* Tablet dan HP: satu kolom */
-@media (max-width: 960px) {
-    .detail-layout {
-        grid-template-columns: minmax(0, 1fr);
-        gap: 18px;
+    .auth-login-page .auth-stage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
     }
 
-    .side-card {
-        position: static;
+    .auth-login-page .auth-penguin {
+        display: block;
+        position: relative;
+        order: 1;
+        left: auto;
+        top: auto;
+        transform: none;
+        width: 90px;
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    .auth-login-page .auth-card-wrap {
+        order: 2;
         width: 100%;
     }
-}
 
-/* HP kecil */
-@media (max-width: 600px) {
-    .detail-photo {
-        aspect-ratio: 4 / 3;
+    .auth-login-page .auth-mobile-motor {
+        display: block;
+        position: relative;
+        order: 3;
+        align-self: stretch;
+        width: 100vw;
+        height: 130px;
+        flex-shrink: 0;
+        margin-left: calc(50% - 50vw);
+        overflow: hidden;
     }
 
-    .detail-title h1 {
-        font-size: 24px;
+    .auth-login-page .auth-mobile-motor__rider {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 110px;
+        height: 140px;
+        animation: mobileMotorRide 9s linear infinite;
+        will-change: transform;
+    }
+
+    .auth-login-page .auth-mobile-motor__rider img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        animation: motorBounce 0.45s ease-in-out infinite alternate;
     }
 }
 
+@keyframes mobileMotorRide {
+    from {
+        transform: translateX(-120px);
+    }
+
+    to {
+        transform: translateX(calc(100vw + 120px));
+    }
+}
+/* Divider "ATAU" antara form utama dan tombol Google */
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  color: var(--muted-deep);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .18em;
+}
+.auth-divider::before,
+.auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--border-strong); }
+
+/* Tombol masuk dengan Google (menggantikan gaya inline lama) */
+.btn-google { background: var(--field); border: 1px solid var(--border-strong); color: var(--text); margin-top: 12px; font-weight: 600; }
+.btn-google:hover { border-color: var(--neon); background: var(--violet-bg); color: var(--text); }
+.btn-google .fa-google { color: #ea4335; }
+.auth-theme {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: auto;
+    bottom: auto;
+    z-index: 9999;
+}.auth-login-page .auth-theme {
+    position: fixed !important;
+    top: 10px !important;
+    right: 10px !important;
+    left: auto !important;
+    bottom: auto !important;
+    z-index: 99999 !important;
+}
