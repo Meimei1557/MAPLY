@@ -1063,8 +1063,37 @@ a.pg:hover { background: var(--card-elev); border-color: var(--neon); color: var
 }
 .map-pin--kampus i { transform: none; font-size: 14px; color: #fff; }
 /* Tombol layer "Tampilkan kampus" di peta */
-.leaflet-bar.maply-layer-toggle a { width: auto; padding: 6px 10px; font-size: 12.5px; font-weight: 600; line-height: 1.2; }
-.leaflet-bar.maply-layer-toggle a.is-on { background: var(--grad-brand) !important; color: #fff !important; }
+
+/* Tombol toga - lebih rapi dan simetris */
+.leaflet-bar.maply-layer-toggle a {
+    width: 36px !important;
+    height: 36px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    line-height: 1 !important;
+    border-radius: 8px !important;
+    font-size: 16px !important;
+    text-align: center !important;
+}
+
+/* Posisi ikon toga */
+.leaflet-bar.maply-layer-toggle a i,
+.leaflet-bar.maply-layer-toggle a svg {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    vertical-align: middle;
+}
+
+.leaflet-bar.maply-layer-toggle a.is-on {
+    background: var(--grad-brand) !important;
+    color: #fff !important;
+}
+
 .leaflet-container { font-family: var(--font); background: var(--map-bg); }
 .leaflet-popup-content-wrapper { border-radius: 14px; background: var(--card-elev); color: var(--text); border: 1px solid var(--border-strong); box-shadow: 0 16px 42px rgba(5, 2, 12, .65); }
 .leaflet-popup-content { margin: 14px 16px; font-family: var(--font); }
@@ -1498,7 +1527,39 @@ dd { margin: 3px 0 0; font-weight: 600; overflow-wrap: anywhere; }
   box-shadow: 0 30px 80px rgba(5, 2, 12, .35), 0 0 60px rgba(139, 61, 255, .12);
 }
 .auth-brand { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 20px; text-align: center; }
-.auth-brand .brand__mark { width: 52px; height: 52px; border-radius: 16px 16px 16px 5px; font-size: 22px; background: var(--grad-brand); box-shadow: 0 10px 26px rgba(139, 61, 255, .5); }
+
+/* Logo rumah MAPLY pada halaman login */
+.auth-brand .brand__mark {
+    width: 52px !important;
+    height: 52px !important;
+    min-width: 52px;
+    min-height: 52px;
+    padding: 0 !important;
+    margin: 0 auto !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+    border-radius: 15px !important;
+
+    font-size: 22px !important;
+    line-height: 1 !important;
+    background: var(--grad-brand);
+    box-shadow: 0 10px 26px rgba(139, 61, 255, .5);
+}
+
+/* Posisi gambar rumah tepat di tengah */
+.auth-brand .brand__mark i,
+.auth-brand .brand__mark svg {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    transform: none !important;
+}
+
 .auth-brand h1 { font-size: 24px; letter-spacing: -.02em; }
 .auth-brand .auth-tag { font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: var(--neon); font-weight: 700; }
 .auth-card .lead { color: var(--muted); font-size: 14px; text-align: center; margin: -12px 0 20px; }
